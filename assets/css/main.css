@@ -2,4 +2,68 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.container {
+  max-width: 1500px;
+  margin: auto;
+}
+
+.nfirst {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nfirst ul {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+.nfirst ul li {
+  display: inline;
+}
+.nfirst ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  padding-left: 50px;
+}
+.nfirst .search {
+  display: flex;
+  align-items: center;
+}
+.nfirst .like {
+  display: flex;
+}
+.nfirst .like button {
+  display: flex;
+  border: none;
+  background-color: white;
+}
+.nfirst .like button div {
+  background-color: #000;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+}
+.nfirst .basket {
+  display: flex;
+}
+.nfirst .basket button {
+  display: flex;
+  border: none;
+  background-color: white;
+}
+.nfirst .basket button i {
+  height: 20px;
+}
+.nfirst .basket button div {
+  background-color: #000;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
 }/*# sourceMappingURL=main.css.map */
