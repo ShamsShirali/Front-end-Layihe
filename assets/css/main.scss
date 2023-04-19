@@ -5,59 +5,88 @@
 }
 
 .container{
-    max-width: 1500px;
+    max-width: 1450px;
     margin: auto;
 }
 
 .nfirst{
     display: flex;
     align-items: center;
+    padding-top: 25px;
+
+    img{
+        margin-left: 20px;
+    }
     
     ul{
         display: flex;
+        padding-top: 10px;
 
-        li{
+        .deals{
             display: inline;
+            padding-top: 3px;
 
             a{
                 text-decoration: none;
                 color: #000;
-                font-size: 18px;
-                padding-left: 50px;
+                font-size: 17px;
+                padding-left: 23px;
+            }
+
+            i{
+                font-size: 20px;
             }
         }
+
+        .other{
+            display: inline;
+            padding-top: 7px;
+
+            a{
+                text-decoration: none;
+                color: #000;
+                font-size: 17px;
+                padding-left: 40px;
+            }
+        }
+    }
+
+    form{
+        position: relative;
+
+    i{
+        position: absolute;
+        width: 50px;
+        height: 60px;
+        font-size: 20px;
+        margin-left: 100px;
+        margin-top: 20px;
     }
 
     .search{
         display: flex;
         align-items: center;
+        margin-left: 90px;
         
         input{
-            width: 500px;
+            width: 470px;
+            height: 60px;
+            outline: none;
+            border: none;
+            background-color: whitesmoke;
+            border-radius: 7px;
+            padding-left: 50px;
+        }
+
+        input:focus {
+            border: 2px solid;
         }
     }
+}
 
     .like{
         display: flex;
-
-        button{
-            display: flex;
-            border: none;
-            background-color: white;
-
-            div{
-                background-color: #000;
-                color: white;
-                border-radius: 50%;
-                width: 20px;
-                height: 20px;
-                font-size: 12px;
-            }
-        }
-    }
-
-    .basket{
-        display: flex;
+        margin-left: 60px;
 
         button{
             display: flex;
@@ -65,17 +94,90 @@
             background-color: white;
 
             i{
-                height: 20px;
+                font-size: 25px;
+                margin-bottom: 2px;
+                position: relative;
             }
 
-            div{
+            sup{
                 background-color: #000;
                 color: white;
                 border-radius: 50%;
                 width: 20px;
                 height: 20px;
                 font-size: 12px;
+                padding-top: 8px;
+                position: absolute;
+                margin-left: 18px;
+                margin-top: 34px;
             }
         }
+
+        div{
+            padding-left: 15px;
+            font-size: 17px;
+        }
     }
+
+    .basket{
+        display: flex;
+        margin-left: 30px;
+
+        button{
+            display: flex;
+            border: none;
+            background-color: white;
+
+            i{
+                font-size: 25px;
+                position: relative;
+            }
+
+            sup{
+                background-color: #000;
+                color: white;
+                border-radius: 50%;
+                width: 20px;
+                height: 20px;
+                font-size: 12px;
+                padding-top: 8px;
+                position: absolute;
+                margin-left: 16px;
+                margin-top: 34px;
+            }
+        }
+
+        div{
+            padding-left: 15px;
+            font-size: 17px;
+        }
+    }
+}
+
+hr{
+    opacity: 0.1;
+}
+
+.nsecond{
+
+   .categor{
+    margin-left: 20px;
+
+    .tbtn{
+        background-color: black;
+        height: 45px;
+        width: 140px;
+        font-size: 15px;
+        font-weight:600;
+
+        i{
+            margin-right: 5px;
+        }
+    }
+
+    .list{
+        border: none;
+
+    }
+   }
 }

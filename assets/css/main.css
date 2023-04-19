@@ -5,51 +5,106 @@
 }
 
 .container {
-  max-width: 1500px;
+  max-width: 1450px;
   margin: auto;
 }
 
 .nfirst {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  padding-top: 25px;
+}
+.nfirst img {
+  margin-left: 20px;
 }
 .nfirst ul {
   display: flex;
-  justify-content: space-between;
-  margin-right: 50px;
+  padding-top: 10px;
 }
-.nfirst ul li {
+.nfirst ul .deals {
   display: inline;
+  padding-top: 3px;
 }
-.nfirst ul li a {
+.nfirst ul .deals a {
   text-decoration: none;
   color: #000;
-  font-size: 18px;
-  padding-left: 50px;
+  font-size: 17px;
+  padding-left: 23px;
 }
-.nfirst .search {
+.nfirst ul .deals i {
+  font-size: 20px;
+}
+.nfirst ul .other {
+  display: inline;
+  padding-top: 7px;
+}
+.nfirst ul .other a {
+  text-decoration: none;
+  color: #000;
+  font-size: 17px;
+  padding-left: 40px;
+}
+.nfirst form {
+  position: relative;
+}
+.nfirst form i {
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.nfirst form .search {
   display: flex;
   align-items: center;
+  margin-left: 90px;
+}
+.nfirst form .search input {
+  width: 470px;
+  height: 60px;
+  outline: none;
+  border: none;
+  background-color: whitesmoke;
+  border-radius: 7px;
+  padding-left: 50px;
+}
+.nfirst form .search input:focus {
+  border: 2px solid;
 }
 .nfirst .like {
   display: flex;
+  margin-left: 60px;
 }
 .nfirst .like button {
   display: flex;
   border: none;
   background-color: white;
 }
-.nfirst .like button div {
+.nfirst .like button i {
+  font-size: 25px;
+  margin-bottom: 2px;
+  position: relative;
+}
+.nfirst .like button sup {
   background-color: #000;
   color: white;
   border-radius: 50%;
   width: 20px;
   height: 20px;
   font-size: 12px;
+  padding-top: 8px;
+  position: absolute;
+  margin-left: 18px;
+  margin-top: 34px;
+}
+.nfirst .like div {
+  padding-left: 15px;
+  font-size: 17px;
 }
 .nfirst .basket {
   display: flex;
+  margin-left: 30px;
 }
 .nfirst .basket button {
   display: flex;
@@ -57,13 +112,43 @@
   background-color: white;
 }
 .nfirst .basket button i {
-  height: 20px;
+  font-size: 25px;
+  position: relative;
 }
-.nfirst .basket button div {
+.nfirst .basket button sup {
   background-color: #000;
   color: white;
   border-radius: 50%;
   width: 20px;
   height: 20px;
   font-size: 12px;
+  padding-top: 8px;
+  position: absolute;
+  margin-left: 16px;
+  margin-top: 34px;
+}
+.nfirst .basket div {
+  padding-left: 15px;
+  font-size: 17px;
+}
+
+hr {
+  opacity: 0.1;
+}
+
+.nsecond .categor {
+  margin-left: 20px;
+}
+.nsecond .categor .tbtn {
+  background-color: black;
+  height: 45px;
+  width: 140px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.nsecond .categor .tbtn i {
+  margin-right: 5px;
+}
+.nsecond .categor .list {
+  border: none;
 }/*# sourceMappingURL=main.css.map */
