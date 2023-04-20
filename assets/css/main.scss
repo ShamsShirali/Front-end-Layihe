@@ -216,275 +216,318 @@ hr {
         .men {
             margin-left: 5px;
 
-            button {
-                background-color: white;
-                color: #000;
-                border: none;
-                font-size: 17px;
-            }
-
-            .menlist {
-                height: 00px;
-                border: none;
-                border-radius: 0;
-
-                .menlist1 {
-                    background-color: rgb(251, 251, 251);
-
-                    .topicmain1 {
-                        padding-top: 30px;
-                        font-weight: 600;
-                    }
-
-                    .topic1 {
-                        font-weight: 600;
-                    }
-                }
-
-                .menlist2 {
-                    background-color: whitesmoke;
-
-                    .topicmain2 {
-                        padding-top: 30px;
-                        font-weight: 600;
-                    }
-
-                    .topic2 {
-                        font-weight: 600;
-                    }
-                }
-
-                .menlist3 {
-                    background-color: rgb(251, 251, 251);
-
-                    .topicmain3 {
-                        padding-top: 30px;
-                        font-weight: 600;
-                    }
-
-                    .topic3 {
-                        font-weight: 600;
-                    }
-                }
-
-                .menlist4 {
-                    background-color: whitesmoke;
-
-                    .topicmain4 {
-                        padding-top: 30px;
-                        font-weight: 600;
-                    }
-
-                    .topic4 {
-                        font-weight: 600;
-                    }
-                }
-
-                .menlist5 {
-                    background-color: rgb(251, 251, 251);
-
-                    .topicmain5 {
-                        padding-top: 30px;
-                        font-weight: 600;
-                    }
-
-                    .topic5 {
-                        font-weight: 600;
-                    }
+            .show {
+                display: flex;
+                align-items: baseline;
+                 
+                i{
+                    margin-left: 5px;
                 }
             }
-        }
 
-        .women {
-            margin-left: 5px;
+
 
             button {
                 background-color: white;
                 color: #000;
                 border: none;
                 font-size: 17px;
-            }
 
-            .womenlist {
-                height: 00px;
-                border: none;
-                border-radius: 0;
-
-                .womenlist1 {
-                    background-color: rgb(251, 251, 251);
-
-                    .topicmain1 {
-                        padding-top: 30px;
-                        font-weight: 600;
-                    }
-
-                    .topic1 {
-                        font-weight: 600;
-                    }
-                }
-
-                .womenlist2 {
-                    background-color: whitesmoke;
-
-                    .topicmain2 {
-                        padding-top: 30px;
-                        font-weight: 600;
-                    }
-
-                    .topic2 {
-                        font-weight: 600;
-                    }
-                }
-
-                .womenlist3 {
-                    background-color: rgb(251, 251, 251);
-
-                    .topicmain3 {
-                        padding-top: 30px;
-                        font-weight: 600;
-                    }
-
-                    .topic3 {
-                        font-weight: 600;
-                    }
-                }
-
-                .womenlist4 {
-                    background-color: whitesmoke;
-
-                    .topicmain4 {
-                        padding-top: 30px;
-                        font-weight: 600;
-                    }
-
-                    .topic4 {
-                        font-weight: 600;
-                    }
-                }
-
-                .womenlist5 {
-                    background-color: rgb(251, 251, 251);
-
-                    .topicmain5 {
-                        padding-top: 30px;
-                        font-weight: 600;
-                    }
-
-                    .topic5 {
-                        font-weight: 600;
-                    }
+                i {
+                    animation-name: downbut;
+                    animation-duration: 2s;
+                    animation-iteration-count: 1;
                 }
             }
         }
 
-        .originl{
+        .menlist {
+            border: none;
+            border-radius: 0;
             display: flex;
-            align-items: center;
 
-            .search{
-                display: inline;
-                margin-left: 20px;
-                font-size: 17px;
-            }
-
-            .shop{
-                display: inline;
-                margin-left: 33px;
-                font-size: 17px;
-            }
-        }
-
-        .page{
-            margin-left: 15px;
-
-            button {
-                background-color: white;
-                color: #000;
-                border: none;
-                font-size: 17px;
-            }
-
-            .pagelist{
+            .menlist1 {
                 background-color: rgb(251, 251, 251);
-                border: none;
-                border-radius: 0;
 
-                .user{
+                .topicmain1 {
+                    padding-top: 30px;
+                    font-weight: 600;
+                    display: inline;
+                }
 
-                    button {
-                        background-color: white;
-                        color: #000;
-                        border: none;
-                        font-size: 17px;
-                    }
+                .topic1 {
+                    font-weight: 600;
+                    display: inline;
+                }
 
-                    .userlist{
-                        background-color: rgb(251, 251, 251);
-                        border: none;
-                        border-radius: 0;
-                    }
+                .topicend1 {
+                    font-weight: 600;
+                    padding-bottom: 30px;
+                    display: inline;
+                }
+            }
 
-                    li{
-                        padding-left: 20px;
-                    }
+            .menlist2 {
+                background-color: whitesmoke;
+
+                .topicmain2 {
+                    padding-top: 30px;
+                    font-weight: 600;
+                    display: inline;
+                }
+
+                .topic2 {
+                    font-weight: 600;
+                    display: inline;
+                }
+            }
+
+            .menlist3 {
+                background-color: rgb(251, 251, 251);
+
+                .topicmain3 {
+                    padding-top: 30px;
+                    font-weight: 600;
+                    display: inline;
+                }
+
+                .topic3 {
+                    font-weight: 600;
+                    display: inline;
+                }
+            }
+
+            .menlist4 {
+                background-color: whitesmoke;
+
+                .topicmain4 {
+                    padding-top: 30px;
+                    font-weight: 600;
+                    display: inline;
+                }
+
+                .topic4 {
+                    font-weight: 600;
+                    display: inline;
+                }
+            }
+
+            .menlist5 {
+                background-color: rgb(251, 251, 251);
+
+                .topicmain5 {
+                    padding-top: 30px;
+                    font-weight: 600;
+                    display: inline;
+                }
+
+                .topic5 {
+                    font-weight: 600;
+                    display: inline;
                 }
             }
         }
     }
 
-    .log {
-        display: flex;
-        margin-left: 350px;
-        margin-top: 9px;
+    .women {
+        margin-left: 5px;
 
-        i {
-            font-weight: 400;
-            font-size: 20px;
+        .show {
+            display: flex;
         }
-
-        .iconl {
-            font-size: 17px;
-            padding-left: 10px;
-        }
-    }
-
-    .selec {
-        margin-left: 2px;
 
         button {
             background-color: white;
             color: #000;
-            margin-left: 30px;
-            width: 160px;
-            border-color: rgb(194, 194, 194);
-            position: relative;
-
-            .uicon {
-                color: rgb(194, 194, 194);
-                font-size: 11px;
-                position: absolute;
-                margin-left: 10px;
-                margin-top: 3px;
-            }
-
-            .dicon {
-                color: rgb(194, 194, 194);
-                font-size: 11px;
-                position: absolute;
-                margin-left: 10px;
-                margin-top: 12px;
-            }
+            border: none;
+            font-size: 17px;
         }
 
-        ul {
 
-            .languagic {
-                margin-left: 50px;
+        .womenlist {
+            border: none;
+            border-radius: 0;
+
+            .womenlist1 {
+                background-color: rgb(251, 251, 251);
+
+                .topicmain1 {
+                    padding-top: 30px;
+                    font-weight: 600;
+                }
+
+                .topic1 {
+                    font-weight: 600;
+                }
+
+                .topicend1 {
+                    font-weight: 600;
+                    padding-bottom: 30px;
+                }
             }
 
-            .langic {
-                margin-left: 23px;
+            .womenlist2 {
+                background-color: whitesmoke;
+
+                .topicmain2 {
+                    padding-top: 30px;
+                    font-weight: 600;
+                }
+
+                .topic2 {
+                    font-weight: 600;
+                }
+            }
+
+            .womenlist3 {
+                background-color: rgb(251, 251, 251);
+
+                .topicmain3 {
+                    padding-top: 30px;
+                    font-weight: 600;
+                }
+
+                .topic3 {
+                    font-weight: 600;
+                }
+            }
+
+            .womenlist4 {
+                background-color: whitesmoke;
+
+                .topicmain4 {
+                    padding-top: 30px;
+                    font-weight: 600;
+                }
+
+                .topic4 {
+                    font-weight: 600;
+                }
+            }
+
+            .womenlist5 {
+                background-color: rgb(251, 251, 251);
+
+                .topicmain5 {
+                    padding-top: 30px;
+                    font-weight: 600;
+                }
+
+                .topic5 {
+                    font-weight: 600;
+                }
             }
         }
     }
+
+    .originl {
+        display: flex;
+        align-items: center;
+
+        .search {
+            display: inline;
+            margin-left: 20px;
+            font-size: 17px;
+        }
+
+        .shop {
+            display: inline;
+            margin-left: 33px;
+            font-size: 17px;
+        }
+    }
+
+    .page {
+        margin-left: 15px;
+
+        button {
+            background-color: white;
+            color: #000;
+            border: none;
+            font-size: 17px;
+        }
+
+        .pagelist {
+            background-color: rgb(251, 251, 251);
+            border: none;
+            border-radius: 0;
+
+            .user {
+
+                button {
+                    background-color: white;
+                    color: #000;
+                    border: none;
+                    font-size: 17px;
+                }
+
+                .userlist {
+                    background-color: rgb(251, 251, 251);
+                    border: none;
+                    border-radius: 0;
+                }
+
+                li {
+                    padding-left: 20px;
+                }
+            }
+        }
+    }
+}
+
+.log {
+    display: flex;
+    margin-left: 350px;
+    margin-top: 9px;
+
+    i {
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .iconl {
+        font-size: 17px;
+        padding-left: 10px;
+    }
+}
+
+.selec {
+    margin-left: 2px;
+
+    button {
+        background-color: white;
+        color: #000;
+        margin-left: 30px;
+        width: 160px;
+        border-color: rgb(194, 194, 194);
+        position: relative;
+
+        .uicon {
+            color: rgb(194, 194, 194);
+            font-size: 11px;
+            position: absolute;
+            margin-left: 10px;
+            margin-top: 3px;
+        }
+
+        .dicon {
+            color: rgb(194, 194, 194);
+            font-size: 11px;
+            position: absolute;
+            margin-left: 10px;
+            margin-top: 12px;
+        }
+    }
+
+    ul {
+
+        .languagic {
+            margin-left: 50px;
+        }
+
+        .langic {
+            margin-left: 23px;
+        }
+    }
+}
 }

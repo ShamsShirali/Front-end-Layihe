@@ -181,14 +181,34 @@ hr {
 .nsecond .secondl .men {
   margin-left: 5px;
 }
+.nsecond .secondl .men .show {
+  display: flex;
+  align-items: baseline;
+}
+.nsecond .secondl .men .show i {
+  margin-left: 5px;
+  transform: rotate(180deg);
+}
 .nsecond .secondl .men button {
   background-color: white;
   color: #000;
   border: none;
   font-size: 17px;
 }
+.nsecond .secondl .men button i {
+  animation-name: downbut;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+@keyframes downbut {
+  from {
+    transform: rotate(0deg);
+    to {
+      transform: rotate(90deg);
+    }
+  }
+}
 .nsecond .secondl .men .menlist {
-  height: 0px;
   border: none;
   border-radius: 0;
 }
@@ -201,6 +221,10 @@ hr {
 }
 .nsecond .secondl .men .menlist .menlist1 .topic1 {
   font-weight: 600;
+}
+.nsecond .secondl .men .menlist .menlist1 .topicend1 {
+  font-weight: 600;
+  padding-bottom: 30px;
 }
 .nsecond .secondl .men .menlist .menlist2 {
   background-color: whitesmoke;
@@ -245,6 +269,9 @@ hr {
 .nsecond .secondl .women {
   margin-left: 5px;
 }
+.nsecond .secondl .women .show {
+  display: flex;
+}
 .nsecond .secondl .women button {
   background-color: white;
   color: #000;
@@ -252,7 +279,6 @@ hr {
   font-size: 17px;
 }
 .nsecond .secondl .women .womenlist {
-  height: 0px;
   border: none;
   border-radius: 0;
 }
@@ -265,6 +291,10 @@ hr {
 }
 .nsecond .secondl .women .womenlist .womenlist1 .topic1 {
   font-weight: 600;
+}
+.nsecond .secondl .women .womenlist .womenlist1 .topicend1 {
+  font-weight: 600;
+  padding-bottom: 30px;
 }
 .nsecond .secondl .women .womenlist .womenlist2 {
   background-color: whitesmoke;
