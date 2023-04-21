@@ -421,10 +421,10 @@ hr {
   margin-left: 23px;
 }
 
-.one {
+.slider {
   overflow: hidden;
 }
-.one .photo img {
+.slider img {
   width: 100%;
 }
 
