@@ -195,19 +195,6 @@ hr {
   border: none;
   font-size: 17px;
 }
-.nsecond .secondl .men button i {
-  animation-name: downbut;
-  animation-duration: 2s;
-  animation-iteration-count: 1;
-}
-@keyframes downbut {
-  from {
-    transform: rotate(0deg);
-    to {
-      transform: rotate(90deg);
-    }
-  }
-}
 .nsecond .secondl .men .menlist {
   border: none;
   border-radius: 0;
@@ -271,6 +258,11 @@ hr {
 }
 .nsecond .secondl .women .show {
   display: flex;
+  align-items: baseline;
+}
+.nsecond .secondl .women .show i {
+  margin-left: 5px;
+  transform: rotate(180deg);
 }
 .nsecond .secondl .women button {
   background-color: white;
@@ -350,51 +342,57 @@ hr {
   margin-left: 33px;
   font-size: 17px;
 }
-.nsecond .secondl .page {
-  margin-left: 15px;
-}
-.nsecond .secondl .page button {
-  background-color: white;
+.nsecond .secondl .page .navbar-nav .nav-link {
   color: #000;
-  border: none;
-  font-size: 17px;
 }
-.nsecond .secondl .page .pagelist {
-  background-color: rgb(251, 251, 251);
-  border: none;
+.nsecond .secondl .page .navbar-nav .nav-link .nav-link:hover i {
+  transform: rotate(180deg);
+}
+.nsecond .secondl .page .navbar-nav .dropdown-menu {
+  display: none;
+}
+.nsecond .secondl .page .navbar-nav .dropdown-menu .dropdown {
   border-radius: 0;
 }
-.nsecond .secondl .page .pagelist .user button {
-  background-color: white;
-  color: #000;
-  border: none;
-  font-size: 17px;
+.nsecond .secondl .page .navbar-nav .dropdown-menu .dropdown .dropend .dropdown-toggle {
+  color: black;
+  margin-left: 1em;
+  margin-left: 0.5em;
 }
-.nsecond .secondl .page .pagelist .user .userlist {
-  background-color: rgb(251, 251, 251);
-  border: none;
-  border-radius: 0;
+.nsecond .secondl .page .navbar-nav .dropdown-item:hover {
+  background-color: whitesmoke;
+  color: black;
 }
-.nsecond .secondl .page .pagelist .user li {
-  padding-left: 20px;
+.nsecond .secondl .page .navbar-nav .dropdown:hover > .dropdown-menu,
+.nsecond .secondl .page .navbar-nav .dropend:hover > .dropdown-menu {
+  display: block;
+  margin-top: 0.125em;
+  margin-left: 0.125em;
 }
-.nsecond .log {
+@media screen and (min-width: 769px) {
+  .nsecond .secondl .page .navbar-nav .dropend:hover > .dropdown-menu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+  }
+}
+.nsecond .secondl .log {
   display: flex;
   margin-left: 350px;
   margin-top: 9px;
 }
-.nsecond .log i {
+.nsecond .secondl .log i {
   font-weight: 400;
   font-size: 20px;
 }
-.nsecond .log .iconl {
+.nsecond .secondl .log .iconl {
   font-size: 17px;
   padding-left: 10px;
 }
-.nsecond .selec {
+.nsecond .secondl .selec {
   margin-left: 2px;
 }
-.nsecond .selec button {
+.nsecond .secondl .selec button {
   background-color: white;
   color: #000;
   margin-left: 30px;
@@ -402,23 +400,35 @@ hr {
   border-color: rgb(194, 194, 194);
   position: relative;
 }
-.nsecond .selec button .uicon {
+.nsecond .secondl .selec button .uicon {
   color: rgb(194, 194, 194);
   font-size: 11px;
   position: absolute;
   margin-left: 10px;
   margin-top: 3px;
 }
-.nsecond .selec button .dicon {
+.nsecond .secondl .selec button .dicon {
   color: rgb(194, 194, 194);
   font-size: 11px;
   position: absolute;
   margin-left: 10px;
   margin-top: 12px;
 }
-.nsecond .selec ul .languagic {
+.nsecond .secondl .selec ul .languagic {
   margin-left: 50px;
 }
-.nsecond .selec ul .langic {
+.nsecond .secondl .selec ul .langic {
   margin-left: 23px;
+}
+
+.one {
+  overflow: hidden;
+}
+.one .photo img {
+  width: 100%;
+}
+
+.two h2 {
+  padding-top: 20px;
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */

@@ -195,12 +195,27 @@ hr {
         .demos {
             margin-left: 17px;
 
+
             button {
                 background-color: white;
                 color: #000;
                 border: none;
                 font-size: 17px;
             }
+
+            // hr{
+            //     width: 0;
+            //     height: 4px;
+            //     background-color: #000;
+
+            //     top: 34px;
+            //     transition: all 0.5s;
+            //     border: none;
+            // }
+
+            // .demolist:hover ~ hr{
+            //     width: 100px;
+            // }
 
             .demolist {
                 background-color: rgb(251, 251, 251);
@@ -219,315 +234,345 @@ hr {
             .show {
                 display: flex;
                 align-items: baseline;
-                 
-                i{
+
+                i {
                     margin-left: 5px;
+                    transform: rotate(180deg);
                 }
             }
-
-
 
             button {
                 background-color: white;
                 color: #000;
                 border: none;
                 font-size: 17px;
+            }
+
+            .menlist {
+                border: none;
+                border-radius: 0;
+
+
+                .menlist1 {
+                    background-color: rgb(251, 251, 251);
+
+                    .topicmain1 {
+                        padding-top: 30px;
+                        font-weight: 600;
+                    }
+
+                    .topic1 {
+                        font-weight: 600;
+                    }
+
+                    .topicend1 {
+                        font-weight: 600;
+                        padding-bottom: 30px;
+                    }
+                }
+
+                .menlist2 {
+                    background-color: whitesmoke;
+
+                    .topicmain2 {
+                        padding-top: 30px;
+                        font-weight: 600;
+                    }
+
+                    .topic2 {
+                        font-weight: 600;
+                    }
+                }
+
+                .menlist3 {
+                    background-color: rgb(251, 251, 251);
+
+                    .topicmain3 {
+                        padding-top: 30px;
+                        font-weight: 600;
+                    }
+
+                    .topic3 {
+                        font-weight: 600;
+                    }
+                }
+
+                .menlist4 {
+                    background-color: whitesmoke;
+
+                    .topicmain4 {
+                        padding-top: 30px;
+                        font-weight: 600;
+                    }
+
+                    .topic4 {
+                        font-weight: 600;
+                    }
+                }
+
+                .menlist5 {
+                    background-color: rgb(251, 251, 251);
+
+                    .topicmain5 {
+                        padding-top: 30px;
+                        font-weight: 600;
+                    }
+
+                    .topic5 {
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+
+        .women {
+            margin-left: 5px;
+
+            .show {
+                display: flex;
+                align-items: baseline;
 
                 i {
-                    animation-name: downbut;
-                    animation-duration: 2s;
-                    animation-iteration-count: 1;
-                }
-            }
-        }
-
-        .menlist {
-            border: none;
-            border-radius: 0;
-            display: flex;
-
-            .menlist1 {
-                background-color: rgb(251, 251, 251);
-
-                .topicmain1 {
-                    padding-top: 30px;
-                    font-weight: 600;
-                    display: inline;
-                }
-
-                .topic1 {
-                    font-weight: 600;
-                    display: inline;
-                }
-
-                .topicend1 {
-                    font-weight: 600;
-                    padding-bottom: 30px;
-                    display: inline;
+                    margin-left: 5px;
+                    transform: rotate(180deg);
                 }
             }
 
-            .menlist2 {
-                background-color: whitesmoke;
-
-                .topicmain2 {
-                    padding-top: 30px;
-                    font-weight: 600;
-                    display: inline;
-                }
-
-                .topic2 {
-                    font-weight: 600;
-                    display: inline;
-                }
+            button {
+                background-color: white;
+                color: #000;
+                border: none;
+                font-size: 17px;
             }
 
-            .menlist3 {
-                background-color: rgb(251, 251, 251);
 
-                .topicmain3 {
-                    padding-top: 30px;
-                    font-weight: 600;
-                    display: inline;
-                }
+            .womenlist {
+                border: none;
+                border-radius: 0;
 
-                .topic3 {
-                    font-weight: 600;
-                    display: inline;
-                }
-            }
-
-            .menlist4 {
-                background-color: whitesmoke;
-
-                .topicmain4 {
-                    padding-top: 30px;
-                    font-weight: 600;
-                    display: inline;
-                }
-
-                .topic4 {
-                    font-weight: 600;
-                    display: inline;
-                }
-            }
-
-            .menlist5 {
-                background-color: rgb(251, 251, 251);
-
-                .topicmain5 {
-                    padding-top: 30px;
-                    font-weight: 600;
-                    display: inline;
-                }
-
-                .topic5 {
-                    font-weight: 600;
-                    display: inline;
-                }
-            }
-        }
-    }
-
-    .women {
-        margin-left: 5px;
-
-        .show {
-            display: flex;
-        }
-
-        button {
-            background-color: white;
-            color: #000;
-            border: none;
-            font-size: 17px;
-        }
-
-
-        .womenlist {
-            border: none;
-            border-radius: 0;
-
-            .womenlist1 {
-                background-color: rgb(251, 251, 251);
-
-                .topicmain1 {
-                    padding-top: 30px;
-                    font-weight: 600;
-                }
-
-                .topic1 {
-                    font-weight: 600;
-                }
-
-                .topicend1 {
-                    font-weight: 600;
-                    padding-bottom: 30px;
-                }
-            }
-
-            .womenlist2 {
-                background-color: whitesmoke;
-
-                .topicmain2 {
-                    padding-top: 30px;
-                    font-weight: 600;
-                }
-
-                .topic2 {
-                    font-weight: 600;
-                }
-            }
-
-            .womenlist3 {
-                background-color: rgb(251, 251, 251);
-
-                .topicmain3 {
-                    padding-top: 30px;
-                    font-weight: 600;
-                }
-
-                .topic3 {
-                    font-weight: 600;
-                }
-            }
-
-            .womenlist4 {
-                background-color: whitesmoke;
-
-                .topicmain4 {
-                    padding-top: 30px;
-                    font-weight: 600;
-                }
-
-                .topic4 {
-                    font-weight: 600;
-                }
-            }
-
-            .womenlist5 {
-                background-color: rgb(251, 251, 251);
-
-                .topicmain5 {
-                    padding-top: 30px;
-                    font-weight: 600;
-                }
-
-                .topic5 {
-                    font-weight: 600;
-                }
-            }
-        }
-    }
-
-    .originl {
-        display: flex;
-        align-items: center;
-
-        .search {
-            display: inline;
-            margin-left: 20px;
-            font-size: 17px;
-        }
-
-        .shop {
-            display: inline;
-            margin-left: 33px;
-            font-size: 17px;
-        }
-    }
-
-    .page {
-        margin-left: 15px;
-
-        button {
-            background-color: white;
-            color: #000;
-            border: none;
-            font-size: 17px;
-        }
-
-        .pagelist {
-            background-color: rgb(251, 251, 251);
-            border: none;
-            border-radius: 0;
-
-            .user {
-
-                button {
-                    background-color: white;
-                    color: #000;
-                    border: none;
-                    font-size: 17px;
-                }
-
-                .userlist {
+                .womenlist1 {
                     background-color: rgb(251, 251, 251);
-                    border: none;
-                    border-radius: 0;
+
+                    .topicmain1 {
+                        padding-top: 30px;
+                        font-weight: 600;
+                    }
+
+                    .topic1 {
+                        font-weight: 600;
+                    }
+
+                    .topicend1 {
+                        font-weight: 600;
+                        padding-bottom: 30px;
+                    }
                 }
 
-                li {
-                    padding-left: 20px;
+                .womenlist2 {
+                    background-color: whitesmoke;
+
+                    .topicmain2 {
+                        padding-top: 30px;
+                        font-weight: 600;
+                    }
+
+                    .topic2 {
+                        font-weight: 600;
+                    }
+                }
+
+                .womenlist3 {
+                    background-color: rgb(251, 251, 251);
+
+                    .topicmain3 {
+                        padding-top: 30px;
+                        font-weight: 600;
+                    }
+
+                    .topic3 {
+                        font-weight: 600;
+                    }
+                }
+
+                .womenlist4 {
+                    background-color: whitesmoke;
+
+                    .topicmain4 {
+                        padding-top: 30px;
+                        font-weight: 600;
+                    }
+
+                    .topic4 {
+                        font-weight: 600;
+                    }
+                }
+
+                .womenlist5 {
+                    background-color: rgb(251, 251, 251);
+
+                    .topicmain5 {
+                        padding-top: 30px;
+                        font-weight: 600;
+                    }
+
+                    .topic5 {
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+
+        .originl {
+            display: flex;
+            align-items: center;
+
+            .search {
+                display: inline;
+                margin-left: 20px;
+                font-size: 17px;
+            }
+
+            .shop {
+                display: inline;
+                margin-left: 33px;
+                font-size: 17px;
+            }
+        }
+
+        .page {
+            .navbar-nav {
+                .nav-link {
+                    color: #000;
+
+                    .nav-link:hover i {
+                        transform: rotate(180deg);
+                    }
+                }
+
+                .dropdown-menu {
+                    display: none;
+
+                    .dropdown {
+                        border-radius: 0;
+
+                        .dropend {
+
+                            .dropdown-toggle {
+                                color: black;
+                                margin-left: 1em;
+                                margin-left: 0.5em;
+                            }
+                        }
+                    }
+                }
+
+                .dropdown-item:hover {
+                    background-color: whitesmoke;
+                    color: black;
+                }
+
+                .dropdown:hover>.dropdown-menu,
+                .dropend:hover>.dropdown-menu {
+                    display: block;
+                    margin-top: 0.125em;
+                    margin-left: 0.125em;
+                }
+
+                @media screen and (min-width: 769px) {
+                    .dropend:hover>.dropdown-menu {
+                        position: absolute;
+                        top: 0;
+                        left: 100%;
+                    }
+
+
+                }
+            }
+
+
+
+
+
+
+
+        }
+
+        .log {
+            display: flex;
+            margin-left: 350px;
+            margin-top: 9px;
+
+            i {
+                font-weight: 400;
+                font-size: 20px;
+            }
+
+            .iconl {
+                font-size: 17px;
+                padding-left: 10px;
+            }
+        }
+
+        .selec {
+            margin-left: 2px;
+
+            button {
+                background-color: white;
+                color: #000;
+                margin-left: 30px;
+                width: 160px;
+                border-color: rgb(194, 194, 194);
+                position: relative;
+
+                .uicon {
+                    color: rgb(194, 194, 194);
+                    font-size: 11px;
+                    position: absolute;
+                    margin-left: 10px;
+                    margin-top: 3px;
+                }
+
+                .dicon {
+                    color: rgb(194, 194, 194);
+                    font-size: 11px;
+                    position: absolute;
+                    margin-left: 10px;
+                    margin-top: 12px;
+                }
+            }
+
+            ul {
+
+                .languagic {
+                    margin-left: 50px;
+                }
+
+                .langic {
+                    margin-left: 23px;
                 }
             }
         }
     }
 }
 
-.log {
-    display: flex;
-    margin-left: 350px;
-    margin-top: 9px;
+.one {
+    overflow: hidden;
 
-    i {
-        font-weight: 400;
-        font-size: 20px;
-    }
+    .photo {
 
-    .iconl {
-        font-size: 17px;
-        padding-left: 10px;
-    }
-}
-
-.selec {
-    margin-left: 2px;
-
-    button {
-        background-color: white;
-        color: #000;
-        margin-left: 30px;
-        width: 160px;
-        border-color: rgb(194, 194, 194);
-        position: relative;
-
-        .uicon {
-            color: rgb(194, 194, 194);
-            font-size: 11px;
-            position: absolute;
-            margin-left: 10px;
-            margin-top: 3px;
-        }
-
-        .dicon {
-            color: rgb(194, 194, 194);
-            font-size: 11px;
-            position: absolute;
-            margin-left: 10px;
-            margin-top: 12px;
-        }
-    }
-
-    ul {
-
-        .languagic {
-            margin-left: 50px;
-        }
-
-        .langic {
-            margin-left: 23px;
+        img {
+            width: 100%;
         }
     }
 }
+
+.two{
+
+    h2{
+        padding-top: 20px;
+        font-weight: bold;
+    }
 }
+
+
+
