@@ -566,7 +566,32 @@ hr {
 .two {
 
     h2 {
-        padding-top: 20px;
+        padding-top: 30px;
+        padding-bottom: 20px;
         font-weight: bold;
+    }
+
+    .slide2{
+        display: flex;
+
+        i{
+            background-color: white;
+            border: 50%;
+            margin-top: 40px;
+        }
+
+        .all{
+          width: 350px;
+          height: 150px;
+          background-color: whitesmoke;
+          margin-left: 40px;
+          border-radius: 7px;
+          display: flex;
+
+          img{
+            width: 50%;
+            margin: 30px;
+          }
+        }
     }
 }
