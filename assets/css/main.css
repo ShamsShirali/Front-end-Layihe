@@ -169,7 +169,7 @@ hr {
 }
 .nsecond .generalbutton .secondl .demos button {
   background-color: white;
-  color: #000;
+  color: grey;
   border: none;
   font-size: 17px;
 }
@@ -194,7 +194,7 @@ hr {
 }
 .nsecond .generalbutton .secondl .men button {
   background-color: white;
-  color: #000;
+  color: grey;
   border: none;
   font-size: 17px;
 }
@@ -269,7 +269,7 @@ hr {
 }
 .nsecond .generalbutton .secondl .women button {
   background-color: white;
-  color: #000;
+  color: grey;
   border: none;
   font-size: 17px;
 }
@@ -339,14 +339,16 @@ hr {
   display: inline;
   margin-left: 20px;
   font-size: 17px;
+  color: grey;
 }
 .nsecond .generalbutton .secondl .originl .shop {
   display: inline;
   margin-left: 33px;
   font-size: 17px;
+  color: grey;
 }
 .nsecond .generalbutton .secondl .page .navbar-nav .nav-link {
-  color: #000;
+  color: grey;
 }
 .nsecond .generalbutton .secondl .page .navbar-nav .nav-link .nav-link:hover i {
   transform: rotate(180deg);
@@ -424,15 +426,16 @@ hr {
   margin-left: 23px;
 }
 .nsecond .line {
-  width: 100%;
+  width: 50%;
   height: 5px;
   background-color: rgb(169, 169, 169);
+  margin-left: 170px;
 }
 .nsecond .line .underline {
-  width: 130px;
+  width: 110px;
   height: 5px;
   background-color: #000;
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
 
 .slider {
@@ -649,4 +652,328 @@ hr {
   height: 5px;
   background-color: #000;
   transition: all 0.5s;
+}
+.three .general .generalone .onefirst {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 0 5px 5px;
+}
+.three .general .generalone .onefirst img {
+  border-radius: 5px;
+  width: 330px;
+  height: 330px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.three .general .generalone .onefirst .info {
+  margin-left: 20px;
+}
+.three .general .generalone .onefirst .info i {
+  margin-top: 30px;
+}
+.three .general .generalone .onefirst .info .brend {
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 8px;
+  height: 0;
+}
+.three .general .generalone .onefirst .info .marka {
+  height: 0;
+  padding-top: 14px;
+  color: #888888;
+}
+.three .general .generalone .onefirst .info .discount {
+  height: 0;
+  color: #888888;
+  text-decoration: line-through;
+  padding-top: 10px;
+}
+.three .general .generalone .onefirst .info .count {
+  font-size: 21px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.three .general .generalone .onesecond {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 0 5px 5px;
+  margin-top: 30px;
+}
+.three .general .generalone .onesecond img {
+  border-radius: 5px;
+  width: 330px;
+  height: 330px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.three .general .generalone .onesecond .info {
+  margin-left: 20px;
+}
+.three .general .generalone .onesecond .info i {
+  margin-top: 30px;
+}
+.three .general .generalone .onesecond .info .brend {
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 8px;
+  height: 0;
+}
+.three .general .generalone .onesecond .info .marka {
+  height: 0;
+  padding-top: 14px;
+  color: #888888;
+}
+.three .general .generalone .onesecond .info .discount {
+  height: 0;
+  color: #888888;
+  text-decoration: line-through;
+  padding-top: 10px;
+}
+.three .general .generalone .onesecond .info .count {
+  font-size: 21px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.three .general .generaltwo .onefirst {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 0 5px 5px;
+}
+.three .general .generaltwo .onefirst img {
+  border-radius: 5px;
+  width: 330px;
+  height: 330px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.three .general .generaltwo .onefirst .info {
+  margin-left: 20px;
+}
+.three .general .generaltwo .onefirst .info i {
+  margin-top: 30px;
+}
+.three .general .generaltwo .onefirst .info .brend {
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 8px;
+  height: 0;
+}
+.three .general .generaltwo .onefirst .info .marka {
+  height: 0;
+  padding-top: 14px;
+  color: #888888;
+}
+.three .general .generaltwo .onefirst .info .discount {
+  height: 0;
+  color: #888888;
+  text-decoration: line-through;
+  padding-top: 10px;
+}
+.three .general .generaltwo .onefirst .info .count {
+  font-size: 21px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.three .general .generaltwo .onesecond {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 0 5px 5px;
+  margin-top: 30px;
+}
+.three .general .generaltwo .onesecond img {
+  border-radius: 5px;
+  width: 330px;
+  height: 330px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.three .general .generaltwo .onesecond .info {
+  margin-left: 20px;
+}
+.three .general .generaltwo .onesecond .info i {
+  margin-top: 30px;
+}
+.three .general .generaltwo .onesecond .info .brend {
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 8px;
+  height: 0;
+}
+.three .general .generaltwo .onesecond .info .marka {
+  height: 0;
+  padding-top: 14px;
+  color: #888888;
+}
+.three .general .generaltwo .onesecond .info .discount {
+  height: 0;
+  color: #888888;
+  text-decoration: line-through;
+  padding-top: 10px;
+}
+.three .general .generaltwo .onesecond .info .count {
+  font-size: 21px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.three .general .generalthree .onefirst {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 0 5px 5px;
+}
+.three .general .generalthree .onefirst img {
+  border-radius: 5px;
+  width: 330px;
+  height: 330px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.three .general .generalthree .onefirst .info {
+  margin-left: 20px;
+}
+.three .general .generalthree .onefirst .info i {
+  margin-top: 30px;
+}
+.three .general .generalthree .onefirst .info .brend {
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 8px;
+  height: 0;
+}
+.three .general .generalthree .onefirst .info .marka {
+  height: 0;
+  padding-top: 14px;
+  color: #888888;
+}
+.three .general .generalthree .onefirst .info .discount {
+  height: 0;
+  color: #888888;
+  text-decoration: line-through;
+  padding-top: 10px;
+}
+.three .general .generalthree .onefirst .info .count {
+  font-size: 21px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.three .general .generalthree .onesecond {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 0 5px 5px;
+  margin-top: 30px;
+}
+.three .general .generalthree .onesecond img {
+  border-radius: 5px;
+  width: 330px;
+  height: 330px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.three .general .generalthree .onesecond .info {
+  margin-left: 20px;
+}
+.three .general .generalthree .onesecond .info i {
+  margin-top: 30px;
+}
+.three .general .generalthree .onesecond .info .brend {
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 8px;
+  height: 0;
+}
+.three .general .generalthree .onesecond .info .marka {
+  height: 0;
+  padding-top: 14px;
+  color: #888888;
+}
+.three .general .generalthree .onesecond .info .discount {
+  height: 0;
+  color: #888888;
+  text-decoration: line-through;
+  padding-top: 10px;
+}
+.three .general .generalthree .onesecond .info .count {
+  font-size: 21px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.three .general .generalfour .onefirst {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 0 5px 5px;
+}
+.three .general .generalfour .onefirst img {
+  border-radius: 5px;
+  width: 330px;
+  height: 330px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.three .general .generalfour .onefirst .info {
+  margin-left: 20px;
+}
+.three .general .generalfour .onefirst .info i {
+  margin-top: 30px;
+}
+.three .general .generalfour .onefirst .info .brend {
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 8px;
+  height: 0;
+}
+.three .general .generalfour .onefirst .info .marka {
+  height: 0;
+  padding-top: 14px;
+  color: #888888;
+}
+.three .general .generalfour .onefirst .info .discount {
+  height: 0;
+  color: #888888;
+  text-decoration: line-through;
+  padding-top: 10px;
+}
+.three .general .generalfour .onefirst .info .count {
+  font-size: 21px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.three .general .generalfour .onesecond {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 0 5px 5px;
+  margin-top: 30px;
+}
+.three .general .generalfour .onesecond img {
+  border-radius: 5px;
+  width: 330px;
+  height: 330px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.three .general .generalfour .onesecond .info {
+  margin-left: 20px;
+}
+.three .general .generalfour .onesecond .info i {
+  margin-top: 30px;
+}
+.three .general .generalfour .onesecond .info .brend {
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 8px;
+  height: 0;
+}
+.three .general .generalfour .onesecond .info .marka {
+  height: 0;
+  padding-top: 14px;
+  color: #888888;
+}
+.three .general .generalfour .onesecond .info .discount {
+  height: 0;
+  color: #888888;
+  text-decoration: line-through;
+  padding-top: 10px;
+}
+.three .general .generalfour .onesecond .info .count {
+  font-size: 21px;
+  font-weight: 600;
+  padding-top: 10px;
 }/*# sourceMappingURL=main.css.map */

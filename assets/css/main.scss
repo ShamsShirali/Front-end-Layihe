@@ -201,7 +201,7 @@ hr {
 
                 button {
                     background-color: white;
-                    color: #000;
+                    color: grey;
                     border: none;
                     font-size: 17px;
                 }
@@ -246,7 +246,7 @@ hr {
 
                 button {
                     background-color: white;
-                    color: #000;
+                    color: grey;
                     border: none;
                     font-size: 17px;
                 }
@@ -343,7 +343,7 @@ hr {
 
                 button {
                     background-color: white;
-                    color: #000;
+                    color: grey;
                     border: none;
                     font-size: 17px;
                 }
@@ -433,19 +433,21 @@ hr {
                     display: inline;
                     margin-left: 20px;
                     font-size: 17px;
+                    color: grey;
                 }
 
                 .shop {
                     display: inline;
                     margin-left: 33px;
                     font-size: 17px;
+                    color: grey;
                 }
             }
 
             .page {
                 .navbar-nav {
                     .nav-link {
-                        color: #000;
+                        color: grey;
 
                         .nav-link:hover i {
                             transform: rotate(180deg);
@@ -559,15 +561,16 @@ hr {
     }
 
     .line {
-        width: 100%;
+        width: 50%;
         height: 5px;
         background-color: rgb(169, 169, 169);
+        margin-left: 170px;
 
         .underline {
-            width: 130px;
+            width: 110px;
             height: 5px;
             background-color: #000;
-            transition: all 0.5s;
+            transition: all 0.2s;
         }
     }
 }
@@ -829,6 +832,405 @@ hr {
                 height: 5px;
                 background-color: #000;
                 transition: all 0.5s;
+            }
+        }
+    }
+
+    .general {
+
+        .generalone {
+
+
+            .onefirst {
+                display: flex;
+                justify-content: space-between;
+                border-radius: 0 0 5px 5px;
+
+                img {
+                    border-radius: 5px;
+                    width: 330px;
+                    height: 330px;
+                    object-fit: contain;
+                }
+
+                .info {
+                    margin-left: 20px;
+
+                    i {
+                        margin-top: 30px;
+                    }
+
+                    .brend {
+                        font-weight: 500;
+                        font-size: 17px;
+                        margin-top: 8px;
+                        height: 0;
+                    }
+
+                    .marka {
+                        height: 0;
+                        padding-top: 14px;
+                        color: #888888;
+                    }
+
+                    .discount {
+                        height: 0;
+                        color: #888888;
+                        text-decoration: line-through;
+                        padding-top: 10px;
+                    }
+
+                    .count {
+                        font-size: 21px;
+                        font-weight: 600;
+                        padding-top: 10px;
+                    }
+                }
+            }
+
+            .onesecond {
+                display: flex;
+                justify-content: space-between;
+                border-radius: 0 0 5px 5px;
+                margin-top: 30px;
+
+                img {
+                    border-radius: 5px;
+                    width: 330px;
+                    height: 330px;
+                    object-fit: contain;
+                }
+
+                .info {
+                    margin-left: 20px;
+
+                    i {
+                        margin-top: 30px;
+                    }
+
+                    .brend {
+                        font-weight: 500;
+                        font-size: 17px;
+                        margin-top: 8px;
+                        height: 0;
+                    }
+
+                    .marka {
+                        height: 0;
+                        padding-top: 14px;
+                        color: #888888;
+                    }
+
+                    .discount {
+                        height: 0;
+                        color: #888888;
+                        text-decoration: line-through;
+                        padding-top: 10px;
+                    }
+
+                    .count {
+                        font-size: 21px;
+                        font-weight: 600;
+                        padding-top: 10px;
+                    }
+                }
+            }
+        }
+
+        .generaltwo {
+
+
+            .onefirst {
+                display: flex;
+                justify-content: space-between;
+                border-radius: 0 0 5px 5px;
+
+                img {
+                    border-radius: 5px;
+                    width: 330px;
+                    height: 330px;
+                    object-fit: contain;
+                }
+
+                .info {
+                    margin-left: 20px;
+
+                    i {
+                        margin-top: 30px;
+                    }
+
+                    .brend {
+                        font-weight: 500;
+                        font-size: 17px;
+                        margin-top: 8px;
+                        height: 0;
+                    }
+
+                    .marka {
+                        height: 0;
+                        padding-top: 14px;
+                        color: #888888;
+                    }
+
+                    .discount {
+                        height: 0;
+                        color: #888888;
+                        text-decoration: line-through;
+                        padding-top: 10px;
+                    }
+
+                    .count {
+                        font-size: 21px;
+                        font-weight: 600;
+                        padding-top: 10px;
+                    }
+                }
+            }
+
+            .onesecond {
+                display: flex;
+                justify-content: space-between;
+                border-radius: 0 0 5px 5px;
+                margin-top: 30px;
+
+                img {
+                    border-radius: 5px;
+                    width: 330px;
+                    height: 330px;
+                    object-fit: contain;
+                }
+
+                .info {
+                    margin-left: 20px;
+
+                    i {
+                        margin-top: 30px;
+                    }
+
+                    .brend {
+                        font-weight: 500;
+                        font-size: 17px;
+                        margin-top: 8px;
+                        height: 0;
+                    }
+
+                    .marka {
+                        height: 0;
+                        padding-top: 14px;
+                        color: #888888;
+                    }
+
+                    .discount {
+                        height: 0;
+                        color: #888888;
+                        text-decoration: line-through;
+                        padding-top: 10px;
+                    }
+
+                    .count {
+                        font-size: 21px;
+                        font-weight: 600;
+                        padding-top: 10px;
+                    }
+                }
+            }
+        }
+
+        .generalthree {
+
+
+            .onefirst {
+                display: flex;
+                justify-content: space-between;
+                border-radius: 0 0 5px 5px;
+
+                img {
+                    border-radius: 5px;
+                    width: 330px;
+                    height: 330px;
+                    object-fit: contain;
+                }
+
+                .info {
+                    margin-left: 20px;
+
+                    i {
+                        margin-top: 30px;
+                    }
+
+                    .brend {
+                        font-weight: 500;
+                        font-size: 17px;
+                        margin-top: 8px;
+                        height: 0;
+                    }
+
+                    .marka {
+                        height: 0;
+                        padding-top: 14px;
+                        color: #888888;
+                    }
+
+                    .discount {
+                        height: 0;
+                        color: #888888;
+                        text-decoration: line-through;
+                        padding-top: 10px;
+                    }
+
+                    .count {
+                        font-size: 21px;
+                        font-weight: 600;
+                        padding-top: 10px;
+                    }
+                }
+            }
+
+            .onesecond {
+                display: flex;
+                justify-content: space-between;
+                border-radius: 0 0 5px 5px;
+                margin-top: 30px;
+
+                img {
+                    border-radius: 5px;
+                    width: 330px;
+                    height: 330px;
+                    object-fit: contain;
+                }
+
+                .info {
+                    margin-left: 20px;
+
+                    i {
+                        margin-top: 30px;
+                    }
+
+                    .brend {
+                        font-weight: 500;
+                        font-size: 17px;
+                        margin-top: 8px;
+                        height: 0;
+                    }
+
+                    .marka {
+                        height: 0;
+                        padding-top: 14px;
+                        color: #888888;
+                    }
+
+                    .discount {
+                        height: 0;
+                        color: #888888;
+                        text-decoration: line-through;
+                        padding-top: 10px;
+                    }
+
+                    .count {
+                        font-size: 21px;
+                        font-weight: 600;
+                        padding-top: 10px;
+                    }
+                }
+            }
+        }
+
+        .generalfour {
+
+
+            .onefirst {
+                display: flex;
+                justify-content: space-between;
+                border-radius: 0 0 5px 5px;
+
+                img {
+                    border-radius: 5px;
+                    width: 330px;
+                    height: 330px;
+                    object-fit: contain;
+                }
+
+                .info {
+                    margin-left: 20px;
+
+                    i {
+                        margin-top: 30px;
+                    }
+
+                    .brend {
+                        font-weight: 500;
+                        font-size: 17px;
+                        margin-top: 8px;
+                        height: 0;
+                    }
+
+                    .marka {
+                        height: 0;
+                        padding-top: 14px;
+                        color: #888888;
+                    }
+
+                    .discount {
+                        height: 0;
+                        color: #888888;
+                        text-decoration: line-through;
+                        padding-top: 10px;
+                    }
+
+                    .count {
+                        font-size: 21px;
+                        font-weight: 600;
+                        padding-top: 10px;
+                    }
+                }
+            }
+
+            .onesecond {
+                display: flex;
+                justify-content: space-between;
+                border-radius: 0 0 5px 5px;
+                margin-top: 30px;
+
+                img {
+                    border-radius: 5px;
+                    width: 330px;
+                    height: 330px;
+                    object-fit: contain;
+                }
+
+                .info {
+                    margin-left: 20px;
+
+                    i {
+                        margin-top: 30px;
+                    }
+
+                    .brend {
+                        font-weight: 500;
+                        font-size: 17px;
+                        margin-top: 8px;
+                        height: 0;
+                    }
+
+                    .marka {
+                        height: 0;
+                        padding-top: 14px;
+                        color: #888888;
+                    }
+
+                    .discount {
+                        height: 0;
+                        color: #888888;
+                        text-decoration: line-through;
+                        padding-top: 10px;
+                    }
+
+                    .count {
+                        font-size: 21px;
+                        font-weight: 600;
+                        padding-top: 10px;
+                    }
+                }
             }
         }
     }
