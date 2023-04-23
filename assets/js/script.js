@@ -243,27 +243,54 @@ $('.three .select ul li').each(function () {
   })
 })
 
+// $(function(){
+//   $('.three .select ul li').click(function(){
+//     if($('.three .general .change').attr("data-id")==1){
+//       $('.active').removeClass('.active');
+//       $(this).removeClass(".d-none");
+//       $(this).addClass('.active');
+//     }
+//     if($('.three .general div').attr("data-id")==2){
+//       $('.active').removeClass('.active');
+//       $(this).removeClass(".d-none");
+//       $(this).addClass('.active');
+//     }
+//     if($('.three .general div').attr("data-id")==3){
+//       $('.active').removeClassr('.active');
+//       $(this).removeClass(".d-none");
+//       $(this).addClass('.active');
+//     }
+//     if($('.three .general div').attr("data-id")==4){
+//       $('.active').removeClass('.active');
+//       $(this).removeClass(".d-none");
+//       $(this).addClass('.active');
+//     }
+//   })
+
+let apart = document.querySelectorAll('.but');
+let change = document.querySelectorAll('.change');
+let active = document.querySelector('.active');
+
+apart.forEach(index => {
+  index.addEventListener('click', () => {
+    active.classList.remove('active');
+    active.classList.add('d-none');
+
+    change.forEach(element=>{
+      if(element.getAttribute('data-id')==index.getAttribute('data-id')){
+        element.classList.remove('d-none');
+        element.classList.add('active');
+      }
+    })
+    })
+});
+
 $(function(){
-  $('.three .select ul li').click(function(){
-    if($('.three .general .change').attr("data-id")==1){
-      $('.active').removeClass('.active');
-      $(this).removeClass(".d-none");
-      $(this).addClass('.active');
-    }
-    if($('.three .general div').attr("data-id")==2){
-      $('.active').removeClass('.active');
-      $(this).removeClass(".d-none");
-      $(this).addClass('.active');
-    }
-    if($('.three .general div').attr("data-id")==3){
-      $('.active').removeClassr('.active');
-      $(this).removeClass(".d-none");
-      $(this).addClass('.active');
-    }
-    if($('.three .general div').attr("data-id")==4){
-      $('.active').removeClass('.active');
-      $(this).removeClass(".d-none");
-      $(this).addClass('.active');
-    }
-  })
+  $('.nike').slick({
+    slidesToShow: 7,
+    slidesToScroll: 1,
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  });
 })

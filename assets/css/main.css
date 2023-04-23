@@ -696,6 +696,54 @@ hr {
   font-weight: 600;
   padding-top: 10px;
 }
+.three .general .generalone .onefirst .image {
+  color: #000;
+  background-color: white;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  top: 170px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.three .general .generalone .onefirst .heart {
+  color: #000;
+  background-color: white;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  top: 220px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.three .general .generalone .onefirst .arrow {
+  color: #000;
+  background-color: white;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  top: 270px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.three .general .generalone .onefirst .card {
+  position: relative;
+}
 .three .general .generalone .onesecond {
   display: flex;
   justify-content: space-between;
@@ -737,6 +785,54 @@ hr {
   font-weight: 600;
   padding-top: 10px;
 }
+.three .general .generalone .onesecond .image {
+  color: #000;
+  background-color: white;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  top: 170px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.three .general .generalone .onesecond .heart {
+  color: #000;
+  background-color: white;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  top: 220px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.three .general .generalone .onesecond .arrow {
+  color: #000;
+  background-color: white;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  top: 270px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.three .general .generalone .onesecond .card {
+  position: relative;
+}
 .three .general .generaltwo .onefirst {
   display: flex;
   justify-content: space-between;
@@ -776,6 +872,54 @@ hr {
   font-size: 21px;
   font-weight: 600;
   padding-top: 10px;
+}
+.three .general .generaltwo .onefirst .image {
+  color: #000;
+  background-color: white;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  top: 170px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.three .general .generaltwo .onefirst .heart {
+  color: #000;
+  background-color: white;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  top: 220px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.three .general .generaltwo .onefirst .arrow {
+  color: #000;
+  background-color: white;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  top: 270px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.three .general .generaltwo .onefirst .card {
+  position: relative;
 }
 .three .general .generaltwo .onesecond {
   display: flex;
@@ -818,6 +962,54 @@ hr {
   font-weight: 600;
   padding-top: 10px;
 }
+.three .general .generaltwo .onesecond .image {
+  color: #000;
+  background-color: white;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  top: 170px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.three .general .generaltwo .onesecond .heart {
+  color: #000;
+  background-color: white;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  top: 220px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.three .general .generaltwo .onesecond .arrow {
+  color: #000;
+  background-color: white;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  top: 270px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.three .general .generaltwo .onesecond .card {
+  position: relative;
+}
 .three .general .generalthree .onefirst {
   display: flex;
   justify-content: space-between;
@@ -857,6 +1049,54 @@ hr {
   font-size: 21px;
   font-weight: 600;
   padding-top: 10px;
+}
+.three .general .generalthree .onefirst .image {
+  color: #000;
+  background-color: white;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  top: 170px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.three .general .generalthree .onefirst .heart {
+  color: #000;
+  background-color: white;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  top: 220px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.three .general .generalthree .onefirst .arrow {
+  color: #000;
+  background-color: white;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  top: 270px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.three .general .generalthree .onefirst .card {
+  position: relative;
 }
 .three .general .generalthree .onesecond {
   display: flex;
@@ -899,6 +1139,54 @@ hr {
   font-weight: 600;
   padding-top: 10px;
 }
+.three .general .generalthree .onesecond .image {
+  color: #000;
+  background-color: white;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  top: 170px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.three .general .generalthree .onesecond .heart {
+  color: #000;
+  background-color: white;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  top: 220px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.three .general .generalthree .onesecond .arrow {
+  color: #000;
+  background-color: white;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  top: 270px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.three .general .generalthree .onesecond .card {
+  position: relative;
+}
 .three .general .generalfour .onefirst {
   display: flex;
   justify-content: space-between;
@@ -938,6 +1226,54 @@ hr {
   font-size: 21px;
   font-weight: 600;
   padding-top: 10px;
+}
+.three .general .generalfour .onefirst .image {
+  color: #000;
+  background-color: white;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  top: 170px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.three .general .generalfour .onefirst .heart {
+  color: #000;
+  background-color: white;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  top: 220px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.three .general .generalfour .onefirst .arrow {
+  color: #000;
+  background-color: white;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  top: 270px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.three .general .generalfour .onefirst .card {
+  position: relative;
 }
 .three .general .generalfour .onesecond {
   display: flex;
@@ -979,4 +1315,237 @@ hr {
   font-size: 21px;
   font-weight: 600;
   padding-top: 10px;
+}
+.three .general .generalfour .onesecond .image {
+  color: #000;
+  background-color: white;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  top: 170px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.three .general .generalfour .onesecond .heart {
+  color: #000;
+  background-color: white;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  top: 220px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.three .general .generalfour .onesecond .arrow {
+  color: #000;
+  background-color: white;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  top: 270px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.three .general .generalfour .onesecond .card {
+  position: relative;
+}
+.three .general .card:hover {
+  box-shadow: 0px 2px 7px 2px #888888;
+  margin-bottom: 10px;
+}
+.three .general .card:hover .image {
+  display: inline !important;
+}
+.three .general .card:hover .heart {
+  display: inline !important;
+}
+.three .general .card:hover .arrow {
+  display: inline !important;
+}
+
+.four .greenarea {
+  margin-top: 60px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 71 67/var(--tw-bg-opacity));
+  width: 1450px;
+  height: 300px;
+  border-radius: 12px;
+  position: relative;
+}
+.four .greenarea h2 {
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  padding-left: 40px;
+  height: 0;
+}
+.four .greenarea .discount {
+  color: white;
+  font-size: 21px;
+  padding-left: 40px;
+  margin-top: 40px;
+}
+.four .greenarea .discount span {
+  font-weight: bold;
+}
+.four .greenarea .time {
+  position: absolute;
+  color: rgb(99, 99, 99);
+  top: 55px;
+  right: 30px;
+}
+.four .greenarea .nike {
+  width: 1400px;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.four .greenarea .nike img {
+  width: 180px;
+}
+.four .greenarea .slick-dots {
+  display: none !important;
+}
+.four .greenarea .slick-prev {
+  display: none !important;
+}
+.four .greenarea .slick-next {
+  display: none !important;
+}
+
+.five h2 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.five .product {
+  display: flex;
+  justify-content: space-between;
+}
+.five .product .girlph {
+  width: 326px;
+  height: 500px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 10px !important;
+}
+.five .product .bag {
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+.five .product .bag .upinfo .feature {
+  width: 80px;
+  height: 25px;
+  background-color: rgb(179, 80, 96);
+  color: white;
+  border-radius: 5px;
+  padding-bottom: 5px;
+  padding-left: 9px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.five .product .bag .upinfo .discount {
+  color: green;
+  margin-top: 20px;
+  margin-left: 140px;
+  font-weight: 700;
+}
+.five .product .bag img {
+  width: 326px;
+  height: 326px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-color: whitesmoke;
+}
+.five .product .bag .brand {
+  font-size: 18px;
+  font-weight: 600;
+  height: 0;
+}
+.five .product .bag .inform {
+  color: #888888;
+  padding-top: 15px;
+}
+.five .product .cap {
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+.five .product .cap .upinfo .feature {
+  width: 80px;
+  height: 25px;
+  background-color: rgb(179, 80, 96);
+  color: white;
+  border-radius: 5px;
+  padding-bottom: 5px;
+  padding-left: 9px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.five .product .cap .upinfo .discount {
+  color: green;
+  margin-top: 20px;
+  margin-left: 140px;
+  font-weight: 700;
+}
+.five .product .cap img {
+  width: 326px;
+  height: 326px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-color: whitesmoke;
+}
+.five .product .cap .brand {
+  font-size: 18px;
+  font-weight: 600;
+  height: 0;
+}
+.five .product .cap .inform {
+  color: #888888;
+  padding-top: 15px;
+}
+.five .product .vt {
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+.five .product .vt .upinfo .feature {
+  width: 80px;
+  height: 25px;
+  background-color: rgb(179, 80, 96);
+  color: white;
+  border-radius: 5px;
+  padding-bottom: 5px;
+  padding-left: 9px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.five .product .vt img {
+  width: 326px;
+  height: 326px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-color: whitesmoke;
+}
+.five .product .vt .brand {
+  font-size: 18px;
+  font-weight: 600;
+  height: 0;
+}
+.five .product .vt .inform {
+  color: #888888;
+  padding-top: 15px;
 }/*# sourceMappingURL=main.css.map */
