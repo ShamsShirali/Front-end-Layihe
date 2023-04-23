@@ -1745,21 +1745,27 @@ hr {
     .product {
         display: flex;
         justify-content: space-between;
+        padding: 0;
 
         .girlph {
             width: 326px;
-            height: 500px;
+            height: 470px;
             object-fit: contain;
-            border-radius: 10px !important;
+            border-radius: 14px;
         }
 
         .bag {
             background-color: whitesmoke;
             border-radius: 10px;
+            height: 470px;
+            width: 326px;
+            position: relative;
+            margin: auto;
+            overflow: hidden;
 
             .upinfo {
 
-                .feature{
+                .feature {
                     width: 80px;
                     height: 25px;
                     background-color: rgb(179, 80, 96);
@@ -1771,7 +1777,7 @@ hr {
                     margin-left: 20px;
                 }
 
-                .discount{
+                .discount {
                     color: green;
                     margin-top: 20px;
                     margin-left: 140px;
@@ -1780,32 +1786,43 @@ hr {
             }
 
             img {
-                width: 326px;
-                height: 326px;
-                object-fit: contain;
+                width: 100%;
+                height: auto;
+                max-width: 100%;
+                margin-left: 10px;
                 background-color: whitesmoke;
-
+                transition: 0.3s all;
+                transform: scale(1);
+                display: block;
             }
 
             .brand {
                 font-size: 18px;
                 font-weight: 600;
                 height: 0;
+                margin-left: 20px;
+                margin-top: 10px;
             }
 
             .inform {
                 color: #888888;
                 padding-top: 15px;
+                margin-left: 20px;
             }
         }
 
         .cap {
             background-color: whitesmoke;
             border-radius: 10px;
+            height: 470px;
+            width: 326px;
+            position: relative;
+            margin: auto;
+            overflow: hidden;
 
             .upinfo {
 
-                .feature{
+                .feature {
                     width: 80px;
                     height: 25px;
                     background-color: rgb(179, 80, 96);
@@ -1817,7 +1834,7 @@ hr {
                     margin-left: 20px;
                 }
 
-                .discount{
+                .discount {
                     color: green;
                     margin-top: 20px;
                     margin-left: 140px;
@@ -1826,32 +1843,43 @@ hr {
             }
 
             img {
-                width: 326px;
-                height: 326px;
-                object-fit: contain;
+                width: 100%;
+                height: auto;
+                max-width: 100%;
+                margin-left: 10px;
                 background-color: whitesmoke;
-
+                transition: 0.3s all;
+                transform: scale(1);
+                display: block;
             }
 
             .brand {
                 font-size: 18px;
                 font-weight: 600;
                 height: 0;
+                margin-left: 20px;
+                margin-top: 10px;
             }
 
             .inform {
                 color: #888888;
                 padding-top: 15px;
+                margin-left: 20px;
             }
         }
 
         .vt {
             background-color: whitesmoke;
             border-radius: 10px;
+            height: 470px;
+            width: 326px;
+            position: relative;
+            margin: auto;
+            overflow: hidden;
 
             .upinfo {
 
-                .feature{
+                .feature {
                     width: 80px;
                     height: 25px;
                     background-color: rgb(179, 80, 96);
@@ -1865,22 +1893,1105 @@ hr {
             }
 
             img {
-                width: 326px;
-                height: 326px;
-                object-fit: contain;
+                width: 100%;
+                height: auto;
+                max-width: 100%;
+                margin-left: 10px;
                 background-color: whitesmoke;
-
+                transition: 0.3s all;
+                transform: scale(1);
+                display: block;
             }
 
             .brand {
                 font-size: 18px;
                 font-weight: 600;
                 height: 0;
+                margin-left: 20px;
+                margin-top: 10px;
             }
 
             .inform {
                 color: #888888;
                 padding-top: 15px;
+                margin-left: 20px;
+            }
+        }
+
+        .bag:hover img {
+            transform: scale(1.1);
+        }
+
+        .cap:hover img {
+            transform: scale(1.1);
+        }
+
+        .vt:hover img {
+            transform: scale(1.1);
+        }
+    }
+
+    .placat {
+        width: 1450px;
+        margin-top: 60px;
+        object-fit: contain;
+    }
+}
+
+.six {
+
+    h2 {
+        padding-top: 40px;
+        padding-bottom: 20px;
+        font-weight: bold;
+    }
+
+    .select {
+
+        ul {
+            padding: 0;
+
+            .firstapart {
+                display: inline;
+                cursor: pointer;
+                color: grey;
+                padding-left: 10px;
+            }
+
+            .apart {
+                display: inline;
+                cursor: pointer;
+                color: grey;
+                padding-left: 40px;
+            }
+        }
+
+        .line {
+            width: 100%;
+            height: 5px;
+            background-color: rgb(169, 169, 169);
+            margin-bottom: 40px;
+
+            .underline {
+                width: 110px;
+                height: 5px;
+                background-color: #000;
+                transition: all 0.5s;
+            }
+        }
+    }
+
+    .general {
+        position: relative;
+
+        .generalone {
+
+
+            .onefirst {
+                display: flex;
+                justify-content: space-between;
+                border-radius: 0 0 5px 5px;
+
+                img {
+                    border-radius: 5px;
+                    width: 260px;
+                    height: 260px;
+                    object-fit: contain;
+                }
+
+                .info {
+                    margin-left: 20px;
+
+                    i {
+                        margin-top: 30px;
+                    }
+
+                    .brend {
+                        font-weight: 500;
+                        font-size: 17px;
+                        margin-top: 8px;
+                        height: 0;
+                    }
+
+                    .marka {
+                        height: 0;
+                        padding-top: 14px;
+                        color: #888888;
+                    }
+
+                    .discount {
+                        height: 0;
+                        color: #888888;
+                        text-decoration: line-through;
+                        padding-top: 10px;
+                    }
+
+                    .count {
+                        font-size: 21px;
+                        font-weight: 600;
+                        padding-top: 10px;
+                    }
+                }
+
+                .heart {
+                    color: #000;
+                    background-color: rgb(226, 226, 226);
+                    border-radius: 5px;
+                    transition: all 0.5s;
+                    cursor: pointer;
+                    position: absolute;
+                    font-size: 20px;
+                    bottom: 5px;
+                    right: 70px;
+                    width: 50px;
+                    height: 40px;
+                    padding-left: 14px;
+                    padding-top: 10px;
+                }
+
+                .arrow {
+                    color: #000;
+                    background-color: rgb(226, 226, 226);
+                    border-radius: 5px;
+                    transition: all 0.5s;
+                    cursor: pointer;
+                    position: absolute;
+                    font-size: 20px;
+                    bottom: 5px;
+                    right: 12px;
+                    width: 50px;
+                    height: 40px;
+                    padding-left: 14px;
+                    padding-top: 10px;
+                }
+
+                .card {
+                    position: relative;
+                }
+            }
+
+            .onesecond {
+                display: flex;
+                justify-content: space-between;
+                border-radius: 0 0 5px 5px;
+                margin-top: 30px;
+
+                img {
+                    border-radius: 5px;
+                    width: 260px;
+                    height: 260px;
+                    object-fit: contain;
+                }
+
+                .info {
+                    margin-left: 20px;
+
+                    i {
+                        margin-top: 30px;
+                    }
+
+                    .brend {
+                        font-weight: 500;
+                        font-size: 17px;
+                        margin-top: 8px;
+                        height: 0;
+                    }
+
+                    .marka {
+                        height: 0;
+                        padding-top: 14px;
+                        color: #888888;
+                    }
+
+                    .discount {
+                        height: 0;
+                        color: #888888;
+                        text-decoration: line-through;
+                        padding-top: 10px;
+                    }
+
+                    .count {
+                        font-size: 21px;
+                        font-weight: 600;
+                        padding-top: 10px;
+                    }
+                }
+
+                .heart {
+                    color: #000;
+                    background-color: rgb(226, 226, 226);
+                    border-radius: 5px;
+                    transition: all 0.5s;
+                    cursor: pointer;
+                    position: absolute;
+                    font-size: 20px;
+                    bottom: 5px;
+                    right: 70px;
+                    width: 50px;
+                    height: 40px;
+                    padding-left: 14px;
+                    padding-top: 10px;
+                }
+
+                .arrow {
+                    color: #000;
+                    background-color: rgb(226, 226, 226);
+                    border-radius: 5px;
+                    transition: all 0.5s;
+                    cursor: pointer;
+                    position: absolute;
+                    font-size: 20px;
+                    bottom: 5px;
+                    right: 12px;
+                    width: 50px;
+                    height: 40px;
+                    padding-left: 14px;
+                    padding-top: 10px;
+                }
+
+                .card {
+                    position: relative;
+                }
+            }
+        }
+
+        .generaltwo {
+
+
+            .onefirst {
+                display: flex;
+                justify-content: space-between;
+                border-radius: 0 0 5px 5px;
+
+                img {
+                    border-radius: 5px;
+                    width: 260px;
+                    height: 260px;
+                    object-fit: contain;
+                }
+
+                .info {
+                    margin-left: 20px;
+
+                    i {
+                        margin-top: 30px;
+                    }
+
+                    .brend {
+                        font-weight: 500;
+                        font-size: 17px;
+                        margin-top: 8px;
+                        height: 0;
+                    }
+
+                    .marka {
+                        height: 0;
+                        padding-top: 14px;
+                        color: #888888;
+                    }
+
+                    .discount {
+                        height: 0;
+                        color: #888888;
+                        text-decoration: line-through;
+                        padding-top: 10px;
+                    }
+
+                    .count {
+                        font-size: 21px;
+                        font-weight: 600;
+                        padding-top: 10px;
+                    }
+                }
+
+                .heart {
+                    color: #000;
+                    background-color: rgb(226, 226, 226);
+                    border-radius: 5px;
+                    transition: all 0.5s;
+                    cursor: pointer;
+                    position: absolute;
+                    font-size: 20px;
+                    bottom: 5px;
+                    right: 70px;
+                    width: 50px;
+                    height: 40px;
+                    padding-left: 14px;
+                    padding-top: 10px;
+                }
+
+                .arrow {
+                    color: #000;
+                    background-color: rgb(226, 226, 226);
+                    border-radius: 5px;
+                    transition: all 0.5s;
+                    cursor: pointer;
+                    position: absolute;
+                    font-size: 20px;
+                    bottom: 5px;
+                    right: 12px;
+                    width: 50px;
+                    height: 40px;
+                    padding-left: 14px;
+                    padding-top: 10px;
+                }
+
+                .card {
+                    position: relative;
+                }
+            }
+
+            .onesecond {
+                display: flex;
+                justify-content: space-between;
+                border-radius: 0 0 5px 5px;
+                margin-top: 30px;
+
+                img {
+                    border-radius: 5px;
+                    width: 260px;
+                    height: 260px;
+                    object-fit: contain;
+                }
+
+                .info {
+                    margin-left: 20px;
+
+                    i {
+                        margin-top: 30px;
+                    }
+
+                    .brend {
+                        font-weight: 500;
+                        font-size: 17px;
+                        margin-top: 8px;
+                        height: 0;
+                    }
+
+                    .marka {
+                        height: 0;
+                        padding-top: 14px;
+                        color: #888888;
+                    }
+
+                    .discount {
+                        height: 0;
+                        color: #888888;
+                        text-decoration: line-through;
+                        padding-top: 10px;
+                    }
+
+                    .count {
+                        font-size: 21px;
+                        font-weight: 600;
+                        padding-top: 10px;
+                    }
+                }
+
+                .heart {
+                    color: #000;
+                    background-color: rgb(226, 226, 226);
+                    border-radius: 5px;
+                    transition: all 0.5s;
+                    cursor: pointer;
+                    position: absolute;
+                    font-size: 20px;
+                    bottom: 5px;
+                    right: 70px;
+                    width: 50px;
+                    height: 40px;
+                    padding-left: 14px;
+                    padding-top: 10px;
+                }
+
+                .arrow {
+                    color: #000;
+                    background-color: rgb(226, 226, 226);
+                    border-radius: 5px;
+                    transition: all 0.5s;
+                    cursor: pointer;
+                    position: absolute;
+                    font-size: 20px;
+                    bottom: 5px;
+                    right: 12px;
+                    width: 50px;
+                    height: 40px;
+                    padding-left: 14px;
+                    padding-top: 10px;
+                }
+
+                .card {
+                    position: relative;
+                }
+            }
+        }
+
+        .generalthree {
+
+
+            .onefirst {
+                display: flex;
+                justify-content: space-between;
+                border-radius: 0 0 5px 5px;
+
+                img {
+                    border-radius: 5px;
+                    width: 260px;
+                    height: 260px;
+                    object-fit: contain;
+                }
+
+                .info {
+                    margin-left: 20px;
+
+                    i {
+                        margin-top: 30px;
+                    }
+
+                    .brend {
+                        font-weight: 500;
+                        font-size: 17px;
+                        margin-top: 8px;
+                        height: 0;
+                    }
+
+                    .marka {
+                        height: 0;
+                        padding-top: 14px;
+                        color: #888888;
+                    }
+
+                    .discount {
+                        height: 0;
+                        color: #888888;
+                        text-decoration: line-through;
+                        padding-top: 10px;
+                    }
+
+                    .count {
+                        font-size: 21px;
+                        font-weight: 600;
+                        padding-top: 10px;
+                    }
+                }
+
+                .heart {
+                    color: #000;
+                    background-color: rgb(226, 226, 226);
+                    border-radius: 5px;
+                    transition: all 0.5s;
+                    cursor: pointer;
+                    position: absolute;
+                    font-size: 20px;
+                    bottom: 5px;
+                    right: 70px;
+                    width: 50px;
+                    height: 40px;
+                    padding-left: 14px;
+                    padding-top: 10px;
+                }
+
+                .arrow {
+                    color: #000;
+                    background-color: rgb(226, 226, 226);
+                    border-radius: 5px;
+                    transition: all 0.5s;
+                    cursor: pointer;
+                    position: absolute;
+                    font-size: 20px;
+                    bottom: 5px;
+                    right: 12px;
+                    width: 50px;
+                    height: 40px;
+                    padding-left: 14px;
+                    padding-top: 10px;
+                }
+
+                .card {
+                    position: relative;
+                }
+            }
+
+            .onesecond {
+                display: flex;
+                justify-content: space-between;
+                border-radius: 0 0 5px 5px;
+                margin-top: 30px;
+
+                img {
+                    border-radius: 5px;
+                    width: 260px;
+                    height: 260px;
+                    object-fit: contain;
+                }
+
+                .info {
+                    margin-left: 20px;
+
+                    i {
+                        margin-top: 30px;
+                    }
+
+                    .brend {
+                        font-weight: 500;
+                        font-size: 17px;
+                        margin-top: 8px;
+                        height: 0;
+                    }
+
+                    .marka {
+                        height: 0;
+                        padding-top: 14px;
+                        color: #888888;
+                    }
+
+                    .discount {
+                        height: 0;
+                        color: #888888;
+                        text-decoration: line-through;
+                        padding-top: 10px;
+                    }
+
+                    .count {
+                        font-size: 21px;
+                        font-weight: 600;
+                        padding-top: 10px;
+                    }
+                }
+
+                .heart {
+                    color: #000;
+                    background-color: rgb(226, 226, 226);
+                    border-radius: 5px;
+                    transition: all 0.5s;
+                    cursor: pointer;
+                    position: absolute;
+                    font-size: 20px;
+                    bottom: 5px;
+                    right: 70px;
+                    width: 50px;
+                    height: 40px;
+                    padding-left: 14px;
+                    padding-top: 10px;
+                }
+
+                .arrow {
+                    color: #000;
+                    background-color: rgb(226, 226, 226);
+                    border-radius: 5px;
+                    transition: all 0.5s;
+                    cursor: pointer;
+                    position: absolute;
+                    font-size: 20px;
+                    bottom: 5px;
+                    right: 12px;
+                    width: 50px;
+                    height: 40px;
+                    padding-left: 14px;
+                    padding-top: 10px;
+                }
+
+                .card {
+                    position: relative;
+                }
+            }
+        }
+
+        .generalfour {
+
+
+            .onefirst {
+                display: flex;
+                justify-content: space-between;
+                border-radius: 0 0 5px 5px;
+
+                img {
+                    border-radius: 5px;
+                    width: 260px;
+                    height: 260px;
+                    object-fit: contain;
+                }
+
+                .info {
+                    margin-left: 20px;
+
+                    i {
+                        margin-top: 30px;
+                    }
+
+                    .brend {
+                        font-weight: 500;
+                        font-size: 17px;
+                        margin-top: 8px;
+                        height: 0;
+                    }
+
+                    .marka {
+                        height: 0;
+                        padding-top: 14px;
+                        color: #888888;
+                    }
+
+                    .discount {
+                        height: 0;
+                        color: #888888;
+                        text-decoration: line-through;
+                        padding-top: 10px;
+                    }
+
+                    .count {
+                        font-size: 21px;
+                        font-weight: 600;
+                        padding-top: 10px;
+                    }
+                }
+
+                .heart {
+                    color: #000;
+                    background-color: rgb(226, 226, 226);
+                    border-radius: 5px;
+                    transition: all 0.5s;
+                    cursor: pointer;
+                    position: absolute;
+                    font-size: 20px;
+                    bottom: 5px;
+                    right: 70px;
+                    width: 50px;
+                    height: 40px;
+                    padding-left: 14px;
+                    padding-top: 10px;
+                }
+
+                .arrow {
+                    color: #000;
+                    background-color: rgb(226, 226, 226);
+                    border-radius: 5px;
+                    transition: all 0.5s;
+                    cursor: pointer;
+                    position: absolute;
+                    font-size: 20px;
+                    bottom: 5px;
+                    right: 12px;
+                    width: 50px;
+                    height: 40px;
+                    padding-left: 14px;
+                    padding-top: 10px;
+                }
+
+                .card {
+                    position: relative;
+                }
+            }
+
+            .onesecond {
+                display: flex;
+                justify-content: space-between;
+                border-radius: 0 0 5px 5px;
+                margin-top: 30px;
+
+                img {
+                    border-radius: 5px;
+                    width: 260px;
+                    height: 260px;
+                    object-fit: contain;
+                }
+
+                .info {
+                    margin-left: 20px;
+
+                    i {
+                        margin-top: 30px;
+                    }
+
+                    .brend {
+                        font-weight: 500;
+                        font-size: 17px;
+                        margin-top: 8px;
+                        height: 0;
+                    }
+
+                    .marka {
+                        height: 0;
+                        padding-top: 14px;
+                        color: #888888;
+                    }
+
+                    .discount {
+                        height: 0;
+                        color: #888888;
+                        text-decoration: line-through;
+                        padding-top: 10px;
+                    }
+
+                    .count {
+                        font-size: 21px;
+                        font-weight: 600;
+                        padding-top: 10px;
+                    }
+                }
+
+                .heart {
+                    color: #000;
+                    background-color: rgb(226, 226, 226);
+                    border-radius: 5px;
+                    transition: all 0.5s;
+                    cursor: pointer;
+                    position: absolute;
+                    font-size: 20px;
+                    bottom: 5px;
+                    right: 70px;
+                    width: 50px;
+                    height: 40px;
+                    padding-left: 14px;
+                    padding-top: 10px;
+                }
+
+                .arrow {
+                    color: #000;
+                    background-color: rgb(226, 226, 226);
+                    border-radius: 5px;
+                    transition: all 0.5s;
+                    cursor: pointer;
+                    position: absolute;
+                    font-size: 20px;
+                    bottom: 5px;
+                    right: 12px;
+                    width: 50px;
+                    height: 40px;
+                    padding-left: 14px;
+                    padding-top: 10px;
+                }
+
+                .card {
+                    position: relative;
+                }
+            }
+        }
+
+        .card:hover {
+            box-shadow: 0px 2px 7px 2px #888888;
+            margin-bottom: 10px;
+        }
+
+        .card:hover {
+            .heart {
+                display: inline !important;
+            }
+
+            .arrow {
+                display: inline !important;
+            }
+        }
+    }
+}
+
+.seven {
+    position: relative;
+
+    .photo {
+        width: 1450px;
+        object-fit: contain;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        padding-top: 40px;
+        padding-bottom: 20px;
+        font-weight: bold;
+    }
+
+    .generalph {
+
+        img {
+            width: 460px;
+            object-fit: contain;
+            height: 510px;
+            border-radius: 23px;
+        }
+
+        .secondph {
+            width: 460px;
+            object-fit: contain;
+            height: 510px;
+            border-radius: 23px;
+            margin-left: 18px;
+        }
+    }
+
+    .cards {
+        display: flex;
+
+        .card{
+            position: relative;
+            width: 260px !important;
+            margin-right: 40px;
+            
+            img {
+                border-radius: 5px;
+                width: 260px;
+                height: 260px;
+                object-fit: contain;
+            }
+
+            .info {
+                margin-left: 20px;
+
+                i {
+                    margin-top: 30px;
+                }
+
+                .brend {
+                    font-weight: 500;
+                    font-size: 17px;
+                    margin-top: 8px;
+                    height: 0;
+                }
+
+                .marka {
+                    height: 0;
+                    padding-top: 14px;
+                    color: #888888;
+                }
+
+                .discount {
+                    height: 0;
+                    color: #888888;
+                    text-decoration: line-through;
+                    padding-top: 10px;
+                }
+
+                .count {
+                    font-size: 21px;
+                    font-weight: 600;
+                    padding-top: 10px;
+                }
+            }
+
+            .heart {
+                color: #000;
+                background-color: rgb(226, 226, 226);
+                border-radius: 5px;
+                transition: all 0.5s;
+                cursor: pointer;
+                position: absolute;
+                font-size: 20px;
+                bottom: 5px;
+                right: 70px;
+                width: 50px;
+                height: 40px;
+                padding-left: 14px;
+                padding-top: 10px;
+            }
+
+            .arrow {
+                color: #000;
+                background-color: rgb(226, 226, 226);
+                border-radius: 5px;
+                transition: all 0.5s;
+                cursor: pointer;
+                position: absolute;
+                font-size: 20px;
+                bottom: 5px;
+                right: 12px;
+                width: 50px;
+                height: 40px;
+                padding-left: 14px;
+                padding-top: 10px;
+            }
+        }
+
+        .slick-dots {
+            display: none !important;
+        }
+
+        .licons {
+            background-color: white;
+            margin-top: 48px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            box-shadow: 0px 2px 7px 5px #888888;
+            position: absolute;
+            z-index: 1;
+            padding-top: 7px;
+            padding-left: 15px;
+            left: -20px;
+
+            .slick-arrow {
+                font-size: 20px;
+            }
+        }
+
+        .ricons {
+            background-color: white;
+            margin-top: 48px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            box-shadow: 0px 2px 7px 5px #888888;
+            position: absolute;
+            right: -20px;
+            padding-top: 7px;
+            padding-left: 15px;
+
+            .slick-arrow {
+                font-size: 20px;
+            }
+        }
+
+        .card:hover {
+            box-shadow: 0px 2px 7px 2px #888888;
+            margin-bottom: 10px;
+        }
+
+        .card:hover {
+            .heart {
+                display: inline !important;
+            }
+
+            .arrow {
+                display: inline !important;
+            }
+        }
+    }
+}
+
+.eight{
+
+    .area{
+        width: 1450px;
+        background-color: whitesmoke;
+        justify-content: space-between;
+        margin-top: 60px;
+        border-radius: 10px;
+
+        .app{
+         font-weight: bold;
+         font-size: 28px;
+         height: 0;
+         padding-left:100px;
+         padding-top: 110px;
+        }
+
+        .share{
+            font-size: 50px;
+            height: 0;
+            padding-left:100px;
+            padding-top: 45px;
+
+            span{
+                font-weight: bold;
+            }
+        }
+
+        .end{
+            font-size: 50px;
+            padding-left:100px;
+            padding-top: 45px;
+
+            span{
+                font-weight: bold;
+            }
+        }
+
+        .ph{
+            margin-top: 70px;
+
+            .ph1{
+                border-radius: 7px;
+                margin-left: 100px;
+            }
+
+            .ph2{
+                border-radius: 7px;
+                margin-left: 20px;
+            }
+        }
+
+        .phone{
+
+            img{
+              margin-top: 60px;
+              margin-right: 100px;
+            }
+        }
+    }
+
+    h2 {
+        padding-top: 40px;
+        padding-bottom: 20px;
+        font-weight: bold;
+    }
+
+    .carousel{
+
+        .allone{
+            width: 434px;
+            height: 345px;
+            background-color: whitesmoke;
+            border-radius: 10px;
+
+            .general{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 30px;
+                margin-left: 30px;
+
+                .genfir{
+                    display: flex;
+
+                    img{
+                        width: 70px;
+                        height: 70px;
+                        border-radius: 50%;
+                        object-fit: contain;
+                    }
+
+                    .gensec{
+                        margin-left:20px;
+                        
+                        .name{
+                            font-weight: 700;
+                            font-size: 28px;
+                            height: 0;
+                        }
+
+                        .from{
+                            font-size: 17px;
+                            color: #888888;
+                            padding-top: 30px;
+                        }
+                    }
+                }
+
+                .genthi{
+                    display: flex;
+                    margin-right: 30px;
+
+                    i{
+                        padding-top: 30px;
+                        padding-right: 7px;
+                    }
+
+                    p{
+                        padding-top: 27px;
+                        font-weight: 500;
+                    }
+                }
+            }
+
+            .lorem{
+                padding-top: 30px;
+                padding-left: 30px;
+                width:385px;
+            }
+
+            .comma{
+                color: rgb(229, 229, 229);
+                font-size: 45px;
+                padding-left: 340px;
+                bottom: 30px;
             }
         }
     }

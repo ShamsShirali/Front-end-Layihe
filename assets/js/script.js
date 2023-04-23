@@ -269,12 +269,11 @@ $('.three .select ul li').each(function () {
 
 let apart = document.querySelectorAll('.but');
 let change = document.querySelectorAll('.change');
-let active = document.querySelector('.active');
 
 apart.forEach(index => {
   index.addEventListener('click', () => {
-    active.classList.remove('active');
-    active.classList.add('d-none');
+    document.querySelector('.active').classList.add('d-none');
+    document.querySelector('.active').classList.remove('active');
 
     change.forEach(element=>{
       if(element.getAttribute('data-id')==index.getAttribute('data-id')){
@@ -292,5 +291,102 @@ $(function(){
     dots: true,
     autoplay: true,
     autoplaySpeed: 2000,
+  });
+})
+
+$('.six .select ul li').each(function () {
+  $(this).click(function () {
+    if ($(this).attr("data-id") == 4) {
+      $(this).prev().css("background-color", "white");
+      $(this).prev().css("color", "grey");
+      $(this).prev().prev().css("background-color", "white");
+      $(this).prev().prev().css("color", "grey");
+      $(this).prev().prev().prev().css("background-color", "white");
+      $(this).prev().prev().prev().css("color", "grey");
+      $(this).css("background-color", "white");
+      $(this).css("color", "black");
+      $('.six .slick-dots').children().eq(3).children().eq(0).click();
+      if ($('.six .select .line .underline').css('transform', 'translateX(0px)')) {
+        $('.six .select .line .underline').css('transform', 'translateX(365px)')
+      }
+      else {
+        $('.six .select .line .underline').css('transform', 'translateX(300px)')
+      }
+    }
+    if ($(this).attr("data-id") == 3) {
+      $(this).prev().css("background-color", "white");
+      $(this).prev().css("color", "grey");
+      $(this).prev().prev().css("background-color", "white");
+      $(this).prev().prev().css("color", "grey");
+      $(this).next().css("background-color", "white");
+      $(this).next().css("color", "grey");
+      $(this).css("background-color", "white");
+      $(this).css("color", "black");
+      $('.six .slick-dots').children().eq(2).children().eq(0).click();
+      if ($('.six .select .line .underline').css('transform', 'translateX(0px)')) {
+        $('.six .select .line .underline').css('transform', 'translateX(245px)')
+      }
+      else {
+        $('.six .select .line .underline').css('transform', 'translateX(200px)')
+      }
+    }
+    if ($(this).attr("data-id") == 2) {
+      $(this).prev().css("background-color", "white");
+      $(this).prev().css("color", "grey");
+      $(this).next().css("background-color", "white");
+      $(this).next().css("color", "grey");
+      $(this).next().next().css("background-color", "white");
+      $(this).next().next().css("color", "grey");
+      $(this).css("background-color", "white");
+      $(this).css("color", "black");
+      $('.six .slick-dots').children().eq(1).children().eq(0).click();
+      if ($('.six .select .line .underline').css('transform', 'translateX(0px)')) {
+        $('.six .select .line .underline').css('transform', 'translateX(125px)')
+      }
+      else {
+        $('.six .select .line .underline').css('transform', 'translateX(-180px)')
+      }
+    }
+    if ($(this).attr("data-id") == 1) {
+      $(this).next().css("background-color", "white");
+      $(this).next().css("color", "grey");
+      $(this).next().next().css("background-color", "white");
+      $(this).next().next().css("color", "grey");
+      $(this).next().next().next().css("background-color", "white");
+      $(this).next().next().next().css("color", "grey");
+      $(this).css("background-color", "white");
+      $(this).css("color", "black");
+      $('.six .slick-dots').children().eq(0).children().eq(0).click();
+      $('.six .select .line .underline').css('transform', 'translateX(0px)');
+    }
+  })
+})
+
+let apar = document.querySelectorAll('.butt');
+let chan = document.querySelectorAll('.chan');
+
+apar.forEach(index => {
+  index.addEventListener('click', () => {
+    document.querySelector('.activ').classList.add('d-none');
+    document.querySelector('.activ').classList.remove('activ');
+
+    chan.forEach(element=>{
+      if(element.getAttribute('data-id')==index.getAttribute('data-id')){
+        element.classList.remove('d-none');
+        element.classList.add('activ');
+      }
+    })
+    })
+});
+
+$(function(){
+  $('.slick_slide').slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    prevArrow: `<div class="licons"><i class="fa-solid fa-chevron-left"></i></div>`,
+    nextArrow: `<div class="ricons"><i class="fa-solid fa-chevron-right"></i></div>`
   });
 })

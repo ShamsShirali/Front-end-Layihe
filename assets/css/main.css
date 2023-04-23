@@ -1436,17 +1436,23 @@ hr {
 .five .product {
   display: flex;
   justify-content: space-between;
+  padding: 0;
 }
 .five .product .girlph {
   width: 326px;
-  height: 500px;
+  height: 470px;
   -o-object-fit: contain;
      object-fit: contain;
-  border-radius: 10px !important;
+  border-radius: 14px;
 }
 .five .product .bag {
   background-color: whitesmoke;
   border-radius: 10px;
+  height: 470px;
+  width: 326px;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
 }
 .five .product .bag .upinfo .feature {
   width: 80px;
@@ -1466,24 +1472,35 @@ hr {
   font-weight: 700;
 }
 .five .product .bag img {
-  width: 326px;
-  height: 326px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin-left: 10px;
   background-color: whitesmoke;
+  transition: 0.3s all;
+  transform: scale(1);
+  display: block;
 }
 .five .product .bag .brand {
   font-size: 18px;
   font-weight: 600;
   height: 0;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 .five .product .bag .inform {
   color: #888888;
   padding-top: 15px;
+  margin-left: 20px;
 }
 .five .product .cap {
   background-color: whitesmoke;
   border-radius: 10px;
+  height: 470px;
+  width: 326px;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
 }
 .five .product .cap .upinfo .feature {
   width: 80px;
@@ -1503,24 +1520,35 @@ hr {
   font-weight: 700;
 }
 .five .product .cap img {
-  width: 326px;
-  height: 326px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin-left: 10px;
   background-color: whitesmoke;
+  transition: 0.3s all;
+  transform: scale(1);
+  display: block;
 }
 .five .product .cap .brand {
   font-size: 18px;
   font-weight: 600;
   height: 0;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 .five .product .cap .inform {
   color: #888888;
   padding-top: 15px;
+  margin-left: 20px;
 }
 .five .product .vt {
   background-color: whitesmoke;
   border-radius: 10px;
+  height: 470px;
+  width: 326px;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
 }
 .five .product .vt .upinfo .feature {
   width: 80px;
@@ -1534,18 +1562,931 @@ hr {
   margin-left: 20px;
 }
 .five .product .vt img {
-  width: 326px;
-  height: 326px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin-left: 10px;
   background-color: whitesmoke;
+  transition: 0.3s all;
+  transform: scale(1);
+  display: block;
 }
 .five .product .vt .brand {
   font-size: 18px;
   font-weight: 600;
   height: 0;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 .five .product .vt .inform {
   color: #888888;
   padding-top: 15px;
+  margin-left: 20px;
+}
+.five .product .bag:hover img {
+  transform: scale(1.1);
+}
+.five .product .cap:hover img {
+  transform: scale(1.1);
+}
+.five .product .vt:hover img {
+  transform: scale(1.1);
+}
+.five .placat {
+  width: 1450px;
+  margin-top: 60px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.six h2 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.six .select ul {
+  padding: 0;
+}
+.six .select ul .firstapart {
+  display: inline;
+  cursor: pointer;
+  color: grey;
+  padding-left: 10px;
+}
+.six .select ul .apart {
+  display: inline;
+  cursor: pointer;
+  color: grey;
+  padding-left: 40px;
+}
+.six .select .line {
+  width: 100%;
+  height: 5px;
+  background-color: rgb(169, 169, 169);
+  margin-bottom: 40px;
+}
+.six .select .line .underline {
+  width: 110px;
+  height: 5px;
+  background-color: #000;
+  transition: all 0.5s;
+}
+.six .general {
+  position: relative;
+}
+.six .general .generalone .onefirst {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 0 5px 5px;
+}
+.six .general .generalone .onefirst img {
+  border-radius: 5px;
+  width: 260px;
+  height: 260px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.six .general .generalone .onefirst .info {
+  margin-left: 20px;
+}
+.six .general .generalone .onefirst .info i {
+  margin-top: 30px;
+}
+.six .general .generalone .onefirst .info .brend {
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 8px;
+  height: 0;
+}
+.six .general .generalone .onefirst .info .marka {
+  height: 0;
+  padding-top: 14px;
+  color: #888888;
+}
+.six .general .generalone .onefirst .info .discount {
+  height: 0;
+  color: #888888;
+  text-decoration: line-through;
+  padding-top: 10px;
+}
+.six .general .generalone .onefirst .info .count {
+  font-size: 21px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.six .general .generalone .onefirst .heart {
+  color: #000;
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  bottom: 5px;
+  right: 70px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.six .general .generalone .onefirst .arrow {
+  color: #000;
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  bottom: 5px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.six .general .generalone .onefirst .card {
+  position: relative;
+}
+.six .general .generalone .onesecond {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 0 5px 5px;
+  margin-top: 30px;
+}
+.six .general .generalone .onesecond img {
+  border-radius: 5px;
+  width: 260px;
+  height: 260px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.six .general .generalone .onesecond .info {
+  margin-left: 20px;
+}
+.six .general .generalone .onesecond .info i {
+  margin-top: 30px;
+}
+.six .general .generalone .onesecond .info .brend {
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 8px;
+  height: 0;
+}
+.six .general .generalone .onesecond .info .marka {
+  height: 0;
+  padding-top: 14px;
+  color: #888888;
+}
+.six .general .generalone .onesecond .info .discount {
+  height: 0;
+  color: #888888;
+  text-decoration: line-through;
+  padding-top: 10px;
+}
+.six .general .generalone .onesecond .info .count {
+  font-size: 21px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.six .general .generalone .onesecond .heart {
+  color: #000;
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  bottom: 5px;
+  right: 70px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.six .general .generalone .onesecond .arrow {
+  color: #000;
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  bottom: 5px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.six .general .generalone .onesecond .card {
+  position: relative;
+}
+.six .general .generaltwo .onefirst {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 0 5px 5px;
+}
+.six .general .generaltwo .onefirst img {
+  border-radius: 5px;
+  width: 260px;
+  height: 260px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.six .general .generaltwo .onefirst .info {
+  margin-left: 20px;
+}
+.six .general .generaltwo .onefirst .info i {
+  margin-top: 30px;
+}
+.six .general .generaltwo .onefirst .info .brend {
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 8px;
+  height: 0;
+}
+.six .general .generaltwo .onefirst .info .marka {
+  height: 0;
+  padding-top: 14px;
+  color: #888888;
+}
+.six .general .generaltwo .onefirst .info .discount {
+  height: 0;
+  color: #888888;
+  text-decoration: line-through;
+  padding-top: 10px;
+}
+.six .general .generaltwo .onefirst .info .count {
+  font-size: 21px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.six .general .generaltwo .onefirst .heart {
+  color: #000;
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  bottom: 5px;
+  right: 70px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.six .general .generaltwo .onefirst .arrow {
+  color: #000;
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  bottom: 5px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.six .general .generaltwo .onefirst .card {
+  position: relative;
+}
+.six .general .generaltwo .onesecond {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 0 5px 5px;
+  margin-top: 30px;
+}
+.six .general .generaltwo .onesecond img {
+  border-radius: 5px;
+  width: 260px;
+  height: 260px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.six .general .generaltwo .onesecond .info {
+  margin-left: 20px;
+}
+.six .general .generaltwo .onesecond .info i {
+  margin-top: 30px;
+}
+.six .general .generaltwo .onesecond .info .brend {
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 8px;
+  height: 0;
+}
+.six .general .generaltwo .onesecond .info .marka {
+  height: 0;
+  padding-top: 14px;
+  color: #888888;
+}
+.six .general .generaltwo .onesecond .info .discount {
+  height: 0;
+  color: #888888;
+  text-decoration: line-through;
+  padding-top: 10px;
+}
+.six .general .generaltwo .onesecond .info .count {
+  font-size: 21px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.six .general .generaltwo .onesecond .heart {
+  color: #000;
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  bottom: 5px;
+  right: 70px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.six .general .generaltwo .onesecond .arrow {
+  color: #000;
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  bottom: 5px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.six .general .generaltwo .onesecond .card {
+  position: relative;
+}
+.six .general .generalthree .onefirst {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 0 5px 5px;
+}
+.six .general .generalthree .onefirst img {
+  border-radius: 5px;
+  width: 260px;
+  height: 260px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.six .general .generalthree .onefirst .info {
+  margin-left: 20px;
+}
+.six .general .generalthree .onefirst .info i {
+  margin-top: 30px;
+}
+.six .general .generalthree .onefirst .info .brend {
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 8px;
+  height: 0;
+}
+.six .general .generalthree .onefirst .info .marka {
+  height: 0;
+  padding-top: 14px;
+  color: #888888;
+}
+.six .general .generalthree .onefirst .info .discount {
+  height: 0;
+  color: #888888;
+  text-decoration: line-through;
+  padding-top: 10px;
+}
+.six .general .generalthree .onefirst .info .count {
+  font-size: 21px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.six .general .generalthree .onefirst .heart {
+  color: #000;
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  bottom: 5px;
+  right: 70px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.six .general .generalthree .onefirst .arrow {
+  color: #000;
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  bottom: 5px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.six .general .generalthree .onefirst .card {
+  position: relative;
+}
+.six .general .generalthree .onesecond {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 0 5px 5px;
+  margin-top: 30px;
+}
+.six .general .generalthree .onesecond img {
+  border-radius: 5px;
+  width: 260px;
+  height: 260px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.six .general .generalthree .onesecond .info {
+  margin-left: 20px;
+}
+.six .general .generalthree .onesecond .info i {
+  margin-top: 30px;
+}
+.six .general .generalthree .onesecond .info .brend {
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 8px;
+  height: 0;
+}
+.six .general .generalthree .onesecond .info .marka {
+  height: 0;
+  padding-top: 14px;
+  color: #888888;
+}
+.six .general .generalthree .onesecond .info .discount {
+  height: 0;
+  color: #888888;
+  text-decoration: line-through;
+  padding-top: 10px;
+}
+.six .general .generalthree .onesecond .info .count {
+  font-size: 21px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.six .general .generalthree .onesecond .heart {
+  color: #000;
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  bottom: 5px;
+  right: 70px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.six .general .generalthree .onesecond .arrow {
+  color: #000;
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  bottom: 5px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.six .general .generalthree .onesecond .card {
+  position: relative;
+}
+.six .general .generalfour .onefirst {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 0 5px 5px;
+}
+.six .general .generalfour .onefirst img {
+  border-radius: 5px;
+  width: 260px;
+  height: 260px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.six .general .generalfour .onefirst .info {
+  margin-left: 20px;
+}
+.six .general .generalfour .onefirst .info i {
+  margin-top: 30px;
+}
+.six .general .generalfour .onefirst .info .brend {
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 8px;
+  height: 0;
+}
+.six .general .generalfour .onefirst .info .marka {
+  height: 0;
+  padding-top: 14px;
+  color: #888888;
+}
+.six .general .generalfour .onefirst .info .discount {
+  height: 0;
+  color: #888888;
+  text-decoration: line-through;
+  padding-top: 10px;
+}
+.six .general .generalfour .onefirst .info .count {
+  font-size: 21px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.six .general .generalfour .onefirst .heart {
+  color: #000;
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  bottom: 5px;
+  right: 70px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.six .general .generalfour .onefirst .arrow {
+  color: #000;
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  bottom: 5px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.six .general .generalfour .onefirst .card {
+  position: relative;
+}
+.six .general .generalfour .onesecond {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 0 5px 5px;
+  margin-top: 30px;
+}
+.six .general .generalfour .onesecond img {
+  border-radius: 5px;
+  width: 260px;
+  height: 260px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.six .general .generalfour .onesecond .info {
+  margin-left: 20px;
+}
+.six .general .generalfour .onesecond .info i {
+  margin-top: 30px;
+}
+.six .general .generalfour .onesecond .info .brend {
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 8px;
+  height: 0;
+}
+.six .general .generalfour .onesecond .info .marka {
+  height: 0;
+  padding-top: 14px;
+  color: #888888;
+}
+.six .general .generalfour .onesecond .info .discount {
+  height: 0;
+  color: #888888;
+  text-decoration: line-through;
+  padding-top: 10px;
+}
+.six .general .generalfour .onesecond .info .count {
+  font-size: 21px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.six .general .generalfour .onesecond .heart {
+  color: #000;
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  bottom: 5px;
+  right: 70px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.six .general .generalfour .onesecond .arrow {
+  color: #000;
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  bottom: 5px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.six .general .generalfour .onesecond .card {
+  position: relative;
+}
+.six .general .card:hover {
+  box-shadow: 0px 2px 7px 2px #888888;
+  margin-bottom: 10px;
+}
+.six .general .card:hover .heart {
+  display: inline !important;
+}
+.six .general .card:hover .arrow {
+  display: inline !important;
+}
+
+.seven {
+  position: relative;
+}
+.seven .photo {
+  width: 1450px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.seven h2 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.seven .generalph img {
+  width: 460px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 510px;
+  border-radius: 23px;
+}
+.seven .generalph .secondph {
+  width: 460px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 510px;
+  border-radius: 23px;
+  margin-left: 18px;
+}
+.seven .cards {
+  display: flex;
+}
+.seven .cards .card {
+  position: relative;
+  width: 260px !important;
+  margin-right: 40px;
+}
+.seven .cards .card img {
+  border-radius: 5px;
+  width: 260px;
+  height: 260px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.seven .cards .card .info {
+  margin-left: 20px;
+}
+.seven .cards .card .info i {
+  margin-top: 30px;
+}
+.seven .cards .card .info .brend {
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 8px;
+  height: 0;
+}
+.seven .cards .card .info .marka {
+  height: 0;
+  padding-top: 14px;
+  color: #888888;
+}
+.seven .cards .card .info .discount {
+  height: 0;
+  color: #888888;
+  text-decoration: line-through;
+  padding-top: 10px;
+}
+.seven .cards .card .info .count {
+  font-size: 21px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.seven .cards .card .heart {
+  color: #000;
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  bottom: 5px;
+  right: 70px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.seven .cards .card .arrow {
+  color: #000;
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  bottom: 5px;
+  right: 12px;
+  width: 50px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.seven .cards .slick-dots {
+  display: none !important;
+}
+.seven .cards .licons {
+  background-color: white;
+  margin-top: 48px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0px 2px 7px 5px #888888;
+  position: absolute;
+  z-index: 1;
+  padding-top: 7px;
+  padding-left: 15px;
+  left: -20px;
+}
+.seven .cards .licons .slick-arrow {
+  font-size: 20px;
+}
+.seven .cards .ricons {
+  background-color: white;
+  margin-top: 48px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0px 2px 7px 5px #888888;
+  position: absolute;
+  right: -20px;
+  padding-top: 7px;
+  padding-left: 15px;
+}
+.seven .cards .ricons .slick-arrow {
+  font-size: 20px;
+}
+.seven .cards .card:hover {
+  box-shadow: 0px 2px 7px 2px #888888;
+  margin-bottom: 10px;
+}
+.seven .cards .card:hover .heart {
+  display: inline !important;
+}
+.seven .cards .card:hover .arrow {
+  display: inline !important;
+}
+
+.eight .area {
+  width: 1450px;
+  background-color: whitesmoke;
+  justify-content: space-between;
+  margin-top: 60px;
+  border-radius: 10px;
+}
+.eight .area .app {
+  font-weight: bold;
+  font-size: 28px;
+  height: 0;
+  padding-left: 100px;
+  padding-top: 110px;
+}
+.eight .area .share {
+  font-size: 50px;
+  height: 0;
+  padding-left: 100px;
+  padding-top: 45px;
+}
+.eight .area .share span {
+  font-weight: bold;
+}
+.eight .area .end {
+  font-size: 50px;
+  padding-left: 100px;
+  padding-top: 45px;
+}
+.eight .area .end span {
+  font-weight: bold;
+}
+.eight .area .ph {
+  margin-top: 70px;
+}
+.eight .area .ph .ph1 {
+  border-radius: 7px;
+  margin-left: 100px;
+}
+.eight .area .ph .ph2 {
+  border-radius: 7px;
+  margin-left: 20px;
+}
+.eight .area .phone img {
+  margin-top: 60px;
+  margin-right: 100px;
+}
+.eight h2 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.eight .carousel .allone {
+  width: 434px;
+  height: 345px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+.eight .carousel .allone .general {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.eight .carousel .allone .general .genfir {
+  display: flex;
+}
+.eight .carousel .allone .general .genfir img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.eight .carousel .allone .general .genfir .gensec {
+  margin-left: 20px;
+}
+.eight .carousel .allone .general .genfir .gensec .name {
+  font-weight: 700;
+  font-size: 28px;
+  height: 0;
+}
+.eight .carousel .allone .general .genfir .gensec .from {
+  font-size: 17px;
+  color: #888888;
+  padding-top: 30px;
+}
+.eight .carousel .allone .general .genthi {
+  display: flex;
+  margin-right: 30px;
+}
+.eight .carousel .allone .general .genthi i {
+  padding-top: 30px;
+  padding-right: 7px;
+}
+.eight .carousel .allone .general .genthi p {
+  padding-top: 27px;
+  font-weight: 500;
+}
+.eight .carousel .allone .lorem {
+  padding-top: 30px;
+  padding-left: 30px;
+  width: 385px;
+}
+.eight .carousel .allone .comma {
+  color: rgb(229, 229, 229);
+  font-size: 45px;
+  padding-left: 340px;
+  bottom: 30px;
 }/*# sourceMappingURL=main.css.map */
