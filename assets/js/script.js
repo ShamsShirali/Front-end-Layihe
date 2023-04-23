@@ -242,3 +242,28 @@ $('.three .select ul li').each(function () {
     }
   })
 })
+
+$(function(){
+  $('.three .select ul li').click(function(){
+    if($('.three .general .change').attr("data-id")==1){
+      $('.active').removeClass('.active');
+      $(this).removeClass(".d-none");
+      $(this).addClass('.active');
+    }
+    if($('.three .general div').attr("data-id")==2){
+      $('.active').removeClass('.active');
+      $(this).removeClass(".d-none");
+      $(this).addClass('.active');
+    }
+    if($('.three .general div').attr("data-id")==3){
+      $('.active').removeClassr('.active');
+      $(this).removeClass(".d-none");
+      $(this).addClass('.active');
+    }
+    if($('.three .general div').attr("data-id")==4){
+      $('.active').removeClass('.active');
+      $(this).removeClass(".d-none");
+      $(this).addClass('.active');
+    }
+  })
+})
