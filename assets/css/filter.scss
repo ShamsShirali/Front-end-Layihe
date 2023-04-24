@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1450px;
+    margin: auto;
+}
+
+.one {
+
+    .generalone {
+
+        .first {
+
+            .secone {
+
+                .home {
+                    color: #525252;
+
+                    span {
+                        color: #000;
+                        font-weight: 500;
+                    }
+                }
+
+                .filtr {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .filt {
+                        font-size: 28px;
+                        font-weight: 500;
+                    }
+
+                    .clear {
+                        font-size: 13px;
+                        color: #525252;
+                        padding-top: 15px;
+                    }
+                }
+
+                .categ {
+                    color: #000;
+                    font-weight: 500;
+                }
+            }
+
+            .sectwo {
+
+                .select {
+                    display: flex;
+                    flex-direction: column;
+
+                    .ckec {
+                        margin-top: 5px;
+
+                        input {
+                            size: 40px;
+                        }
+
+                        label {
+                            padding-left: 5px;
+                        }
+                    }
+                }
+
+                hr {
+                    margin-top: 30px;
+                }
+            }
+
+            .secthi {
+
+                .brand {
+                    color: #000;
+                    font-weight: 500;
+                }
+
+                .select {
+                    display: flex;
+                    flex-direction: column;
+
+                    .ckec {
+                        margin-top: 5px;
+
+                        input {
+                            size: 40px;
+                        }
+
+                        label {
+                            padding-left: 5px;
+                        }
+                    }
+                }
+
+                hr {
+                    margin-top: 30px;
+                }
+            }
+
+            .secfou {
+
+                .price {
+                    color: #000;
+                    font-weight: 500;
+                }
+
+                .select {
+                    display: flex;
+                    flex-direction: column;
+
+                    .ckec {
+                        margin-top: 5px;
+
+                        input {
+                            size: 40px;
+                        }
+
+                        label {
+                            padding-left: 5px;
+                        }
+                    }
+                }
+
+                hr {
+                    margin-top: 30px;
+                }
+            }
+
+            .secfiv {
+
+                .colors {
+                    color: #000;
+                    font-weight: 500;
+                }
+
+                .select {
+                    display: flex;
+                    flex-direction: column;
+
+                    .ckec1 {
+                        margin-top: 5px;
+
+                        input {
+                            size: 40px;
+                        }
+
+                        .colour {
+                            background-color: #000;
+                            border-radius: 50%;
+                            width: 20px;
+                            height: 20px;
+                            margin-left: 10px;
+                        }
+
+                        label {
+                            padding-left: 10px;
+                        }
+                    }
+
+                    .ckec2 {
+                        margin-top: 5px;
+
+                        input {
+                            size: 40px;
+                        }
+
+                        .colour {
+                            background-color: blue;
+                            border-radius: 50%;
+                            width: 20px;
+                            height: 20px;
+                            margin-left: 10px;
+                        }
+
+                        label {
+                            padding-left: 10px;
+                        }
+                    }
+
+                    .ckec3 {
+                        margin-top: 5px;
+
+                        input {
+                            size: 40px;
+                        }
+
+                        .colour {
+                            background-color: green;
+                            border-radius: 50%;
+                            width: 20px;
+                            height: 20px;
+                            margin-left: 10px;
+                        }
+
+                        label {
+                            padding-left: 10px;
+                        }
+                    }
+
+                    .ckec4 {
+                        margin-top: 5px;
+
+                        input {
+                            size: 40px;
+                        }
+
+                        .colour {
+                            background-color: rgb(113, 17, 17);
+                            border-radius: 50%;
+                            width: 20px;
+                            height: 20px;
+                            margin-left: 10px;
+                        }
+
+                        label {
+                            padding-left: 10px;
+                        }
+                    }
+
+                    .ckec5 {
+                        margin-top: 5px;
+
+                        input {
+                            size: 40px;
+                        }
+
+                        .colour {
+                            background-color: rgb(42, 2, 2);
+                            border-radius: 50%;
+                            width: 20px;
+                            height: 20px;
+                            margin-left: 10px;
+                            border: 1px solid #515151;
+                        }
+
+                        label {
+                            padding-left: 10px;
+                        }
+                    }
+
+                    .ckec6 {
+                        margin-top: 5px;
+
+                        input {
+                            size: 40px;
+                        }
+
+                        .colour {
+                            background-color: white;
+                            border-radius: 50%;
+                            width: 20px;
+                            height: 20px;
+                            margin-left: 10px;
+                            border: 1px solid #515151;
+                        }
+
+                        label {
+                            padding-left: 10px;
+                        }
+                    }
+
+                    .ckec7 {
+                        margin-top: 5px;
+
+                        input {
+                            size: 40px;
+                        }
+
+                        .colour {
+                            background-color: rgb(167, 167, 167);
+                            border-radius: 50%;
+                            width: 20px;
+                            height: 20px;
+                            margin-left: 10px;
+                            border: 1px solid #515151;
+                        }
+
+                        label {
+                            padding-left: 10px;
+                        }
+                    }
+                }
+
+                hr {
+                    margin-top: 30px;
+                }
+            }
+        }
+
+        .second {
+
+            .secone {
+                justify-content: space-between;
+                margin-left: 40px;
+
+                .casual {
+                    font-size: 28px;
+                    font-weight: 700;
+                }
+
+                .item {
+                    font-size: 17px;
+                    color: #525252;
+                    padding-top: 15px;
+                    padding-left: 460px;
+                }
+
+                .selec {
+                    padding-top: 10px;
+
+                    button {
+                        border-color: rgb(218, 218, 218);
+                        width: 180px;
+                        height: 30px;
+                    }
+
+                    .sort {
+                        margin-bottom: 10px;
+
+                        p {
+                            height: 0;
+                            font-size: 16px;
+                            font-weight: 600;
+                        }
+
+
+                        .icon {
+                            position: relative;
+                            margin-left: 33px;
+                            margin-bottom: 10px;
+
+                            .uicon {
+                                position: absolute;
+                                color: rgb(178, 178, 178);
+                                font-size: 12px;
+                            }
+
+                            .dicon {
+                                position: absolute;
+                                padding-top: 10px;
+                                color: rgb(178, 178, 178);
+                                font-size: 12px;
+                            }
+                        }
+                    }
+
+                }
+            }
+
+            .sectwo{
+
+                .cards {
+                    display: flex;
+                    justify-content: space-between;
+            
+                    .card {
+                        position: relative;
+                        width: 180px;
+            
+                        img {
+                            border-radius: 5px;
+                            width: 180px !important;
+                            height: 231px;
+                            object-fit: contain;
+                        }
+            
+                        .info {
+                            margin-left: 20px;
+                            width: 260px;
+            
+                            i {
+                                margin-top: 30px;
+                            }
+            
+                            .brend {
+                                font-weight: 500;
+                                font-size: 17px;
+                                margin-top: 8px;
+                                height: 0;
+                            }
+            
+                            .marka {
+                                height: 0;
+                                padding-top: 14px;
+                                color: #888888;
+                            }
+            
+                            .discount {
+                                height: 0;
+                                color: #888888;
+                                text-decoration: line-through;
+                                padding-top: 10px;
+                            }
+            
+                            .count {
+                                font-size: 21px;
+                                font-weight: 600;
+                                padding-top: 10px;
+                            }
+                        }
+                    }
+            
+                    .card:hover {
+                        box-shadow: 0px 2px 7px 2px #888888;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

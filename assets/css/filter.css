@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1450px;
+  margin: auto;
+}
+
+.one .generalone .first .secone .home {
+  color: #525252;
+}
+.one .generalone .first .secone .home span {
+  color: #000;
+  font-weight: 500;
+}
+.one .generalone .first .secone .filtr {
+  display: flex;
+  justify-content: space-between;
+}
+.one .generalone .first .secone .filtr .filt {
+  font-size: 28px;
+  font-weight: 500;
+}
+.one .generalone .first .secone .filtr .clear {
+  font-size: 13px;
+  color: #525252;
+  padding-top: 15px;
+}
+.one .generalone .first .secone .categ {
+  color: #000;
+  font-weight: 500;
+}
+.one .generalone .first .sectwo .select {
+  display: flex;
+  flex-direction: column;
+}
+.one .generalone .first .sectwo .select .ckec {
+  margin-top: 5px;
+}
+.one .generalone .first .sectwo .select .ckec input {
+  size: 40px;
+}
+.one .generalone .first .sectwo .select .ckec label {
+  padding-left: 5px;
+}
+.one .generalone .first .sectwo hr {
+  margin-top: 30px;
+}
+.one .generalone .first .secthi .brand {
+  color: #000;
+  font-weight: 500;
+}
+.one .generalone .first .secthi .select {
+  display: flex;
+  flex-direction: column;
+}
+.one .generalone .first .secthi .select .ckec {
+  margin-top: 5px;
+}
+.one .generalone .first .secthi .select .ckec input {
+  size: 40px;
+}
+.one .generalone .first .secthi .select .ckec label {
+  padding-left: 5px;
+}
+.one .generalone .first .secthi hr {
+  margin-top: 30px;
+}
+.one .generalone .first .secfou .price {
+  color: #000;
+  font-weight: 500;
+}
+.one .generalone .first .secfou .select {
+  display: flex;
+  flex-direction: column;
+}
+.one .generalone .first .secfou .select .ckec {
+  margin-top: 5px;
+}
+.one .generalone .first .secfou .select .ckec input {
+  size: 40px;
+}
+.one .generalone .first .secfou .select .ckec label {
+  padding-left: 5px;
+}
+.one .generalone .first .secfou hr {
+  margin-top: 30px;
+}
+.one .generalone .first .secfiv .colors {
+  color: #000;
+  font-weight: 500;
+}
+.one .generalone .first .secfiv .select {
+  display: flex;
+  flex-direction: column;
+}
+.one .generalone .first .secfiv .select .ckec1 {
+  margin-top: 5px;
+}
+.one .generalone .first .secfiv .select .ckec1 input {
+  size: 40px;
+}
+.one .generalone .first .secfiv .select .ckec1 .colour {
+  background-color: #000;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+.one .generalone .first .secfiv .select .ckec1 label {
+  padding-left: 10px;
+}
+.one .generalone .first .secfiv .select .ckec2 {
+  margin-top: 5px;
+}
+.one .generalone .first .secfiv .select .ckec2 input {
+  size: 40px;
+}
+.one .generalone .first .secfiv .select .ckec2 .colour {
+  background-color: blue;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+.one .generalone .first .secfiv .select .ckec2 label {
+  padding-left: 10px;
+}
+.one .generalone .first .secfiv .select .ckec3 {
+  margin-top: 5px;
+}
+.one .generalone .first .secfiv .select .ckec3 input {
+  size: 40px;
+}
+.one .generalone .first .secfiv .select .ckec3 .colour {
+  background-color: green;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+.one .generalone .first .secfiv .select .ckec3 label {
+  padding-left: 10px;
+}
+.one .generalone .first .secfiv .select .ckec4 {
+  margin-top: 5px;
+}
+.one .generalone .first .secfiv .select .ckec4 input {
+  size: 40px;
+}
+.one .generalone .first .secfiv .select .ckec4 .colour {
+  background-color: rgb(113, 17, 17);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+.one .generalone .first .secfiv .select .ckec4 label {
+  padding-left: 10px;
+}
+.one .generalone .first .secfiv .select .ckec5 {
+  margin-top: 5px;
+}
+.one .generalone .first .secfiv .select .ckec5 input {
+  size: 40px;
+}
+.one .generalone .first .secfiv .select .ckec5 .colour {
+  background-color: rgb(42, 2, 2);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  border: 1px solid #515151;
+}
+.one .generalone .first .secfiv .select .ckec5 label {
+  padding-left: 10px;
+}
+.one .generalone .first .secfiv .select .ckec6 {
+  margin-top: 5px;
+}
+.one .generalone .first .secfiv .select .ckec6 input {
+  size: 40px;
+}
+.one .generalone .first .secfiv .select .ckec6 .colour {
+  background-color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  border: 1px solid #515151;
+}
+.one .generalone .first .secfiv .select .ckec6 label {
+  padding-left: 10px;
+}
+.one .generalone .first .secfiv .select .ckec7 {
+  margin-top: 5px;
+}
+.one .generalone .first .secfiv .select .ckec7 input {
+  size: 40px;
+}
+.one .generalone .first .secfiv .select .ckec7 .colour {
+  background-color: rgb(167, 167, 167);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  border: 1px solid #515151;
+}
+.one .generalone .first .secfiv .select .ckec7 label {
+  padding-left: 10px;
+}
+.one .generalone .first .secfiv hr {
+  margin-top: 30px;
+}
+.one .generalone .second .secone {
+  justify-content: space-between;
+  margin-left: 40px;
+}
+.one .generalone .second .secone .casual {
+  font-size: 28px;
+  font-weight: 700;
+}
+.one .generalone .second .secone .item {
+  font-size: 17px;
+  color: #525252;
+  padding-top: 15px;
+  padding-left: 460px;
+}
+.one .generalone .second .secone .selec {
+  padding-top: 10px;
+}
+.one .generalone .second .secone .selec button {
+  border-color: rgb(218, 218, 218);
+  width: 180px;
+  height: 30px;
+}
+.one .generalone .second .secone .selec .sort {
+  margin-bottom: 10px;
+}
+.one .generalone .second .secone .selec .sort p {
+  height: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+.one .generalone .second .secone .selec .sort .icon {
+  position: relative;
+  margin-left: 33px;
+  margin-bottom: 10px;
+}
+.one .generalone .second .secone .selec .sort .icon .uicon {
+  position: absolute;
+  color: rgb(178, 178, 178);
+  font-size: 12px;
+}
+.one .generalone .second .secone .selec .sort .icon .dicon {
+  position: absolute;
+  padding-top: 10px;
+  color: rgb(178, 178, 178);
+  font-size: 12px;
+}
+.one .generalone .second .sectwo .cards {
+  display: flex;
+  justify-content: space-between;
+}
+.one .generalone .second .sectwo .cards .card {
+  position: relative;
+  width: 180px;
+}
+.one .generalone .second .sectwo .cards .card img {
+  border-radius: 5px;
+  width: 180px !important;
+  height: 231px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.one .generalone .second .sectwo .cards .card .info {
+  margin-left: 20px;
+  width: 260px;
+}
+.one .generalone .second .sectwo .cards .card .info i {
+  margin-top: 30px;
+}
+.one .generalone .second .sectwo .cards .card .info .brend {
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 8px;
+  height: 0;
+}
+.one .generalone .second .sectwo .cards .card .info .marka {
+  height: 0;
+  padding-top: 14px;
+  color: #888888;
+}
+.one .generalone .second .sectwo .cards .card .info .discount {
+  height: 0;
+  color: #888888;
+  text-decoration: line-through;
+  padding-top: 10px;
+}
+.one .generalone .second .sectwo .cards .card .info .count {
+  font-size: 21px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.one .generalone .second .sectwo .cards .card:hover {
+  box-shadow: 0px 2px 7px 2px #888888;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=filter.css.map */
