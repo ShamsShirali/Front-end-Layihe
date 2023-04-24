@@ -31,7 +31,7 @@
   font-size: 17px;
   padding-left: 23px;
 }
-.nfirst ul .deals i {
+.nfirst ul .deals a i {
   font-size: 20px;
 }
 .nfirst ul .other {
@@ -1382,7 +1382,7 @@ hr {
   margin-top: 60px;
   --tw-bg-opacity: 1;
   background-color: rgb(0 71 67/var(--tw-bg-opacity));
-  width: 1450px;
+  width: 1430px;
   height: 300px;
   border-radius: 12px;
   position: relative;
@@ -1451,7 +1451,6 @@ hr {
   height: 470px;
   width: 326px;
   position: relative;
-  margin: auto;
   overflow: hidden;
 }
 .five .product .bag .upinfo .feature {
@@ -1499,7 +1498,6 @@ hr {
   height: 470px;
   width: 326px;
   position: relative;
-  margin: auto;
   overflow: hidden;
 }
 .five .product .cap .upinfo .feature {
@@ -1547,7 +1545,6 @@ hr {
   height: 470px;
   width: 326px;
   position: relative;
-  margin: auto;
   overflow: hidden;
 }
 .five .product .vt .upinfo .feature {
@@ -1593,7 +1590,7 @@ hr {
   transform: scale(1.1);
 }
 .five .placat {
-  width: 1450px;
+  width: 1430px;
   margin-top: 60px;
   -o-object-fit: contain;
      object-fit: contain;
@@ -2237,7 +2234,7 @@ hr {
   position: relative;
 }
 .seven .photo {
-  width: 1450px;
+  width: 1430px;
   -o-object-fit: contain;
      object-fit: contain;
   margin-top: 60px;
@@ -2248,14 +2245,28 @@ hr {
   padding-bottom: 20px;
   font-weight: bold;
 }
-.seven .generalph img {
+.seven .generalph {
+  display: flex;
+}
+.seven .generalph .generalph1 {
+  position: relative;
+  overflow: hidden;
+}
+.seven .generalph .generalph1:hover img {
+  opacity: 0.9;
+}
+.seven .generalph .generalph1:hover .view p {
+  opacity: 1;
+  bottom: 0;
+}
+.seven .generalph .generalph1 img {
   width: 460px;
   -o-object-fit: contain;
      object-fit: contain;
   height: 510px;
   border-radius: 23px;
 }
-.seven .generalph .secondph {
+.seven .generalph .generalph1 .secondph {
   width: 460px;
   -o-object-fit: contain;
      object-fit: contain;
@@ -2263,23 +2274,43 @@ hr {
   border-radius: 23px;
   margin-left: 18px;
 }
+.seven .generalph .generalph1 .view p {
+  opacity: 1;
+  background-color: rgb(29, 29, 29);
+  color: white;
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  bottom: -60px;
+  right: 12px;
+  margin: 0;
+  border-radius: 5px 0 5px 0;
+  padding-left: 45px;
+  padding-top: 19px;
+  transition: all 0.5s;
+}
+.seven .generalph .generalph1 .view:hover p {
+  background-color: white;
+  color: #000;
+}
 .seven .cards {
   display: flex;
+  justify-content: space-between;
 }
 .seven .cards .card {
   position: relative;
-  width: 260px !important;
-  margin-right: 40px;
+  width: 260px;
 }
 .seven .cards .card img {
   border-radius: 5px;
-  width: 260px;
+  width: 260px !important;
   height: 260px;
   -o-object-fit: contain;
      object-fit: contain;
 }
 .seven .cards .card .info {
   margin-left: 20px;
+  width: 260px;
 }
 .seven .cards .card .info i {
   margin-top: 30px;
@@ -2382,7 +2413,7 @@ hr {
 }
 
 .eight .area {
-  width: 1450px;
+  width: 1430px;
   background-color: whitesmoke;
   justify-content: space-between;
   margin-top: 60px;
@@ -2419,9 +2450,15 @@ hr {
   border-radius: 7px;
   margin-left: 100px;
 }
+.eight .area .ph .ph1:hover {
+  opacity: 0.8;
+}
 .eight .area .ph .ph2 {
   border-radius: 7px;
   margin-left: 20px;
+}
+.eight .area .ph .ph2:hover {
+  opacity: 0.8;
 }
 .eight .area .phone img {
   margin-top: 60px;
@@ -2433,10 +2470,11 @@ hr {
   font-weight: bold;
 }
 .eight .carousel .allone {
-  width: 434px;
-  height: 345px;
+  width: 440px;
+  height: 375px;
   background-color: whitesmoke;
   border-radius: 10px;
+  margin-left: 20px;
 }
 .eight .carousel .allone .general {
   display: flex;
@@ -2482,11 +2520,283 @@ hr {
 .eight .carousel .allone .lorem {
   padding-top: 30px;
   padding-left: 30px;
-  width: 385px;
+  width: 375px;
 }
 .eight .carousel .allone .comma {
   color: rgb(229, 229, 229);
   font-size: 45px;
-  padding-left: 340px;
-  bottom: 30px;
+  padding-left: 390px;
+  bottom: 20px;
+}
+.eight .carousel .all {
+  width: 440px;
+  height: 375px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+.eight .carousel .all .general {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.eight .carousel .all .general .genfir {
+  display: flex;
+}
+.eight .carousel .all .general .genfir img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.eight .carousel .all .general .genfir .gensec {
+  margin-left: 20px;
+}
+.eight .carousel .all .general .genfir .gensec .name {
+  font-weight: 700;
+  font-size: 28px;
+  height: 0;
+}
+.eight .carousel .all .general .genfir .gensec .from {
+  font-size: 17px;
+  color: #888888;
+  padding-top: 30px;
+}
+.eight .carousel .all .general .genthi {
+  display: flex;
+  margin-right: 30px;
+}
+.eight .carousel .all .general .genthi i {
+  padding-top: 30px;
+  padding-right: 7px;
+}
+.eight .carousel .all .general .genthi p {
+  padding-top: 27px;
+  font-weight: 500;
+}
+.eight .carousel .all .lorem {
+  padding-top: 30px;
+  padding-left: 30px;
+  width: 375px;
+}
+.eight .carousel .all .comma {
+  color: rgb(229, 229, 229);
+  font-size: 45px;
+  padding-left: 390px !important;
+  bottom: 20px;
+}
+.eight .carousel .slick-dots {
+  display: none !important;
+}
+.eight .carousel .slick-prev {
+  display: none !important;
+}
+.eight .carousel .slick-next {
+  display: none !important;
+}
+.eight .line {
+  width: 1450px;
+  height: 7px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  margin: 60px 0;
+}
+.eight .line .underline {
+  background-color: #000;
+  border-radius: 10px;
+  width: 200px;
+  height: 7px;
+}
+
+.nine .photo {
+  justify-content: space-between;
+}
+.nine .photo .insta {
+  overflow: hidden;
+  position: relative;
+  border-radius: 7px;
+}
+.nine .photo .insta:hover::before {
+  background-color: #000;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+}
+.nine .photo .insta:hover .icon i {
+  transform: scale(0.5, 0.5);
+  opacity: 1;
+  font-size: 130px;
+  bottom: 100%;
+  right: 100%;
+}
+.nine .photo .insta img {
+  width: 230px;
+  height: 230px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 7px;
+}
+.nine .photo .insta .icon i {
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  bottom: 50%;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s;
+  font-size: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+footer .generalone {
+  justify-content: space-between;
+}
+footer .generalone .write h2 {
+  height: 0;
+  padding-top: 70px;
+  padding-bottom: 45px;
+  font-weight: bold;
+}
+footer .generalone .but input {
+  width: 410px;
+  height: 56px;
+  border: 1px solid #E6E6E6;
+  border-radius: 7px;
+  padding-left: 30px;
+  padding-bottom: 5px;
+  margin-top: 85px;
+}
+footer .generalone .but button {
+  width: 130px;
+  height: 56px;
+  background-color: #000;
+  color: white;
+  border-radius: 7px;
+}
+footer .generalone .but button:hover {
+  opacity: 0.9;
+}
+footer hr {
+  margin: 60px 0;
+}
+footer .generaltwo .web p {
+  padding-top: 20px;
+}
+footer .generaltwo .web .icons i {
+  color: #888888;
+}
+footer .generaltwo .web .icons .icon {
+  padding-left: 18px;
+}
+footer .generaltwo .social h2 {
+  font-size: 19px;
+  padding-top: 5px;
+}
+footer .generaltwo .social i {
+  color: #888888;
+  padding-top: 12px;
+}
+footer .generaltwo .social span {
+  color: #888888;
+  padding-top: 5px;
+  padding-left: 7px;
+}
+footer .generaltwo .contact h2 {
+  font-size: 19px;
+  padding-top: 5px;
+}
+footer .generaltwo .contact p {
+  color: #888888;
+  height: 0;
+  padding-top: 7px;
+}
+footer .generaltwo .contact .info {
+  color: #888888;
+  height: 0;
+  padding-top: 16px;
+}
+footer .generaltwo .about h2 {
+  font-size: 19px;
+  padding-top: 5px;
+}
+footer .generaltwo .about p {
+  color: #888888;
+  height: 0;
+  padding-top: 7px;
+}
+footer .generaltwo .about .info {
+  color: #888888;
+  height: 0;
+  padding-top: 16px;
+}
+footer .generaltwo .customer h2 {
+  font-size: 19px;
+  padding-top: 5px;
+}
+footer .generaltwo .customer p {
+  color: #888888;
+  height: 0;
+  padding-top: 7px;
+}
+footer .generaltwo .customer .info {
+  color: #888888;
+  height: 0;
+  padding-top: 16px;
+}
+footer .generaltwo .information h2 {
+  font-size: 19px;
+  padding-top: 5px;
+}
+footer .generaltwo .information p {
+  color: #888888;
+  height: 0;
+  padding-top: 7px;
+}
+footer .generaltwo .information .info {
+  color: #888888;
+  height: 0;
+  padding-top: 16px;
+}
+footer .hr2 {
+  margin: 70px 0 25px 0;
+}
+footer .genfoo {
+  display: flex;
+  justify-content: space-between;
+}
+footer .genfoo .inf p {
+  color: #888888;
+}
+footer .genfoo .inf p span {
+  color: #000;
+  font-weight: bold;
+}
+footer .genfoo .mark {
+  display: flex;
+  background-color: white;
+  margin-right: 30px;
+}
+footer .genfoo .mark img {
+  margin-right: 25px;
+}
+footer .genfoo .scroll a {
+  text-decoration: none;
+}
+footer .genfoo .scroll a p {
+  border: none;
+  background-color: white;
+  color: #888888;
+}
+footer .genfoo .scroll a p i {
+  color: #888888;
 }/*# sourceMappingURL=main.css.map */

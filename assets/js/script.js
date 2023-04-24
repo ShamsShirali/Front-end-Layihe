@@ -138,8 +138,8 @@ $(function () {
     autoplaySpeed: 3000,
   });
 
-  $('.slick_slide').slick({
-    slidesToShow: 3.5,
+  $('.two .slick_slide').slick({
+    slidesToShow: 4,
     slidesToScroll: 1,
     dots: true,
     autoplay: true,
@@ -380,13 +380,12 @@ apar.forEach(index => {
 });
 
 $(function(){
-  $('.slick_slide').slick({
-    slidesToShow: 5,
+  $('.eight .slick_slide').slick({
+    slidesToShow: 3,
     slidesToScroll: 1,
     dots: true,
+    infinite: true,
     autoplay: true,
-    autoplaySpeed: 1500,
-    prevArrow: `<div class="licons"><i class="fa-solid fa-chevron-left"></i></div>`,
-    nextArrow: `<div class="ricons"><i class="fa-solid fa-chevron-right"></i></div>`
+    autoplaySpeed: 1500
   });
 })
