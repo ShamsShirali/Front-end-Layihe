@@ -72,28 +72,33 @@
 }
 .two .tabcontent span {
   text-decoration: underline;
+  font-weight: 600;
 }
 .two .tabcontent #fir,
 .two .tabcontent #last {
   border-color: #939393;
-  width: 420px;
+  width: 390px;
   height: 48px;
   border-radius: 7px;
   margin-top: 10px;
+}
+.two .tabcontent #fir {
+  margin-left: 40px;
 }
 .two .tabcontent .fr {
   font-weight: 600;
 }
 .two .tabcontent .ls {
   font-weight: 600;
-  padding-left: 330px;
+  padding-left: 270px;
 }
 .two .tabcontent #dis {
-  width: 854px;
+  width: 824px;
   height: 48px;
   border-color: #939393;
   border-radius: 7px;
   margin-top: 10px;
+  margin-left: 40px;
 }
 .two .tabcontent .ds {
   font-weight: 600;
@@ -102,18 +107,22 @@
 .two .tabcontent #pho,
 .two .tabcontent #email {
   border-color: #939393;
-  width: 420px;
+  width: 390px;
   height: 48px;
   border-radius: 7px;
   margin-top: 10px;
 }
+.two .tabcontent #pho {
+  margin-left: 40px;
+}
 .two .tabcontent .ph {
   font-weight: 600;
   padding-top: 15px;
+  padding-left: 40px;
 }
 .two .tabcontent .eml {
   font-weight: 600;
-  padding-left: 330px;
+  padding-left: 290px;
   padding-top: 15px;
 }
 .two .tabcontent .gender {
@@ -174,13 +183,24 @@
   position: absolute;
   padding-top: 25px;
 }
+.two .tabcontent .chn {
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  width: 160px;
+  height: 40px;
+  margin-top: 30px;
+}
+.two .tabcontent .chn:hover {
+  opacity: 0.6;
+}
 .two thead {
   background-color: #ddd;
 }
 .two tbody td {
   color: #939393;
 }
-.two tbody td button {
+.two tbody td .chn {
   border-radius: 7px;
   background-color: black;
   color: white;
@@ -188,6 +208,6 @@
   height: 40px;
   border: none;
 }
-.two tbody td button:hover {
+.two tbody td .chn:hover {
   opacity: 0.7;
 }/*# sourceMappingURL=account.css.map */

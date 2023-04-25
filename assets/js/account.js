@@ -16,3 +16,30 @@ function openCity(evt, cityName) {
   
   // Get the element with id="defaultOpen" and click on it
   document.getElementById("defaultOpen").click();
+
+  $(function(){
+
+    $(".tabcontent .genol .closey").click(function(){
+        $(".tabcontent .genol .input").attr("type","text")
+        $(this).next().removeClass("d-none")
+        $(this).addClass("d-none")
+    })
+
+    $(".tabcontent .genol .openey").click(function(){
+        $(".tabcontent .genol .input").attr("type","password")
+        $(this).prev().removeClass("d-none")
+        $(this).addClass("d-none")
+    })
+
+    $(".tabcontent .genne .close").click(function(){
+        $(".tabcontent .genne .input").attr("type","text")
+        $(this).next().removeClass("d-none")
+        $(this).addClass("d-none")
+    })
+
+    $(".tabcontent .genne .open").click(function(){
+        $(".tabcontent .genne .input").attr("type","password")
+        $(this).prev().removeClass("d-none")
+        $(this).addClass("d-none")
+    })
+  })
