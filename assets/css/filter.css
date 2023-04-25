@@ -9,6 +9,9 @@
   margin: auto;
 }
 
+.one .generalone .first .secone {
+  margin-top: 20px;
+}
 .one .generalone .first .secone .home {
   color: #525252;
 }
@@ -216,26 +219,31 @@
   margin-top: 30px;
 }
 .one .generalone .second .secone {
-  justify-content: space-between;
-  margin-left: 40px;
+  display: flex;
 }
 .one .generalone .second .secone .casual {
   font-size: 28px;
   font-weight: 700;
+  padding-top: 60px;
+  width: 300px;
 }
 .one .generalone .second .secone .item {
   font-size: 17px;
   color: #525252;
-  padding-top: 15px;
-  padding-left: 460px;
+  padding-top: 70px;
+  margin-left: 710px;
+  width: 100px;
+  position: absolute;
 }
 .one .generalone .second .secone .selec {
   padding-top: 10px;
+  margin-left: 110px;
+  position: relative;
 }
 .one .generalone .second .secone .selec button {
   border-color: rgb(218, 218, 218);
-  width: 180px;
-  height: 30px;
+  width: 140px;
+  height: 40px;
 }
 .one .generalone .second .secone .selec .sort {
   margin-bottom: 10px;
@@ -244,10 +252,12 @@
   height: 0;
   font-size: 16px;
   font-weight: 600;
+  padding-bottom: 10px;
+  padding-left: 20px;
 }
 .one .generalone .second .secone .selec .sort .icon {
   position: relative;
-  margin-left: 33px;
+  margin-left: 23px;
   margin-bottom: 10px;
 }
 .one .generalone .second .secone .selec .sort .icon .uicon {
@@ -280,7 +290,6 @@
 }
 .one .generalone .second .sectwo .cards .card .info {
   margin-left: 20px;
-  width: 260px;
 }
 .one .generalone .second .sectwo .cards .card .info .brend {
   font-weight: 500;
