@@ -5,7 +5,234 @@
 }
 
 .container {
-    max-width: 1450px;
+    max-width: 1280px;
     margin: auto;
 }
 
+.one {
+    position: relative;
+
+    img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .ex {
+        position: absolute;
+        color: white;
+        top: 230px;
+        left: 700px;
+        font-size: 25px;
+    }
+
+    .acc {
+        position: absolute;
+        color: white;
+        top: 260px;
+        left: 650px;
+        font-size: 35px;
+    }
+}
+
+.two {
+    .tab {
+        float: left;
+        background-color: #f1f1f1;
+        width: 30%;
+        height: 300px;
+        margin-top: 70px;
+    }
+
+    .tab button {
+        display: block;
+        background-color: white;
+        color: black;
+        padding: 22px 16px;
+        width: 100%;
+        border: none;
+        outline: none;
+        text-align: left;
+        cursor: pointer;
+        transition: 0.3s;
+        font-size: 17px;
+        border-radius: 7px;
+
+        i {
+            padding-right: 7px;
+        }
+    }
+
+    .tab button:hover {
+        background-color: #ddd;
+    }
+
+    .tab button.active {
+        background-color: rgb(201, 201, 201);
+    }
+
+    .tabcontent {
+        float: left;
+        padding: 0px 12px;
+        width: 70%;
+        border-left: none;
+        height: 300px;
+        margin-top: 70px;
+
+        span {
+            text-decoration: underline;
+        }
+
+        #fir,
+        #last {
+            border-color: #939393;
+            width: 420px;
+            height: 48px;
+            border-radius: 7px;
+            margin-top: 10px;
+        }
+
+        .fr {
+            font-weight: 600;
+        }
+
+        .ls {
+            font-weight: 600;
+            padding-left: 330px;
+        }
+
+        #dis {
+            width: 854px;
+            height: 48px;
+            border-color: #939393;
+            border-radius: 7px;
+            margin-top: 10px;
+        }
+
+        .ds {
+            font-weight: 600;
+            padding-top: 15px;
+        }
+
+        #pho,
+        #email {
+            border-color: #939393;
+            width: 420px;
+            height: 48px;
+            border-radius: 7px;
+            margin-top: 10px;
+        }
+
+        .ph {
+            font-weight: 600;
+            padding-top: 15px;
+        }
+
+        .eml {
+            font-weight: 600;
+            padding-left: 330px;
+            padding-top: 15px;
+        }
+
+        .gender {
+            font-weight: 600;
+            padding-top: 15px;
+        }
+
+        .ml {
+            font-weight: 600;
+            padding-left: 5px;
+        }
+
+        .fm {
+            font-weight: 600;
+            padding-left: 5px;
+        }
+
+        #fmale {
+            margin-left: 15px;
+        }
+
+        .sav {
+            background-color: black;
+            color: white;
+            border-radius: 7px;
+            width: 90px;
+            height: 40px;
+            margin-top: 30px;
+
+            &:hover {
+                opacity: 0.6;
+            }
+        }
+
+        .oll {
+            font-weight: 600;
+            padding-top: 15px;
+        }
+
+        .genol {
+
+            #old {
+                width: 568px;
+                height: 48px;
+                border-color: #939393;
+                border-radius: 7px;
+                margin-top: 10px;
+                
+            position: relative;
+            }
+
+            .closey {
+                position: absolute;
+                padding-top: 25px;
+            }
+        }
+
+        .ne {
+            font-weight: 600;
+            padding-top: 15px;
+        }
+
+        .genne {
+
+            #new {
+                width: 568px;
+                height: 48px;
+                border-color: #939393;
+                border-radius: 7px;
+                margin-top: 10px;
+                
+            position: relative;
+            }
+
+            .close {
+                position: absolute;
+                padding-top: 25px;
+            }
+        }
+    }
+
+    thead {
+        background-color: #ddd;
+    }
+
+    tbody {
+
+        td {
+            color: #939393;
+
+            button {
+                border-radius: 7px;
+                background-color: black;
+                color: white;
+                width: 70px;
+                height: 40px;
+                border: none;
+
+                &:hover {
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+}
