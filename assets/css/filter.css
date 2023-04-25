@@ -268,6 +268,8 @@
 .one .generalone .second .sectwo .cards .card {
   position: relative;
   width: 180px;
+  border: none;
+  margin-top: 30px;
 }
 .one .generalone .second .sectwo .cards .card img {
   border-radius: 5px;
@@ -280,9 +282,6 @@
   margin-left: 20px;
   width: 260px;
 }
-.one .generalone .second .sectwo .cards .card .info i {
-  margin-top: 30px;
-}
 .one .generalone .second .sectwo .cards .card .info .brend {
   font-weight: 500;
   font-size: 17px;
@@ -294,18 +293,189 @@
   padding-top: 14px;
   color: #888888;
 }
-.one .generalone .second .sectwo .cards .card .info .discount {
+.one .generalone .second .sectwo .cards .card .info .cost .discount {
   height: 0;
   color: #888888;
   text-decoration: line-through;
-  padding-top: 10px;
+  padding-top: 15px;
+  padding-left: 20px;
 }
-.one .generalone .second .sectwo .cards .card .info .count {
+.one .generalone .second .sectwo .cards .card .info .cost .count {
   font-size: 21px;
   font-weight: 600;
   padding-top: 10px;
 }
 .one .generalone .second .sectwo .cards .card:hover {
-  box-shadow: 0px 2px 7px 2px #888888;
-  margin-bottom: 10px;
+  box-shadow: 0px 2px 2px 2px #888888;
+  margin-bottom: 7px !important;
+}
+.one .generalone .second .btn {
+  background-color: #000;
+  border-radius: 10px;
+  color: white;
+  width: 120px;
+  height: 50px;
+  margin-left: 475px;
+  margin-top: 60px;
+}
+
+footer .generalone {
+  justify-content: space-between;
+  width: 1400px;
+  height: 300px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-top: 60px;
+}
+footer .generalone .write {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+footer .generalone .write h2 {
+  height: 0;
+  padding-top: 70px;
+  padding-bottom: 45px;
+  font-weight: bold;
+}
+footer .generalone .but {
+  margin-right: 50px;
+  margin-top: 50px;
+}
+footer .generalone .but input {
+  width: 410px;
+  height: 56px;
+  border: 1px solid #E6E6E6;
+  border-radius: 7px;
+  padding-left: 30px;
+  padding-bottom: 5px;
+  margin-top: 85px;
+}
+footer .generalone .but button {
+  width: 130px;
+  height: 56px;
+  background-color: #000;
+  color: white;
+  border-radius: 7px;
+}
+footer .generalone .but button:hover {
+  opacity: 0.9;
+}
+footer hr {
+  margin: 60px 0;
+}
+footer .generaltwo .social h2 {
+  font-size: 19px;
+  padding-top: 5px;
+}
+footer .generaltwo .social i {
+  color: #888888;
+  padding-top: 12px;
+}
+footer .generaltwo .social span {
+  color: #888888;
+  padding-top: 5px;
+  padding-left: 7px;
+}
+footer .generaltwo .contact h2 {
+  font-size: 19px;
+  padding-top: 5px;
+}
+footer .generaltwo .contact p {
+  color: #888888;
+  height: 0;
+  padding-top: 7px;
+}
+footer .generaltwo .contact .info {
+  color: #888888;
+  height: 0;
+  padding-top: 16px;
+}
+footer .generaltwo .about h2 {
+  font-size: 19px;
+  padding-top: 5px;
+}
+footer .generaltwo .about p {
+  color: #888888;
+  height: 0;
+  padding-top: 7px;
+}
+footer .generaltwo .about .info {
+  color: #888888;
+  height: 0;
+  padding-top: 16px;
+}
+footer .generaltwo .customer h2 {
+  font-size: 19px;
+  padding-top: 5px;
+}
+footer .generaltwo .customer p {
+  color: #888888;
+  height: 0;
+  padding-top: 7px;
+}
+footer .generaltwo .customer .info {
+  color: #888888;
+  height: 0;
+  padding-top: 16px;
+}
+footer .generaltwo .information h2 {
+  font-size: 19px;
+  padding-top: 5px;
+}
+footer .generaltwo .information p {
+  color: #888888;
+  height: 0;
+  padding-top: 7px;
+}
+footer .generaltwo .information .info {
+  color: #888888;
+  height: 0;
+  padding-top: 16px;
+}
+footer .generaltwo .top h2 {
+  font-size: 19px;
+  padding-top: 5px;
+}
+footer .generaltwo .top i {
+  color: #888888;
+  padding-top: 12px;
+}
+footer .generaltwo .top span {
+  color: #888888;
+  padding-top: 5px;
+  padding-left: 7px;
+}
+footer .hr2 {
+  margin: 70px 0 25px 0;
+}
+footer .genfoo {
+  display: flex;
+  justify-content: space-between;
+}
+footer .genfoo .inf p {
+  color: #888888;
+}
+footer .genfoo .inf p span {
+  color: #000;
+  font-weight: bold;
+}
+footer .genfoo .mark {
+  display: flex;
+  background-color: white;
+  margin-right: 30px;
+}
+footer .genfoo .mark img {
+  margin-right: 25px;
+}
+footer .genfoo .scroll a {
+  text-decoration: none;
+}
+footer .genfoo .scroll a p {
+  border: none;
+  background-color: white;
+  color: #888888;
+}
+footer .genfoo .scroll a p i {
+  color: #888888;
 }/*# sourceMappingURL=filter.css.map */

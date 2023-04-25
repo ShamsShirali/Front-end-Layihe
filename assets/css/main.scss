@@ -161,416 +161,424 @@ hr {
 .nsecond {
 
     .generalbutton {
-        display: flex;
 
-        .categor {
-            margin-left: 20px;
-
-            .tbtn {
-                background-color: black;
-                height: 45px;
-                width: 140px;
-                font-size: 15px;
-                font-weight: 600;
-
-                i {
-                    margin-right: 5px;
-                }
-            }
-
-            .list {
-                border: none;
-
-                div {
-                    display: flex;
-                }
-            }
-        }
-
-        .secondl {
+        .all {
             display: flex;
-            align-items: center;
-            padding-left: 8px;
-            margin-top: 3px;
+            align-items: baseline;
 
+            .categor {
+                margin-left: 20px;
 
-
-            .demos {
-                margin-left: 17px;
-
-
-                button {
-                    background-color: white;
-                    color: grey;
-                    border: none;
-                    font-size: 17px;
-                }
-
-                // hr{
-                //     width: 0;
-                //     height: 4px;
-                //     background-color: #000;
-
-                //     top: 34px;
-                //     transition: all 0.5s;
-                //     border: none;
-                // }
-
-                // .demolist:hover ~ hr{
-                //     width: 100px;
-                // }
-
-                .demolist {
-                    background-color: rgb(251, 251, 251);
-                    border: none;
-                    border-radius: 0;
-
-                    li {
-                        padding-left: 20px;
-                    }
-                }
-            }
-
-            .men {
-                margin-left: 5px;
-
-                .show {
-                    display: flex;
-                    align-items: baseline;
+                .tbtn {
+                    background-color: black;
+                    height: 45px;
+                    width: 140px;
+                    font-size: 15px;
+                    font-weight: 600;
 
                     i {
-                        margin-left: 5px;
-                        transform: rotate(180deg);
+                        margin-right: 5px;
                     }
                 }
 
-                button {
-                    background-color: white;
-                    color: grey;
+                .list {
                     border: none;
-                    font-size: 17px;
-                }
 
-                .menlist {
-                    border: none;
-                    border-radius: 0;
-
-
-                    .menlist1 {
-                        background-color: rgb(251, 251, 251);
-
-                        .topicmain1 {
-                            padding-top: 30px;
-                            font-weight: 600;
-                        }
-
-                        .topic1 {
-                            font-weight: 600;
-                        }
-
-                        .topicend1 {
-                            font-weight: 600;
-                            padding-bottom: 30px;
-                        }
-                    }
-
-                    .menlist2 {
-                        background-color: whitesmoke;
-
-                        .topicmain2 {
-                            padding-top: 30px;
-                            font-weight: 600;
-                        }
-
-                        .topic2 {
-                            font-weight: 600;
-                        }
-                    }
-
-                    .menlist3 {
-                        background-color: rgb(251, 251, 251);
-
-                        .topicmain3 {
-                            padding-top: 30px;
-                            font-weight: 600;
-                        }
-
-                        .topic3 {
-                            font-weight: 600;
-                        }
-                    }
-
-                    .menlist4 {
-                        background-color: whitesmoke;
-
-                        .topicmain4 {
-                            padding-top: 30px;
-                            font-weight: 600;
-                        }
-
-                        .topic4 {
-                            font-weight: 600;
-                        }
-                    }
-
-                    .menlist5 {
-                        background-color: rgb(251, 251, 251);
-
-                        .topicmain5 {
-                            padding-top: 30px;
-                            font-weight: 600;
-                        }
-
-                        .topic5 {
-                            font-weight: 600;
-                        }
+                    div {
+                        display: flex;
                     }
                 }
             }
 
-            .women {
-                margin-left: 5px;
+            .gendr {
 
-                .show {
+                .secondl {
                     display: flex;
-                    align-items: baseline;
-
-                    i {
-                        margin-left: 5px;
-                        transform: rotate(180deg);
-                    }
-                }
-
-                button {
-                    background-color: white;
-                    color: grey;
-                    border: none;
-                    font-size: 17px;
-                }
+                    align-items: center;
+                    padding-left: 8px;
+                    margin: 0;
 
 
-                .womenlist {
-                    border: none;
-                    border-radius: 0;
+                    .demos {
+                        margin-left: 17px;
 
-                    .womenlist1 {
-                        background-color: rgb(251, 251, 251);
 
-                        .topicmain1 {
-                            padding-top: 30px;
-                            font-weight: 600;
+                        button {
+                            background-color: white;
+                            color: grey;
+                            border: none;
+                            font-size: 17px;
                         }
 
-                        .topic1 {
-                            font-weight: 600;
-                        }
+                        // hr{
+                        //     width: 0;
+                        //     height: 4px;
+                        //     background-color: #000;
 
-                        .topicend1 {
-                            font-weight: 600;
-                            padding-bottom: 30px;
-                        }
-                    }
+                        //     top: 34px;
+                        //     transition: all 0.5s;
+                        //     border: none;
+                        // }
 
-                    .womenlist2 {
-                        background-color: whitesmoke;
+                        // .demolist:hover ~ hr{
+                        //     width: 100px;
+                        // }
 
-                        .topicmain2 {
-                            padding-top: 30px;
-                            font-weight: 600;
-                        }
-
-                        .topic2 {
-                            font-weight: 600;
-                        }
-                    }
-
-                    .womenlist3 {
-                        background-color: rgb(251, 251, 251);
-
-                        .topicmain3 {
-                            padding-top: 30px;
-                            font-weight: 600;
-                        }
-
-                        .topic3 {
-                            font-weight: 600;
-                        }
-                    }
-
-                    .womenlist4 {
-                        background-color: whitesmoke;
-
-                        .topicmain4 {
-                            padding-top: 30px;
-                            font-weight: 600;
-                        }
-
-                        .topic4 {
-                            font-weight: 600;
-                        }
-                    }
-
-                    .womenlist5 {
-                        background-color: rgb(251, 251, 251);
-
-                        .topicmain5 {
-                            padding-top: 30px;
-                            font-weight: 600;
-                        }
-
-                        .topic5 {
-                            font-weight: 600;
-                        }
-                    }
-                }
-            }
-
-            .originl {
-                display: flex;
-                align-items: center;
-
-                .search {
-                    display: inline;
-                    margin-left: 20px;
-                    font-size: 17px;
-                    color: grey;
-                }
-
-                .shop {
-                    display: inline;
-                    margin-left: 33px;
-                    font-size: 17px;
-                    color: grey;
-                }
-            }
-
-            .page {
-                .navbar-nav {
-                    .nav-link {
-                        color: grey;
-
-                        .nav-link:hover i {
-                            transform: rotate(180deg);
-                        }
-                    }
-
-                    .dropdown-menu {
-                        display: none;
-
-                        .dropdown {
+                        .demolist {
+                            background-color: rgb(251, 251, 251);
+                            border: none;
                             border-radius: 0;
 
-                            .dropend {
+                            li {
+                                padding-left: 20px;
+                            }
+                        }
+                    }
 
-                                .dropdown-toggle {
-                                    color: black;
-                                    margin-left: 1em;
-                                    margin-left: 0.5em;
+                    .men {
+                        margin-left: 5px;
+
+                        .show {
+                            display: flex;
+                            align-items: baseline;
+
+                            i {
+                                margin-left: 5px;
+                                transform: rotate(180deg);
+                            }
+                        }
+
+                        button {
+                            background-color: white;
+                            color: grey;
+                            border: none;
+                            font-size: 17px;
+                        }
+
+                        .menlist {
+                            border: none;
+                            border-radius: 0;
+
+
+                            .menlist1 {
+                                background-color: rgb(251, 251, 251);
+
+                                .topicmain1 {
+                                    padding-top: 30px;
+                                    font-weight: 600;
+                                }
+
+                                .topic1 {
+                                    font-weight: 600;
+                                }
+
+                                .topicend1 {
+                                    font-weight: 600;
+                                    padding-bottom: 30px;
+                                }
+                            }
+
+                            .menlist2 {
+                                background-color: whitesmoke;
+
+                                .topicmain2 {
+                                    padding-top: 30px;
+                                    font-weight: 600;
+                                }
+
+                                .topic2 {
+                                    font-weight: 600;
+                                }
+                            }
+
+                            .menlist3 {
+                                background-color: rgb(251, 251, 251);
+
+                                .topicmain3 {
+                                    padding-top: 30px;
+                                    font-weight: 600;
+                                }
+
+                                .topic3 {
+                                    font-weight: 600;
+                                }
+                            }
+
+                            .menlist4 {
+                                background-color: whitesmoke;
+
+                                .topicmain4 {
+                                    padding-top: 30px;
+                                    font-weight: 600;
+                                }
+
+                                .topic4 {
+                                    font-weight: 600;
+                                }
+                            }
+
+                            .menlist5 {
+                                background-color: rgb(251, 251, 251);
+
+                                .topicmain5 {
+                                    padding-top: 30px;
+                                    font-weight: 600;
+                                }
+
+                                .topic5 {
+                                    font-weight: 600;
                                 }
                             }
                         }
                     }
 
-                    .dropdown-item:hover {
-                        background-color: whitesmoke;
-                        color: black;
-                    }
+                    .women {
+                        margin-left: 5px;
 
-                    .dropdown:hover>.dropdown-menu,
-                    .dropend:hover>.dropdown-menu {
-                        display: block;
-                        margin-top: 0.125em;
-                        margin-left: 0.125em;
-                    }
+                        .show {
+                            display: flex;
+                            align-items: baseline;
 
-                    @media screen and (min-width: 769px) {
-                        .dropend:hover>.dropdown-menu {
-                            position: absolute;
-                            top: 0;
-                            left: 100%;
+                            i {
+                                margin-left: 5px;
+                                transform: rotate(180deg);
+                            }
+                        }
+
+                        button {
+                            background-color: white;
+                            color: grey;
+                            border: none;
+                            font-size: 17px;
                         }
 
 
+                        .womenlist {
+                            border: none;
+                            border-radius: 0;
+
+                            .womenlist1 {
+                                background-color: rgb(251, 251, 251);
+
+                                .topicmain1 {
+                                    padding-top: 30px;
+                                    font-weight: 600;
+                                }
+
+                                .topic1 {
+                                    font-weight: 600;
+                                }
+
+                                .topicend1 {
+                                    font-weight: 600;
+                                    padding-bottom: 30px;
+                                }
+                            }
+
+                            .womenlist2 {
+                                background-color: whitesmoke;
+
+                                .topicmain2 {
+                                    padding-top: 30px;
+                                    font-weight: 600;
+                                }
+
+                                .topic2 {
+                                    font-weight: 600;
+                                }
+                            }
+
+                            .womenlist3 {
+                                background-color: rgb(251, 251, 251);
+
+                                .topicmain3 {
+                                    padding-top: 30px;
+                                    font-weight: 600;
+                                }
+
+                                .topic3 {
+                                    font-weight: 600;
+                                }
+                            }
+
+                            .womenlist4 {
+                                background-color: whitesmoke;
+
+                                .topicmain4 {
+                                    padding-top: 30px;
+                                    font-weight: 600;
+                                }
+
+                                .topic4 {
+                                    font-weight: 600;
+                                }
+                            }
+
+                            .womenlist5 {
+                                background-color: rgb(251, 251, 251);
+
+                                .topicmain5 {
+                                    padding-top: 30px;
+                                    font-weight: 600;
+                                }
+
+                                .topic5 {
+                                    font-weight: 600;
+                                }
+                            }
+                        }
+                    }
+
+                    .search {
+                        display: inline;
+                        margin-left: 20px;
+                        font-size: 17px;
+                        color: grey;
+                        cursor: pointer;
+                    }
+
+                    .shop {
+                        display: inline;
+                        margin-left: 33px;
+                        font-size: 17px;
+                        color: grey;
+                        cursor: pointer;
+                    }
+
+                    .page {
+                        .navbar-nav {
+                            .pbtn {
+                                color: grey;
+
+                                .nav-link:hover i {
+                                    transform: rotate(180deg);
+                                }
+                            }
+
+                            .dropdown-menu {
+                                // display: none;
+                                margin-top: 9.5px !important;
+
+                                .dropend {
+
+                                    .usr {
+                                        color: black !important;
+                                        margin-left: 1em;
+                                        margin-left: 0.5em;
+                                    }
+                                }
+                            }
+
+                            .dropdown-item:hover {
+                                background-color: whitesmoke;
+                                color: black;
+                            }
+
+                            .dropdown:hover>.dropdown-menu,
+                            .dropend:hover>.dropdown-menu {
+                                display: block;
+                                margin-top: 0.125em;
+                                margin-left: 0.125em;
+                            }
+
+                            @media screen and (min-width: 769px) {
+                                .dropend:hover>.dropdown-menu {
+                                    position: absolute;
+                                    top: 0;
+                                    left: 100%;
+                                }
+
+
+                            }
+                        }
+
+
+
+
+
+
+
                     }
                 }
-
-
-
-
-
-
-
             }
 
-            .log {
-                display: flex;
-                margin-left: 350px;
-                margin-top: 9px;
+            .rigbt {
 
-                i {
-                    font-weight: 400;
-                    font-size: 20px;
+                .log {
+                    display: flex;
+                    margin-left: 350px;
+                    margin-top: 9px;
+
+                    i {
+                        font-weight: 400;
+                        font-size: 20px;
+                    }
+
+                    .iconl {
+                        font-size: 17px;
+                        padding-left: 10px;
+                    }
                 }
 
-                .iconl {
-                    font-size: 17px;
-                    padding-left: 10px;
+                .selec {
+                    padding-top: 10px;
+                    margin-left: 20px;
+
+                    button {
+                        border-color: rgb(218, 218, 218);
+                        width: 140px;
+                        height: 40px;
+                    }
+
+                    .sort {
+                        margin-bottom: 10px;
+
+                        p {
+                            height: 0;
+                            font-size: 16px;
+                            font-weight: 600;
+                            padding-bottom: 10px;
+                            padding-left: 20px;
+                        }
+
+                        .icon {
+                            position: relative;
+                            margin-left: 23px;
+                            margin-bottom: 10px;
+
+                            .uicon {
+                                position: absolute;
+                                color: rgb(178, 178, 178);
+                                font-size: 12px;
+                            }
+
+                            .dicon {
+                                position: absolute;
+                                padding-top: 10px;
+                                color: rgb(178, 178, 178);
+                                font-size: 12px;
+                            }
+                        }
+                    }
+
                 }
             }
 
-            .selec {
-                margin-left: 2px;
-
-                button {
-                    background-color: white;
-                    color: #000;
-                    margin-left: 30px;
-                    width: 160px;
-                    border-color: rgb(194, 194, 194);
-                    position: relative;
-
-                    .uicon {
-                        color: rgb(194, 194, 194);
-                        font-size: 11px;
-                        position: absolute;
-                        margin-left: 10px;
-                        margin-top: 3px;
-                    }
-
-                    .dicon {
-                        color: rgb(194, 194, 194);
-                        font-size: 11px;
-                        position: absolute;
-                        margin-left: 10px;
-                        margin-top: 12px;
-                    }
-                }
-
-                ul {
-
-                    .languagic {
-                        margin-left: 50px;
-                    }
-
-                    .langic {
-                        margin-left: 23px;
-                    }
-                }
-            }
         }
-    }
 
-    .line {
-        width: 50%;
-        height: 5px;
-        background-color: rgb(169, 169, 169);
-        margin-left: 170px;
-
-        .underline {
-            width: 110px;
+        .line {
+            width: 50%;
             height: 5px;
-            background-color: #000;
-            transition: all 0.2s;
+            background-color: white;
+            margin-left: 170px;
+
+            .underline {
+                width: 110px;
+                height: 5px;
+                background-color: #000;
+                transition: all 0.2s;
+                border-radius: 10px;
+            }
         }
     }
 }

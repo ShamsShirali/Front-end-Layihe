@@ -23,43 +23,42 @@ $('.nsecond .secondl .category').each(function () {
         $('.nsecond .line .underline').css('transform', 'translateX(300px)')
       }
     }
-    if ($(".nsecond .secondl .category .shop").attr("data-id") == 5) {
-      $(".nsecond .secondl .category .shop").prev().css("background-color", "white");
-      $(".nsecond .secondl .category .shop").prev().css("color", "grey");
-      $(".nsecond .secondl .category .shop").prev().prev().css("background-color", "white");
-      $(".nsecond .secondl .category .shop").prev().prev().css("color", "grey");
-      $(".nsecond .secondl .category .shop").prev().prev().prev().css("background-color", "white");
-      $(".nsecond .secondl .category .shop").prev().prev().prev().css("color", "grey");
-      $(".nsecond .secondl .category .shop").prev().prev().prev().prev().css("background-color", "white");
-      $(".nsecond .secondl .category .shop").prev().prev().prev().prev().css("color", "grey");
-      $(".nsecond .secondl .category .shop").next().css("background-color", "white");
-      $(".nsecond .secondl .category .shop").next().css("color", "grey");
-      $(".nsecond .secondl .category .shop").css("background-color", "white");
-      $(".nsecond .secondl .category .shop").css("color", "black");
+    if ($(this).attr("data-id") == 5) {
+      $(this).prev().css("background-color", "white");
+      $(this).prev().prev().css("background-color", "white");
+      $(this).prev().prev().css("color", "grey");
+      $(this).prev().prev().prev().css("background-color", "white");
+      $(this).prev().prev().prev().css("color", "grey");
+      $(this).prev().prev().prev().prev().css("background-color", "white");
+      $(this).prev().prev().prev().prev().css("color", "grey");
+      $(this).next().css("background-color", "white");
+      $(this).next().css("color", "grey");
+      $(this).css("background-color", "white");
+      $(this).css("color", "black");
       $('.nsecond .slick-dots').children().eq(4).children().eq(0).click();
       if ($('.nsecond .line .underline').css('transform', 'translateX(0px)')) {
-        $('.nsecond .line .underline').css('transform', 'translateX(490px)')
+        $('.nsecond .line .underline').css('transform', 'translateX(450px)')
       }
       else {
         $('.nsecond .line .underline').css('transform', 'translateX(300px)')
       }
     }
-    if ($(".nsecond .secondl .category .search").attr("data-id") == 4) {
-      $(".nsecond .secondl .category .search").prev().css("background-color", "white");
-      $(".nsecond .secondl .category .search").prev().css("color", "grey");
-      $(".nsecond .secondl .category .search").prev().prev().css("background-color", "white");
-      $(".nsecond .secondl .category .search").prev().prev().css("color", "grey");
-      $(".nsecond .secondl .category .search").prev().prev().prev().css("background-color", "white");
-      $(".nsecond .secondl .category .search").prev().prev().prev().css("color", "grey");
-      $(".nsecond .secondl .category .search").next().css("background-color", "white");
-      $(".nsecond .secondl .category .search").next().css("color", "grey");
-      $(".nsecond .secondl .category .search").next().next().css("background-color", "white");
-      $(".nsecond .secondl .category .search").next().next().css("color", "grey");
-      $(".nsecond .secondl .category .search").css("background-color", "white");
-      $(".nsecond .secondl .category .search").css("color", "black");
+    if ($(this).attr("data-id") == 4) {
+      $(this).prev().css("background-color", "white");
+      $(this).prev().css("color", "grey");
+      $(this).prev().prev().css("background-color", "white");
+      $(this).prev().prev().css("color", "grey");
+      $(this).prev().prev().prev().css("background-color", "white");
+      $(this).prev().prev().prev().css("color", "grey");
+      $(this).next().css("background-color", "white");
+      $(this).next().css("color", "grey");
+      $(this).next().next().css("background-color", "white");
+      $(this).next().next().css("color", "grey");
+      $(this).css("background-color", "white");
+      $(this).css("color", "black");
       $('.nsecond .slick-dots').children().eq(3).children().eq(0).click();
       if ($('.nsecond .line .underline').css('transform', 'translateX(0px)')) {
-        $('.nsecond .line .underline').css('transform', 'translateX(350px)')
+        $('.nsecond .line .underline').css('transform', 'translateX(370px)')
       }
       else {
         $('.nsecond .line .underline').css('transform', 'translateX(300px)')

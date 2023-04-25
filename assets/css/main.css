@@ -136,306 +136,307 @@ hr {
   opacity: 0.1;
 }
 
-.nsecond .generalbutton {
+.nsecond .generalbutton .all {
   display: flex;
+  align-items: baseline;
 }
-.nsecond .generalbutton .categor {
+.nsecond .generalbutton .all .categor {
   margin-left: 20px;
 }
-.nsecond .generalbutton .categor .tbtn {
+.nsecond .generalbutton .all .categor .tbtn {
   background-color: black;
   height: 45px;
   width: 140px;
   font-size: 15px;
   font-weight: 600;
 }
-.nsecond .generalbutton .categor .tbtn i {
+.nsecond .generalbutton .all .categor .tbtn i {
   margin-right: 5px;
 }
-.nsecond .generalbutton .categor .list {
+.nsecond .generalbutton .all .categor .list {
   border: none;
 }
-.nsecond .generalbutton .categor .list div {
+.nsecond .generalbutton .all .categor .list div {
   display: flex;
 }
-.nsecond .generalbutton .secondl {
+.nsecond .generalbutton .all .gendr .secondl {
   display: flex;
   align-items: center;
   padding-left: 8px;
-  margin-top: 3px;
+  margin: 0;
 }
-.nsecond .generalbutton .secondl .demos {
+.nsecond .generalbutton .all .gendr .secondl .demos {
   margin-left: 17px;
 }
-.nsecond .generalbutton .secondl .demos button {
+.nsecond .generalbutton .all .gendr .secondl .demos button {
   background-color: white;
   color: grey;
   border: none;
   font-size: 17px;
 }
-.nsecond .generalbutton .secondl .demos .demolist {
+.nsecond .generalbutton .all .gendr .secondl .demos .demolist {
   background-color: rgb(251, 251, 251);
   border: none;
   border-radius: 0;
 }
-.nsecond .generalbutton .secondl .demos .demolist li {
+.nsecond .generalbutton .all .gendr .secondl .demos .demolist li {
   padding-left: 20px;
 }
-.nsecond .generalbutton .secondl .men {
+.nsecond .generalbutton .all .gendr .secondl .men {
   margin-left: 5px;
 }
-.nsecond .generalbutton .secondl .men .show {
+.nsecond .generalbutton .all .gendr .secondl .men .show {
   display: flex;
   align-items: baseline;
 }
-.nsecond .generalbutton .secondl .men .show i {
+.nsecond .generalbutton .all .gendr .secondl .men .show i {
   margin-left: 5px;
   transform: rotate(180deg);
 }
-.nsecond .generalbutton .secondl .men button {
+.nsecond .generalbutton .all .gendr .secondl .men button {
   background-color: white;
   color: grey;
   border: none;
   font-size: 17px;
 }
-.nsecond .generalbutton .secondl .men .menlist {
+.nsecond .generalbutton .all .gendr .secondl .men .menlist {
   border: none;
   border-radius: 0;
 }
-.nsecond .generalbutton .secondl .men .menlist .menlist1 {
+.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist1 {
   background-color: rgb(251, 251, 251);
 }
-.nsecond .generalbutton .secondl .men .menlist .menlist1 .topicmain1 {
+.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist1 .topicmain1 {
   padding-top: 30px;
   font-weight: 600;
 }
-.nsecond .generalbutton .secondl .men .menlist .menlist1 .topic1 {
+.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist1 .topic1 {
   font-weight: 600;
 }
-.nsecond .generalbutton .secondl .men .menlist .menlist1 .topicend1 {
+.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist1 .topicend1 {
   font-weight: 600;
   padding-bottom: 30px;
 }
-.nsecond .generalbutton .secondl .men .menlist .menlist2 {
+.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist2 {
   background-color: whitesmoke;
 }
-.nsecond .generalbutton .secondl .men .menlist .menlist2 .topicmain2 {
+.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist2 .topicmain2 {
   padding-top: 30px;
   font-weight: 600;
 }
-.nsecond .generalbutton .secondl .men .menlist .menlist2 .topic2 {
+.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist2 .topic2 {
   font-weight: 600;
 }
-.nsecond .generalbutton .secondl .men .menlist .menlist3 {
+.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist3 {
   background-color: rgb(251, 251, 251);
 }
-.nsecond .generalbutton .secondl .men .menlist .menlist3 .topicmain3 {
+.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist3 .topicmain3 {
   padding-top: 30px;
   font-weight: 600;
 }
-.nsecond .generalbutton .secondl .men .menlist .menlist3 .topic3 {
+.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist3 .topic3 {
   font-weight: 600;
 }
-.nsecond .generalbutton .secondl .men .menlist .menlist4 {
+.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist4 {
   background-color: whitesmoke;
 }
-.nsecond .generalbutton .secondl .men .menlist .menlist4 .topicmain4 {
+.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist4 .topicmain4 {
   padding-top: 30px;
   font-weight: 600;
 }
-.nsecond .generalbutton .secondl .men .menlist .menlist4 .topic4 {
+.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist4 .topic4 {
   font-weight: 600;
 }
-.nsecond .generalbutton .secondl .men .menlist .menlist5 {
+.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist5 {
   background-color: rgb(251, 251, 251);
 }
-.nsecond .generalbutton .secondl .men .menlist .menlist5 .topicmain5 {
+.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist5 .topicmain5 {
   padding-top: 30px;
   font-weight: 600;
 }
-.nsecond .generalbutton .secondl .men .menlist .menlist5 .topic5 {
+.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist5 .topic5 {
   font-weight: 600;
 }
-.nsecond .generalbutton .secondl .women {
+.nsecond .generalbutton .all .gendr .secondl .women {
   margin-left: 5px;
 }
-.nsecond .generalbutton .secondl .women .show {
+.nsecond .generalbutton .all .gendr .secondl .women .show {
   display: flex;
   align-items: baseline;
 }
-.nsecond .generalbutton .secondl .women .show i {
+.nsecond .generalbutton .all .gendr .secondl .women .show i {
   margin-left: 5px;
   transform: rotate(180deg);
 }
-.nsecond .generalbutton .secondl .women button {
+.nsecond .generalbutton .all .gendr .secondl .women button {
   background-color: white;
   color: grey;
   border: none;
   font-size: 17px;
 }
-.nsecond .generalbutton .secondl .women .womenlist {
+.nsecond .generalbutton .all .gendr .secondl .women .womenlist {
   border: none;
   border-radius: 0;
 }
-.nsecond .generalbutton .secondl .women .womenlist .womenlist1 {
+.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist1 {
   background-color: rgb(251, 251, 251);
 }
-.nsecond .generalbutton .secondl .women .womenlist .womenlist1 .topicmain1 {
+.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist1 .topicmain1 {
   padding-top: 30px;
   font-weight: 600;
 }
-.nsecond .generalbutton .secondl .women .womenlist .womenlist1 .topic1 {
+.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist1 .topic1 {
   font-weight: 600;
 }
-.nsecond .generalbutton .secondl .women .womenlist .womenlist1 .topicend1 {
+.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist1 .topicend1 {
   font-weight: 600;
   padding-bottom: 30px;
 }
-.nsecond .generalbutton .secondl .women .womenlist .womenlist2 {
+.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist2 {
   background-color: whitesmoke;
 }
-.nsecond .generalbutton .secondl .women .womenlist .womenlist2 .topicmain2 {
+.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist2 .topicmain2 {
   padding-top: 30px;
   font-weight: 600;
 }
-.nsecond .generalbutton .secondl .women .womenlist .womenlist2 .topic2 {
+.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist2 .topic2 {
   font-weight: 600;
 }
-.nsecond .generalbutton .secondl .women .womenlist .womenlist3 {
+.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist3 {
   background-color: rgb(251, 251, 251);
 }
-.nsecond .generalbutton .secondl .women .womenlist .womenlist3 .topicmain3 {
+.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist3 .topicmain3 {
   padding-top: 30px;
   font-weight: 600;
 }
-.nsecond .generalbutton .secondl .women .womenlist .womenlist3 .topic3 {
+.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist3 .topic3 {
   font-weight: 600;
 }
-.nsecond .generalbutton .secondl .women .womenlist .womenlist4 {
+.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist4 {
   background-color: whitesmoke;
 }
-.nsecond .generalbutton .secondl .women .womenlist .womenlist4 .topicmain4 {
+.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist4 .topicmain4 {
   padding-top: 30px;
   font-weight: 600;
 }
-.nsecond .generalbutton .secondl .women .womenlist .womenlist4 .topic4 {
+.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist4 .topic4 {
   font-weight: 600;
 }
-.nsecond .generalbutton .secondl .women .womenlist .womenlist5 {
+.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist5 {
   background-color: rgb(251, 251, 251);
 }
-.nsecond .generalbutton .secondl .women .womenlist .womenlist5 .topicmain5 {
+.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist5 .topicmain5 {
   padding-top: 30px;
   font-weight: 600;
 }
-.nsecond .generalbutton .secondl .women .womenlist .womenlist5 .topic5 {
+.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist5 .topic5 {
   font-weight: 600;
 }
-.nsecond .generalbutton .secondl .originl {
-  display: flex;
-  align-items: center;
-}
-.nsecond .generalbutton .secondl .originl .search {
+.nsecond .generalbutton .all .gendr .secondl .search {
   display: inline;
   margin-left: 20px;
   font-size: 17px;
   color: grey;
+  cursor: pointer;
 }
-.nsecond .generalbutton .secondl .originl .shop {
+.nsecond .generalbutton .all .gendr .secondl .shop {
   display: inline;
   margin-left: 33px;
   font-size: 17px;
   color: grey;
+  cursor: pointer;
 }
-.nsecond .generalbutton .secondl .page .navbar-nav .nav-link {
+.nsecond .generalbutton .all .gendr .secondl .page .navbar-nav .pbtn {
   color: grey;
 }
-.nsecond .generalbutton .secondl .page .navbar-nav .nav-link .nav-link:hover i {
+.nsecond .generalbutton .all .gendr .secondl .page .navbar-nav .pbtn .nav-link:hover i {
   transform: rotate(180deg);
 }
-.nsecond .generalbutton .secondl .page .navbar-nav .dropdown-menu {
-  display: none;
+.nsecond .generalbutton .all .gendr .secondl .page .navbar-nav .dropdown-menu {
+  margin-top: 9.5px !important;
 }
-.nsecond .generalbutton .secondl .page .navbar-nav .dropdown-menu .dropdown {
-  border-radius: 0;
-}
-.nsecond .generalbutton .secondl .page .navbar-nav .dropdown-menu .dropdown .dropend .dropdown-toggle {
-  color: black;
+.nsecond .generalbutton .all .gendr .secondl .page .navbar-nav .dropdown-menu .dropend .usr {
+  color: black !important;
   margin-left: 1em;
   margin-left: 0.5em;
 }
-.nsecond .generalbutton .secondl .page .navbar-nav .dropdown-item:hover {
+.nsecond .generalbutton .all .gendr .secondl .page .navbar-nav .dropdown-item:hover {
   background-color: whitesmoke;
   color: black;
 }
-.nsecond .generalbutton .secondl .page .navbar-nav .dropdown:hover > .dropdown-menu,
-.nsecond .generalbutton .secondl .page .navbar-nav .dropend:hover > .dropdown-menu {
+.nsecond .generalbutton .all .gendr .secondl .page .navbar-nav .dropdown:hover > .dropdown-menu,
+.nsecond .generalbutton .all .gendr .secondl .page .navbar-nav .dropend:hover > .dropdown-menu {
   display: block;
   margin-top: 0.125em;
   margin-left: 0.125em;
 }
 @media screen and (min-width: 769px) {
-  .nsecond .generalbutton .secondl .page .navbar-nav .dropend:hover > .dropdown-menu {
+  .nsecond .generalbutton .all .gendr .secondl .page .navbar-nav .dropend:hover > .dropdown-menu {
     position: absolute;
     top: 0;
     left: 100%;
   }
 }
-.nsecond .generalbutton .secondl .log {
+.nsecond .generalbutton .all .rigbt .log {
   display: flex;
   margin-left: 350px;
   margin-top: 9px;
 }
-.nsecond .generalbutton .secondl .log i {
+.nsecond .generalbutton .all .rigbt .log i {
   font-weight: 400;
   font-size: 20px;
 }
-.nsecond .generalbutton .secondl .log .iconl {
+.nsecond .generalbutton .all .rigbt .log .iconl {
   font-size: 17px;
   padding-left: 10px;
 }
-.nsecond .generalbutton .secondl .selec {
-  margin-left: 2px;
+.nsecond .generalbutton .all .rigbt .selec {
+  padding-top: 10px;
+  margin-left: 20px;
 }
-.nsecond .generalbutton .secondl .selec button {
-  background-color: white;
-  color: #000;
-  margin-left: 30px;
-  width: 160px;
-  border-color: rgb(194, 194, 194);
+.nsecond .generalbutton .all .rigbt .selec button {
+  border-color: rgb(218, 218, 218);
+  width: 140px;
+  height: 40px;
+}
+.nsecond .generalbutton .all .rigbt .selec .sort {
+  margin-bottom: 10px;
+}
+.nsecond .generalbutton .all .rigbt .selec .sort p {
+  height: 0;
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+.nsecond .generalbutton .all .rigbt .selec .sort .icon {
   position: relative;
-}
-.nsecond .generalbutton .secondl .selec button .uicon {
-  color: rgb(194, 194, 194);
-  font-size: 11px;
-  position: absolute;
-  margin-left: 10px;
-  margin-top: 3px;
-}
-.nsecond .generalbutton .secondl .selec button .dicon {
-  color: rgb(194, 194, 194);
-  font-size: 11px;
-  position: absolute;
-  margin-left: 10px;
-  margin-top: 12px;
-}
-.nsecond .generalbutton .secondl .selec ul .languagic {
-  margin-left: 50px;
-}
-.nsecond .generalbutton .secondl .selec ul .langic {
   margin-left: 23px;
+  margin-bottom: 10px;
 }
-.nsecond .line {
+.nsecond .generalbutton .all .rigbt .selec .sort .icon .uicon {
+  position: absolute;
+  color: rgb(178, 178, 178);
+  font-size: 12px;
+}
+.nsecond .generalbutton .all .rigbt .selec .sort .icon .dicon {
+  position: absolute;
+  padding-top: 10px;
+  color: rgb(178, 178, 178);
+  font-size: 12px;
+}
+.nsecond .generalbutton .line {
   width: 50%;
   height: 5px;
-  background-color: rgb(169, 169, 169);
+  background-color: white;
   margin-left: 170px;
 }
-.nsecond .line .underline {
+.nsecond .generalbutton .line .underline {
   width: 110px;
   height: 5px;
   background-color: #000;
   transition: all 0.2s;
+  border-radius: 10px;
 }
 
 .slider {
