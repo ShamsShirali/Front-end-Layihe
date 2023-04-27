@@ -28,7 +28,7 @@
   position: absolute;
   color: white;
   top: 260px;
-  left: 650px;
+  left: 660px;
   font-size: 35px;
 }
 
@@ -141,6 +141,12 @@
 }
 .two .general .getin .snd:hover {
   opacity: 0.7;
+}
+.two .general .getin .subjc {
+  flex-direction: column;
+}
+.two .general .getin .mss {
+  flex-direction: column;
 }
 
 footer .generalone {

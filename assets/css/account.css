@@ -39,6 +39,9 @@
   height: 300px;
   margin-top: 70px;
 }
+.two #Tokyo {
+  margin-bottom: 200px;
+}
 .two .tab button {
   display: block;
   background-color: white;
@@ -155,21 +158,38 @@
   font-weight: 600;
   padding-top: 15px;
 }
+.two .tabcontent .genol {
+  position: relative;
+  width: 570px;
+  height: 48px;
+}
 .two .tabcontent .genol #old {
   width: 568px;
   height: 48px;
   border-color: #939393;
   border-radius: 7px;
   margin-top: 10px;
-  position: relative;
 }
 .two .tabcontent .genol .closey {
   position: absolute;
-  padding-top: 25px;
+  right: -30px;
+  top: 50%;
+  cursor: pointer;
+}
+.two .tabcontent .genol .openey {
+  position: absolute;
+  right: -30px;
+  top: 50%;
+  cursor: pointer;
 }
 .two .tabcontent .ne {
   font-weight: 600;
   padding-top: 15px;
+}
+.two .tabcontent .genne {
+  position: relative;
+  width: 570px;
+  height: 48px;
 }
 .two .tabcontent .genne #new {
   width: 568px;
@@ -177,11 +197,18 @@
   border-color: #939393;
   border-radius: 7px;
   margin-top: 10px;
-  position: relative;
 }
 .two .tabcontent .genne .close {
   position: absolute;
-  padding-top: 25px;
+  right: -30px;
+  top: 50%;
+  cursor: pointer;
+}
+.two .tabcontent .genne .open {
+  position: absolute;
+  right: -30px;
+  top: 50%;
+  cursor: pointer;
 }
 .two .tabcontent .chn {
   background-color: black;

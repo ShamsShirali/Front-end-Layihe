@@ -9,6 +9,9 @@
     margin: auto;
 }
 
+.header{
+    background-color: white;
+
 .nfirst {
     display: flex;
     align-items: center;
@@ -581,6 +584,7 @@ hr {
             }
         }
     }
+}
 }
 
 .slider {
@@ -3223,7 +3227,8 @@ hr {
 }
 
 footer {
-
+    clear: both;
+    
     .generalone {
         justify-content: space-between;
 

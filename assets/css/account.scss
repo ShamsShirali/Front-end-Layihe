@@ -42,6 +42,11 @@
         width: 30%;
         height: 300px;
         margin-top: 70px;
+
+    }
+
+    #Tokyo{
+        margin-bottom: 200px;
     }
 
     .tab button {
@@ -93,7 +98,7 @@
             margin-top: 10px;
         }
 
-        #fir{
+        #fir {
             margin-left: 40px;
         }
 
@@ -129,7 +134,7 @@
             margin-top: 10px;
         }
 
-        #pho{
+        #pho {
             margin-left: 40px;
         }
 
@@ -183,6 +188,9 @@
         }
 
         .genol {
+            position: relative;
+            width: 570px;
+            height: 48px;
 
             #old {
                 width: 568px;
@@ -190,13 +198,20 @@
                 border-color: #939393;
                 border-radius: 7px;
                 margin-top: 10px;
-                
-            position: relative;
             }
 
             .closey {
                 position: absolute;
-                padding-top: 25px;
+                right: -30px;
+                top: 50%;
+                cursor: pointer;
+            }
+
+            .openey {
+                position: absolute;
+                right: -30px;
+                top: 50%;
+                cursor: pointer;
             }
         }
 
@@ -206,6 +221,9 @@
         }
 
         .genne {
+            position: relative;
+            width: 570px;
+            height: 48px;
 
             #new {
                 width: 568px;
@@ -213,13 +231,20 @@
                 border-color: #939393;
                 border-radius: 7px;
                 margin-top: 10px;
-                
-            position: relative;
             }
 
             .close {
                 position: absolute;
-                padding-top: 25px;
+                right: -30px;
+                top: 50%;
+                cursor: pointer;
+            }
+
+            .open {
+                position: absolute;
+                right: -30px;
+                top: 50%;
+                cursor: pointer;
             }
         }
 
@@ -261,4 +286,3 @@
         }
     }
 }
-

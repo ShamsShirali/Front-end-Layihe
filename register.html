@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+        <!-- icon linki fa -->
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <!-- bootstrap linki -->
+    
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    
+        <!-- bootstrap icon linki -->
+    
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.4/font/bootstrap-icons.min.css"
+            integrity="sha512-yU7+yXTc4VUanLSjkZq+buQN3afNA4j2ap/mxvdr440P5aW9np9vIr2JMZ2E5DuYeC9bAoH9CuCR7SJlXAa4pg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <!-- slick linki -->
+    
+        <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" /> 
+            <link rel="stylesheet" href="assets/slick/slick-theme.css">  -->
+        <link rel="stylesheet" href="assets/slick/slick.css">
+        <link rel="stylesheet" href="assets/slick/slick-theme.less">
+    
+        <!-- bizim css linki-->
+    
+        <link rel="stylesheet" href="assets/css/register.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <div class="header sticky-top">
+    
+            <div class="container">
+                <div class="nav nfirst">
+                    <img src="https://chawkbazar.vercel.app/assets/images/logo.svg" alt="">
+    
+                    <ul>
+                        <li class="deals">
+                            <a href="filter.html">Deals Today
+                                <i class="bi bi-lightning-charge" style="color: #000000; width: 20px;"></i>
+                            </a>
+                        </li>
+    
+                        <li class="other">
+                            <a href="#">Offers</a>
+                        </li>
+    
+                        <li class="other">
+                            <a href="#">FAQ</a>
+                        </li>
+    
+                        <li class="other">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+    
+                    <form action="#">
+                        <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+    
+                        <label for="search" class="search">
+                            <input id="search" class="me-2" type="search" placeholder="Search Anything..."
+                                aria-label="Search">
+                        </label>
+                    </form>
+    
+                    <div class="like">
+                        <button>
+                            <i class="fa-regular fa-heart" style="color: #000000;"></i>
+                            <sup>0</sup>
+                        </button>
+    
+                        <div>Wishlist</div>
+                    </div>
+    
+                    <div class="basket">
+                        <button>
+                            <i class="fa-solid fa-basket-shopping" style="color: #000000;"></i>
+                            <sup>0</sup>
+                        </button>
+    
+                        <div>Shopping</div>
+                    </div>
+    
+                </div>
+            </div>
+    
+            <hr />
+    
+    
+            <div class="container">
+                <div class="nav nsecond">
+                    <div class="generalbutton">
+                        <div class="all">
+                            <div class="dropdown categor">
+                                <button class="btn btn-secondary tbtn" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                                    All categories
+                                </button>
+    
+                                <ul class="dropdown-menu list">
+                                    <div>
+                                        <i class="fa-solid fa-person-dress ps-2 pt-2" style="color: #000000;"></i>
+                                        <li><button class="dropdown-item ps-4" type="button">Women's Fashion</button></li>
+                                    </div>
+    
+                                    <div>
+                                        <i class="fa-solid fa-shirt ps-1 pt-2" style="color: #000000;"></i>
+                                        <li><button class="dropdown-item" type="button">Men's Fashion</button></li>
+                                    </div>
+    
+                                    <div>
+                                        <i class="fa-solid fa-stopwatch ps-2 pt-2" style="color: #000000;"></i>
+                                        <li><button class="dropdown-item" type="button">Watches</button></li>
+                                    </div>
+    
+                                    <div>
+                                        <i class="fa-solid fa-wallet ps-2 pt-2" style="color: #000000;"></i>
+                                        <li><button class="dropdown-item" type="button">Wallets</button></li>
+                                    </div>
+    
+                                    <div>
+                                        <i class="fa-solid fa-bag-shopping ps-2 pt-2" style="color: #000000;"></i>
+                                        <li><button class="dropdown-item" type="button">Bags</button></li>
+                                    </div>
+    
+                                    <div>
+                                        <i class="fa-regular fa-gem ps-2 pt-2" style="color: #000000;"></i>
+                                        <li><button class="dropdown-item" type="button">Jewelry</button></li>
+                                    </div>
+    
+                                    <div>
+                                        <i class="fa-solid fa-glasses ps-2 pt-2" style="color: #000000;"></i>
+                                        <li><button class="dropdown-item" type="button">Sunglasses</button></li>
+                                    </div>
+    
+                                    <div>
+                                        <i class="fa-solid fa-shoe-prints ps-2 pt-2" style="color: #000000;"></i>
+                                        <li><button class="dropdown-item" type="button">Sneakers</button></li>
+                                    </div>
+                                </ul>
+                            </div>
+    
+                            <div class="gendr">
+                                <ul class="secondl">
+                                    <div class="dropdown demos category" data-id="1">
+                                        <button class="btn btn-secondary" type="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            Demos
+                                            <i class="fa-solid fa-angle-down" style="color: #a3a3a3;"></i>
+                                        </button>
+    
+                                        <!-- <hr /> -->
+    
+                                        <ul class="dropdown-menu demolist">
+                                            <li><a class="dropdown-item" href="#">Modern</a></li>
+                                            <li><a class="dropdown-item" href="#">Standart</a></li>
+                                            <li><a class="dropdown-item" href="#">Minimal</a></li>
+                                            <li><a class="dropdown-item" href="#">Vintage</a></li>
+                                            <li><a class="dropdown-item" href="#">Classic</a></li>
+                                            <li><a class="dropdown-item" href="#">Trendy</a></li>
+                                            <li><a class="dropdown-item" href="#">Elegant</a></li>
+                                            <li><a class="dropdown-item" href="#">Refined</a></li>
+                                            <li><a class="dropdown-item" href="#">Contemporary</a></li>
+                                            <li><a class="dropdown-item" href="#">Ancient</a></li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="dropdown men category" data-id="2">
+                                        <button class="btn btn-secondary" type="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            Men Wear
+                                            <i class="fa-solid fa-angle-down" style="color: #a3a3a3;"></i>
+                                        </button>
+    
+                                        <ul class="dropdown-menu  menlist">
+                                            <div class="menlist1">
+                                                <li><a class="dropdown-item topicmain1" href="#">Top Wear</a></li>
+                                                <li><a class="dropdown-item" href="#">T-Shirt</a></li>
+                                                <li><a class="dropdown-item" href="#">Casual Shirts</a></li>
+                                                <li><a class="dropdown-item" href="#">Formal Shirts</a></li>
+                                                <li><a class="dropdown-item" href="#">Blazwers & Coats</a></li>
+                                                <li><a class="dropdown-item" href="#">Suits</a></li>
+                                                <li><a class="dropdown-item" href="#">Jackets</a></li>
+                                                <hr />
+                                                <li><a class="dropdown-item topic1" href="#">Belt,Scarves & More</a></li>
+                                                <li><a class="dropdown-item topicend1" href="#">Watches & Wearables</a></li>
+                                            </div>
+    
+                                            <div class="menlist2">
+                                                <li><a class="dropdown-item topicmain2" href="#">Western Wear</a></li>
+                                                <li><a class="dropdown-item" href="#">Dresses</a></li>
+                                                <li><a class="dropdown-item" href="#">Jumpsuits</a></li>
+                                                <li><a class="dropdown-item" href="#">Tops, T-Shirts & Shirts</a></li>
+                                                <li><a class="dropdown-item" href="#">Shorts & Skirts</a></li>
+                                                <li><a class="dropdown-item" href="#">Shurgs</a></li>
+                                                <li><a class="dropdown-item" href="#">Blazers</a></li>
+                                                <hr />
+                                                <li><a class="dropdown-item topic2" href="#">Plus Size</a></li>
+                                                <li><a class="dropdown-item topicend2" href="#">Sunglasses & Frames</a></li>
+                                            </div>
+    
+                                            <div class="menlist3">
+                                                <li><a class="dropdown-item topicmain3" href="#">Footwear</a></li>
+                                                <li><a class="dropdown-item" href="#">Flats</a></li>
+                                                <li><a class="dropdown-item" href="#">Casual Shoes</a></li>
+                                                <li><a class="dropdown-item" href="#">Heels</a></li>
+                                                <li><a class="dropdown-item" href="#">Boots</a></li>
+                                                <hr />
+                                                <li><a class="dropdown-item topic3" href="#">Sports & Active Wear</a></li>
+                                                <li><a class="dropdown-item" href="#">Clothing</a></li>
+                                                <li><a class="dropdown-item" href="#">Footwear</a></li>
+                                                <li><a class="dropdown-item topicend3" href="#">Sports Accessories</a></li>
+                                            </div>
+    
+                                            <div class="menlist4">
+                                                <li><a class="dropdown-item topicmain4" href="#">Lingerie & Sleepwear</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="#">Bra</a></li>
+                                                <li><a class="dropdown-item" href="#">Briefs</a></li>
+                                                <li><a class="dropdown-item" href="#">Sleepwear</a></li>
+                                                <hr />
+                                                <li><a class="dropdown-item topic4" href="#">Belt, Scarves & More</a></li>
+                                                <li><a class="dropdown-item" href="#">Makeup</a></li>
+                                                <li><a class="dropdown-item" href="#">Skincare</a></li>
+                                                <li><a class="dropdown-item" href="#">Premium Beauty</a></li>
+                                                <li><a class="dropdown-item topicend4" href="#">Lipsticks</a></li>
+                                            </div>
+    
+                                            <div class="menlist5">
+                                                <li><a class="dropdown-item topicmain5" href="#">Gadgets</a></li>
+                                                <li><a class="dropdown-item" href="#">Smart Wearables</a></li>
+                                                <li><a class="dropdown-item" href="#">Headphones</a></li>
+                                                <hr />
+                                                <li><a class="dropdown-item topic5" href="#">Jewellers</a></li>
+                                                <li><a class="dropdown-item" href="#">Fashion Jewellers</a></li>
+                                                <li><a class="dropdown-item" href="#">Fine Jewellers</a></li>
+                                                <hr />
+                                                <li><a class="dropdown-item topic5" href="#">Backpacks</a></li>
+                                                <li><a class="dropdown-item topicend5" href="#">Handbags & Wallets</a></li>
+                                            </div>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="dropdown women category" data-id="3">
+                                        <button class="btn btn-secondary" type="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            Women Wear
+                                            <i class="fa-solid fa-angle-down" style="color: #a3a3a3;"></i>
+                                        </button>
+    
+                                        <ul class="dropdown-menu womenlist">
+                                            <div class="womenlist1">
+                                                <li><a class="dropdown-item topicmain1" href="#">Top Wear</a></li>
+                                                <li><a class="dropdown-item" href="#">T-Shirt</a></li>
+                                                <li><a class="dropdown-item" href="#">Casual Shirts</a></li>
+                                                <li><a class="dropdown-item" href="#">Formal Shirts</a></li>
+                                                <li><a class="dropdown-item" href="#">Blazwers & Coats</a></li>
+                                                <li><a class="dropdown-item" href="#">Suits</a></li>
+                                                <li><a class="dropdown-item" href="#">Jackets</a></li>
+                                                <hr />
+                                                <li><a class="dropdown-item topic1" href="#">Belt,Scarves & More</a></li>
+                                                <li><a class="dropdown-item topicend1" href="#">Watches & Wearables</a></li>
+                                            </div>
+    
+                                            <div class="womenlist2">
+                                                <li><a class="dropdown-item topicmain2" href="#">Western Wear</a></li>
+                                                <li><a class="dropdown-item" href="#">Dresses</a></li>
+                                                <li><a class="dropdown-item" href="#">Jumpsuits</a></li>
+                                                <li><a class="dropdown-item" href="#">Tops, T-Shirts & Shirts</a></li>
+                                                <li><a class="dropdown-item" href="#">Shorts & Skirts</a></li>
+                                                <li><a class="dropdown-item" href="#">Shurgs</a></li>
+                                                <li><a class="dropdown-item" href="#">Blazers</a></li>
+                                                <hr />
+                                                <li><a class="dropdown-item topic2" href="#">Plus Size</a></li>
+                                                <li><a class="dropdown-item topicend2" href="#">Sunglasses & Frames</a></li>
+                                            </div>
+    
+                                            <div class="womenlist3">
+                                                <li><a class="dropdown-item topicmain3" href="#">Footwear</a></li>
+                                                <li><a class="dropdown-item" href="#">Flats</a></li>
+                                                <li><a class="dropdown-item" href="#">Casual Shoes</a></li>
+                                                <li><a class="dropdown-item" href="#">Heels</a></li>
+                                                <li><a class="dropdown-item" href="#">Boots</a></li>
+                                                <hr />
+                                                <li><a class="dropdown-item topic3" href="#">Sports & Active Wear</a></li>
+                                                <li><a class="dropdown-item" href="#">Clothing</a></li>
+                                                <li><a class="dropdown-item" href="#">Footwear</a></li>
+                                                <li><a class="dropdown-item topicend3" href="#">Sports Accessories</a></li>
+                                            </div>
+    
+                                            <div class="womenlist4">
+                                                <li><a class="dropdown-item topicmain4" href="#">Lingerie & Sleepwear</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="#">Bra</a></li>
+                                                <li><a class="dropdown-item" href="#">Briefs</a></li>
+                                                <li><a class="dropdown-item" href="#">Sleepwear</a></li>
+                                                <hr />
+                                                <li><a class="dropdown-item topic4" href="#">Belt, Scarves & More</a></li>
+                                                <li><a class="dropdown-item" href="#">Makeup</a></li>
+                                                <li><a class="dropdown-item" href="#">Skincare</a></li>
+                                                <li><a class="dropdown-item" href="#">Premium Beauty</a></li>
+                                                <li><a class="dropdown-item topicend4" href="#">Lipsticks</a></li>
+                                            </div>
+    
+                                            <div class="womenlist5">
+                                                <li><a class="dropdown-item topicmain5" href="#">Gadgets</a></li>
+                                                <li><a class="dropdown-item" href="#">Smart Wearables</a></li>
+                                                <li><a class="dropdown-item" href="#">Headphones</a></li>
+                                                <hr />
+                                                <li><a class="dropdown-item topic5" href="#">Jewellers</a></li>
+                                                <li><a class="dropdown-item" href="#">Fashion Jewellers</a></li>
+                                                <li><a class="dropdown-item" href="#">Fine Jewellers</a></li>
+                                                <hr />
+                                                <li><a class="dropdown-item topic5" href="#">Backpacks</a></li>
+                                                <li><a class="dropdown-item" href="#">Handbags & Wallets</a></li>
+                                            </div>
+                                        </ul>
+                                    </div>
+    
+    
+                                    <div class="search category" data-id="4">Search</div>
+    
+                                    <div class="shop category" data-id="5">Shops</div>
+    
+    
+                                    <div class="category" data-id="6">
+                                        <nav class="navbar navbar-expand-lg navbar-dark page">
+                                            <div class="container-fluid">
+                                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                                        <li class="nav-item dropdown">
+                                                            <a class="nav-link pbtn" href="#" role="button"
+                                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                                Pages
+                                                                <i class="fa-solid fa-angle-down"
+                                                                    style="color: #a3a3a3;"></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li class="nav-item dropend">
+                                                                    <a class="nav-link usr" href="#" role="button"
+                                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                                        Users
+                                                                        <i class="fa-solid fa-angle-down"></i>
+                                                                    </a>
+                                                                    <ul class="dropdown-menu">
+                                                                        <li><a class="dropdown-item" href="account.html">My
+                                                                                Account</a>
+                                                                        </li>
+                                                                        <li><a class="dropdown-item" href="sign.html">Sign
+                                                                                In</a></li>
+                                                                        <li><a class="dropdown-item" href="#">Sign Up</a>
+                                                                        </li>
+                                                                        <li><a class="dropdown-item" href="#">Forget
+                                                                                Password</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+    
+                                                                <li><a class="dropdown-item" href="#">FAQ</a></li>
+                                                                <li><a class="dropdown-item" href="#">Privacy Policy</a>
+                                                                </li>
+                                                                <li><a class="dropdown-item" href="#">Terms & Condition</a>
+                                                                </li>
+                                                                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                                                                <li><a class="dropdown-item" href="#">Checkout</a></li>
+                                                                <li><a class="dropdown-item" href="#">Collection</a></li>
+                                                                <li><a class="dropdown-item" href="#">Category</a></li>
+                                                                <li><a class="dropdown-item" href="#">Order</a></li>
+                                                                <li><a class="dropdown-item" href="#">404</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </nav>
+                                    </div>
+                                </ul>
+                            </div>
+    
+                            <div class="rigbt d-flex align-items-baseline">
+    
+                                <div class="log">
+                                    <i class="fa-regular fa-user" style="color: #000000;"></i>
+                                    <div class="iconl">Login</div>
+                                </div>
+    
+                                <div class="dropdown selec">
+                                    <button class="btn " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <div class="sort d-flex">
+                                            English-EN
+    
+                                            <div class="icon">
+                                                <i class="fa-solid fa-angle-up uicon"></i>
+                                                <i class="fa-solid fa-angle-down dicon"></i>
+                                            </div>
+                                        </div>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item languagic" href="#">AR</a></li>
+                                        <li><a class="dropdown-item languagic" href="#">ZH</a></li>
+                                        <li><a class="dropdown-item langic" href="#">English-EN</a></li>
+                                        <li><a class="dropdown-item langic" href="#">Deutsch-DE</a></li>
+                                        <li><a class="dropdown-item languagic" href="#">HE</a></li>
+                                        <li><a class="dropdown-item langic" href="#">Espanol-ES</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+    
+    
+                        <div class="line">
+                            <div class="underline"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <section class="one">
+            <img src="assets/img/aesthetic-style-ideas.jpg" alt="">
+    
+            <p class="ex">explore</p>
+    
+            <p class="acc">Register</p>
+        </section>
+    
+        <section class="two">
+            <img src="https://chawkbazar.vercel.app/assets/images/logo.svg" alt="">
+    
+            <p class="log">By signing up, you agree to our <span>terms</span> & <span>policy</span></p>
+    
+            <form action="#">
+                <div class="nam">
+                    <label for="name" class="inword">Name</label>
+                    <input type="name" id="name" required="required" />
+                </div>
+
+                <div class="eml">
+                    <label for="emaill" class="inword pt-2">Email</label>
+                    <input type="email" id="emaill" required="required" />
+                </div>
+    
+                <div class="pass">
+                    <label for="passwordd" class="inword pt-2">Password</label>
+                    <input type="password" id="passwordd" required="required" />
+                    <i class="fa-solid fa-eye-slash close" style="color: #787575;"></i>
+                    <i class="fa-solid fa-eye open d-none" style="color: #767171;"></i>
+                </div>
+    
+                <div class="forg">
+    
+                    <div class="checkbox-apple">
+                        <input class="yep" id="check-apple" type="checkbox">
+                        <label class="app" for="check-apple"></label>
+                    </div>
+    
+                    <p class="rem">Remember me</p>
+    
+                    <a href="#">Forgot password?</a>
+                </div>
+            </form>
+    
+            <button class="sign">Login</button>
+    
+            <div class="hori d-flex">
+                <hr />
+                <p>Or</p>
+                <hr />
+            </div>
+            <button class="facebook"><i class="fa-brands fa-facebook"></i>Login with Facebook</button>
+            <button class="twitter"><i class="fa-brands fa-google"></i>Login with Google</button>
+    
+            <p class="regis">Already have an account? <span>Login</span></p>
+        </section>
+    
+        <footer>
+            <div class="container">
+                <div class="generalone d-flex">
+                    <div class="write">
+                        <h2>Get Expert Tips In Your Inbox</h2>
+                        <p>Subscribe to our newsletter and stay updated.</p>
+                    </div>
+                    <div class="but">
+                        <input type="email" name="" id="" placeholder="Write your email here">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+    
+                <hr />
+    
+                <div class="generaltwo row">
+                    <div class="web col-3">
+                        <img src="https://chawkbazar.vercel.app/assets/images/logo.svg" alt="">
+    
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad unde repellendus expedita eius
+                            facere voluptate corrupti</p>
+    
+                        <div class="icons">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-twitter icon"></i>
+                            <i class="fa-brands fa-facebook icon"></i>
+                            <i class="fa-brands fa-youtube icon"></i>
+                        </div>
+                    </div>
+    
+                    <div class="social col-1">
+                        <h2>Social</h2>
+    
+                        <div>
+                            <i class="fa-brands fa-instagram"></i>
+                            <span>Instagram</span>
+                        </div>
+    
+                        <div>
+                            <i class="fa-brands fa-twitter icon"></i>
+                            <span>Twitter</span>
+                        </div>
+    
+                        <div>
+                            <i class="fa-brands fa-facebook icon"></i>
+                            <span>Facebook</span>
+                        </div>
+    
+                        <div>
+                            <i class="fa-brands fa-youtube icon"></i>
+                            <span>Youtube</span>
+                        </div>
+                    </div>
+    
+                    <div class="contact col-2">
+                        <h2>Contact</h2>
+    
+                        <p>Contact Us</p>
+                        <p class="info">yourexample@email.com</p>
+                        <p class="info">example@email.com</p>
+                        <p class="info">Call us: +1 254 568-5479</p>
+                    </div>
+    
+                    <div class="about col-2">
+                        <h2>About</h2>
+    
+                        <p>Support Center</p>
+                        <p class="info">Customer Support</p>
+                        <p class="info">About Us</p>
+                        <p class="info">Copyright</p>
+                    </div>
+    
+                    <div class="customer col-2">
+                        <h2>Customer Care</h2>
+    
+                        <p>FAQ & Helps</p>
+                        <p class="info">Shipping & Delivery</p>
+                        <p class="info">Return & Exchanges</p>
+                    </div>
+    
+                    <div class="information col-2">
+                        <h2>Our Information</h2>
+    
+                        <p>Privacy policy update</p>
+                        <p class="info">Terms & conditions</p>
+                        <p class="info">Return Policy</p>
+                        <p class="info">Site Map</p>
+                    </div>
+                </div>
+    
+                <hr class="hr2" />
+    
+                <div class="genfoo">
+                    <div class="inf">
+                        <p>Copyright © 2023 <span>REDQ </span>All rights reserved</p>
+                    </div>
+    
+                    <div class="mark">
+                        <img src="https://chawkbazar.vercel.app/assets/images/payment/mastercard.svg" alt="">
+                        <img src="https://chawkbazar.vercel.app/assets/images/payment/visa.svg" alt="">
+                        <img src="https://chawkbazar.vercel.app/assets/images/payment/paypal.svg" alt="">
+                        <img src="https://chawkbazar.vercel.app/assets/images/payment/jcb.svg" alt="">
+                        <img src="https://chawkbazar.vercel.app/assets/images/payment/skrill.svg" alt="">
+                    </div>
+    
+                    <div class="scroll">
+                        <a href="#">
+                            <p>Scroll to top
+                                <i class="fa-solid fa-arrow-up"></i>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+        <!-- bootstrap js linki -->
+    
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+            integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+            integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+            crossorigin="anonymous"></script>
+    
+        <!-- jquery linki -->
+    
+        <script src="assets/js/jquery-3.6.4.min.js"></script>
+    
+        <!-- slick linki -->
+    
+        <script src="assets/slick/slick.min.js"></script>
+    
+        <!-- bizim js linki -->
+    
+        <script src="assets/js/sign.js"></script>
+    
+    </body>
+</html>

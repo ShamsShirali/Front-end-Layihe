@@ -1,3 +1,4 @@
+
 "use strict";
 
 $('.nsecond .secondl .category').each(function () {
@@ -388,3 +389,9 @@ $(function(){
     autoplaySpeed: 1500
   });
 })
+$(document).ready(function() {
+  $(".slider").on("scroll", function() {
+    var thumbWidth = $(this).width() / $(this)[0].scrollWidth * 100;
+    $(".slider-thumb").css("width", thumbWidth + "%");
+  });
+});

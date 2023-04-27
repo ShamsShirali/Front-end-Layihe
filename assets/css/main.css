@@ -9,45 +9,48 @@
   margin: auto;
 }
 
-.nfirst {
+.header {
+  background-color: white;
+}
+.header .nfirst {
   display: flex;
   align-items: center;
   padding-top: 25px;
 }
-.nfirst img {
+.header .nfirst img {
   margin-left: 20px;
 }
-.nfirst ul {
+.header .nfirst ul {
   display: flex;
   padding-top: 10px;
 }
-.nfirst ul .deals {
+.header .nfirst ul .deals {
   display: inline;
   padding-top: 3px;
 }
-.nfirst ul .deals a {
+.header .nfirst ul .deals a {
   text-decoration: none;
   color: #000;
   font-size: 17px;
   padding-left: 23px;
 }
-.nfirst ul .deals a i {
+.header .nfirst ul .deals a i {
   font-size: 20px;
 }
-.nfirst ul .other {
+.header .nfirst ul .other {
   display: inline;
   padding-top: 7px;
 }
-.nfirst ul .other a {
+.header .nfirst ul .other a {
   text-decoration: none;
   color: #000;
   font-size: 17px;
   padding-left: 40px;
 }
-.nfirst form {
+.header .nfirst form {
   position: relative;
 }
-.nfirst form i {
+.header .nfirst form i {
   position: absolute;
   width: 50px;
   height: 60px;
@@ -55,12 +58,12 @@
   margin-left: 100px;
   margin-top: 20px;
 }
-.nfirst form .search {
+.header .nfirst form .search {
   display: flex;
   align-items: center;
   margin-left: 90px;
 }
-.nfirst form .search input {
+.header .nfirst form .search input {
   width: 470px;
   height: 60px;
   outline: none;
@@ -69,24 +72,24 @@
   border-radius: 7px;
   padding-left: 50px;
 }
-.nfirst form .search input:focus {
+.header .nfirst form .search input:focus {
   border: 2px solid;
 }
-.nfirst .like {
+.header .nfirst .like {
   display: flex;
   margin-left: 60px;
 }
-.nfirst .like button {
+.header .nfirst .like button {
   display: flex;
   border: none;
   background-color: white;
 }
-.nfirst .like button i {
+.header .nfirst .like button i {
   font-size: 25px;
   margin-bottom: 2px;
   position: relative;
 }
-.nfirst .like button sup {
+.header .nfirst .like button sup {
   background-color: #000;
   color: white;
   border-radius: 50%;
@@ -98,24 +101,24 @@
   margin-left: 18px;
   margin-top: 34px;
 }
-.nfirst .like div {
+.header .nfirst .like div {
   padding-left: 15px;
   font-size: 17px;
 }
-.nfirst .basket {
+.header .nfirst .basket {
   display: flex;
   margin-left: 30px;
 }
-.nfirst .basket button {
+.header .nfirst .basket button {
   display: flex;
   border: none;
   background-color: white;
 }
-.nfirst .basket button i {
+.header .nfirst .basket button i {
   font-size: 25px;
   position: relative;
 }
-.nfirst .basket button sup {
+.header .nfirst .basket button sup {
   background-color: #000;
   color: white;
   border-radius: 50%;
@@ -127,311 +130,309 @@
   margin-left: 16px;
   margin-top: 34px;
 }
-.nfirst .basket div {
+.header .nfirst .basket div {
   padding-left: 15px;
   font-size: 17px;
 }
-
-hr {
+.header hr {
   opacity: 0.1;
 }
-
-.nsecond .generalbutton .all {
+.header .nsecond .generalbutton .all {
   display: flex;
   align-items: baseline;
 }
-.nsecond .generalbutton .all .categor {
+.header .nsecond .generalbutton .all .categor {
   margin-left: 20px;
 }
-.nsecond .generalbutton .all .categor .tbtn {
+.header .nsecond .generalbutton .all .categor .tbtn {
   background-color: black;
   height: 45px;
   width: 140px;
   font-size: 15px;
   font-weight: 600;
 }
-.nsecond .generalbutton .all .categor .tbtn i {
+.header .nsecond .generalbutton .all .categor .tbtn i {
   margin-right: 5px;
 }
-.nsecond .generalbutton .all .categor .list {
+.header .nsecond .generalbutton .all .categor .list {
   border: none;
 }
-.nsecond .generalbutton .all .categor .list div {
+.header .nsecond .generalbutton .all .categor .list div {
   display: flex;
 }
-.nsecond .generalbutton .all .gendr .secondl {
+.header .nsecond .generalbutton .all .gendr .secondl {
   display: flex;
   align-items: center;
   padding-left: 8px;
   margin: 0;
 }
-.nsecond .generalbutton .all .gendr .secondl .demos {
+.header .nsecond .generalbutton .all .gendr .secondl .demos {
   margin-left: 17px;
 }
-.nsecond .generalbutton .all .gendr .secondl .demos button {
+.header .nsecond .generalbutton .all .gendr .secondl .demos button {
   background-color: white;
   color: grey;
   border: none;
   font-size: 17px;
 }
-.nsecond .generalbutton .all .gendr .secondl .demos .demolist {
+.header .nsecond .generalbutton .all .gendr .secondl .demos .demolist {
   background-color: rgb(251, 251, 251);
   border: none;
   border-radius: 0;
 }
-.nsecond .generalbutton .all .gendr .secondl .demos .demolist li {
+.header .nsecond .generalbutton .all .gendr .secondl .demos .demolist li {
   padding-left: 20px;
 }
-.nsecond .generalbutton .all .gendr .secondl .men {
+.header .nsecond .generalbutton .all .gendr .secondl .men {
   margin-left: 5px;
 }
-.nsecond .generalbutton .all .gendr .secondl .men .show {
+.header .nsecond .generalbutton .all .gendr .secondl .men .show {
   display: flex;
   align-items: baseline;
 }
-.nsecond .generalbutton .all .gendr .secondl .men .show i {
+.header .nsecond .generalbutton .all .gendr .secondl .men .show i {
   margin-left: 5px;
   transform: rotate(180deg);
 }
-.nsecond .generalbutton .all .gendr .secondl .men button {
+.header .nsecond .generalbutton .all .gendr .secondl .men button {
   background-color: white;
   color: grey;
   border: none;
   font-size: 17px;
 }
-.nsecond .generalbutton .all .gendr .secondl .men .menlist {
+.header .nsecond .generalbutton .all .gendr .secondl .men .menlist {
   border: none;
   border-radius: 0;
 }
-.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist1 {
+.header .nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist1 {
   background-color: rgb(251, 251, 251);
 }
-.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist1 .topicmain1 {
+.header .nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist1 .topicmain1 {
   padding-top: 30px;
   font-weight: 600;
 }
-.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist1 .topic1 {
+.header .nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist1 .topic1 {
   font-weight: 600;
 }
-.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist1 .topicend1 {
+.header .nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist1 .topicend1 {
   font-weight: 600;
   padding-bottom: 30px;
 }
-.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist2 {
+.header .nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist2 {
   background-color: whitesmoke;
 }
-.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist2 .topicmain2 {
+.header .nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist2 .topicmain2 {
   padding-top: 30px;
   font-weight: 600;
 }
-.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist2 .topic2 {
+.header .nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist2 .topic2 {
   font-weight: 600;
 }
-.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist3 {
+.header .nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist3 {
   background-color: rgb(251, 251, 251);
 }
-.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist3 .topicmain3 {
+.header .nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist3 .topicmain3 {
   padding-top: 30px;
   font-weight: 600;
 }
-.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist3 .topic3 {
+.header .nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist3 .topic3 {
   font-weight: 600;
 }
-.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist4 {
+.header .nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist4 {
   background-color: whitesmoke;
 }
-.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist4 .topicmain4 {
+.header .nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist4 .topicmain4 {
   padding-top: 30px;
   font-weight: 600;
 }
-.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist4 .topic4 {
+.header .nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist4 .topic4 {
   font-weight: 600;
 }
-.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist5 {
+.header .nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist5 {
   background-color: rgb(251, 251, 251);
 }
-.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist5 .topicmain5 {
+.header .nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist5 .topicmain5 {
   padding-top: 30px;
   font-weight: 600;
 }
-.nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist5 .topic5 {
+.header .nsecond .generalbutton .all .gendr .secondl .men .menlist .menlist5 .topic5 {
   font-weight: 600;
 }
-.nsecond .generalbutton .all .gendr .secondl .women {
+.header .nsecond .generalbutton .all .gendr .secondl .women {
   margin-left: 5px;
 }
-.nsecond .generalbutton .all .gendr .secondl .women .show {
+.header .nsecond .generalbutton .all .gendr .secondl .women .show {
   display: flex;
   align-items: baseline;
 }
-.nsecond .generalbutton .all .gendr .secondl .women .show i {
+.header .nsecond .generalbutton .all .gendr .secondl .women .show i {
   margin-left: 5px;
   transform: rotate(180deg);
 }
-.nsecond .generalbutton .all .gendr .secondl .women button {
+.header .nsecond .generalbutton .all .gendr .secondl .women button {
   background-color: white;
   color: grey;
   border: none;
   font-size: 17px;
 }
-.nsecond .generalbutton .all .gendr .secondl .women .womenlist {
+.header .nsecond .generalbutton .all .gendr .secondl .women .womenlist {
   border: none;
   border-radius: 0;
 }
-.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist1 {
+.header .nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist1 {
   background-color: rgb(251, 251, 251);
 }
-.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist1 .topicmain1 {
+.header .nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist1 .topicmain1 {
   padding-top: 30px;
   font-weight: 600;
 }
-.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist1 .topic1 {
+.header .nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist1 .topic1 {
   font-weight: 600;
 }
-.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist1 .topicend1 {
+.header .nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist1 .topicend1 {
   font-weight: 600;
   padding-bottom: 30px;
 }
-.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist2 {
+.header .nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist2 {
   background-color: whitesmoke;
 }
-.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist2 .topicmain2 {
+.header .nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist2 .topicmain2 {
   padding-top: 30px;
   font-weight: 600;
 }
-.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist2 .topic2 {
+.header .nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist2 .topic2 {
   font-weight: 600;
 }
-.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist3 {
+.header .nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist3 {
   background-color: rgb(251, 251, 251);
 }
-.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist3 .topicmain3 {
+.header .nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist3 .topicmain3 {
   padding-top: 30px;
   font-weight: 600;
 }
-.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist3 .topic3 {
+.header .nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist3 .topic3 {
   font-weight: 600;
 }
-.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist4 {
+.header .nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist4 {
   background-color: whitesmoke;
 }
-.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist4 .topicmain4 {
+.header .nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist4 .topicmain4 {
   padding-top: 30px;
   font-weight: 600;
 }
-.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist4 .topic4 {
+.header .nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist4 .topic4 {
   font-weight: 600;
 }
-.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist5 {
+.header .nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist5 {
   background-color: rgb(251, 251, 251);
 }
-.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist5 .topicmain5 {
+.header .nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist5 .topicmain5 {
   padding-top: 30px;
   font-weight: 600;
 }
-.nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist5 .topic5 {
+.header .nsecond .generalbutton .all .gendr .secondl .women .womenlist .womenlist5 .topic5 {
   font-weight: 600;
 }
-.nsecond .generalbutton .all .gendr .secondl .search {
+.header .nsecond .generalbutton .all .gendr .secondl .search {
   display: inline;
   margin-left: 20px;
   font-size: 17px;
   color: grey;
   cursor: pointer;
 }
-.nsecond .generalbutton .all .gendr .secondl .shop {
+.header .nsecond .generalbutton .all .gendr .secondl .shop {
   display: inline;
   margin-left: 33px;
   font-size: 17px;
   color: grey;
   cursor: pointer;
 }
-.nsecond .generalbutton .all .gendr .secondl .page .navbar-nav .pbtn {
+.header .nsecond .generalbutton .all .gendr .secondl .page .navbar-nav .pbtn {
   color: grey;
 }
-.nsecond .generalbutton .all .gendr .secondl .page .navbar-nav .pbtn .nav-link:hover i {
+.header .nsecond .generalbutton .all .gendr .secondl .page .navbar-nav .pbtn .nav-link:hover i {
   transform: rotate(180deg);
 }
-.nsecond .generalbutton .all .gendr .secondl .page .navbar-nav .dropdown-menu {
+.header .nsecond .generalbutton .all .gendr .secondl .page .navbar-nav .dropdown-menu {
   margin-top: 9.5px !important;
 }
-.nsecond .generalbutton .all .gendr .secondl .page .navbar-nav .dropdown-menu .dropend .usr {
+.header .nsecond .generalbutton .all .gendr .secondl .page .navbar-nav .dropdown-menu .dropend .usr {
   color: black !important;
   margin-left: 1em;
   margin-left: 0.5em;
 }
-.nsecond .generalbutton .all .gendr .secondl .page .navbar-nav .dropdown-item:hover {
+.header .nsecond .generalbutton .all .gendr .secondl .page .navbar-nav .dropdown-item:hover {
   background-color: whitesmoke;
   color: black;
 }
-.nsecond .generalbutton .all .gendr .secondl .page .navbar-nav .dropdown:hover > .dropdown-menu,
-.nsecond .generalbutton .all .gendr .secondl .page .navbar-nav .dropend:hover > .dropdown-menu {
+.header .nsecond .generalbutton .all .gendr .secondl .page .navbar-nav .dropdown:hover > .dropdown-menu,
+.header .nsecond .generalbutton .all .gendr .secondl .page .navbar-nav .dropend:hover > .dropdown-menu {
   display: block;
   margin-top: 0.125em;
   margin-left: 0.125em;
 }
 @media screen and (min-width: 769px) {
-  .nsecond .generalbutton .all .gendr .secondl .page .navbar-nav .dropend:hover > .dropdown-menu {
+  .header .nsecond .generalbutton .all .gendr .secondl .page .navbar-nav .dropend:hover > .dropdown-menu {
     position: absolute;
     top: 0;
     left: 100%;
   }
 }
-.nsecond .generalbutton .all .rigbt .log {
+.header .nsecond .generalbutton .all .rigbt .log {
   display: flex;
   margin-left: 350px;
   margin-top: 9px;
 }
-.nsecond .generalbutton .all .rigbt .log i {
+.header .nsecond .generalbutton .all .rigbt .log i {
   font-weight: 400;
   font-size: 20px;
 }
-.nsecond .generalbutton .all .rigbt .log .iconl {
+.header .nsecond .generalbutton .all .rigbt .log .iconl {
   font-size: 17px;
   padding-left: 10px;
 }
-.nsecond .generalbutton .all .rigbt .selec {
+.header .nsecond .generalbutton .all .rigbt .selec {
   padding-top: 10px;
   margin-left: 20px;
 }
-.nsecond .generalbutton .all .rigbt .selec button {
+.header .nsecond .generalbutton .all .rigbt .selec button {
   border-color: rgb(218, 218, 218);
   width: 140px;
   height: 40px;
 }
-.nsecond .generalbutton .all .rigbt .selec .sort {
+.header .nsecond .generalbutton .all .rigbt .selec .sort {
   margin-bottom: 10px;
 }
-.nsecond .generalbutton .all .rigbt .selec .sort p {
+.header .nsecond .generalbutton .all .rigbt .selec .sort p {
   height: 0;
   font-size: 16px;
   font-weight: 600;
   padding-bottom: 10px;
   padding-left: 20px;
 }
-.nsecond .generalbutton .all .rigbt .selec .sort .icon {
+.header .nsecond .generalbutton .all .rigbt .selec .sort .icon {
   position: relative;
   margin-left: 23px;
   margin-bottom: 10px;
 }
-.nsecond .generalbutton .all .rigbt .selec .sort .icon .uicon {
+.header .nsecond .generalbutton .all .rigbt .selec .sort .icon .uicon {
   position: absolute;
   color: rgb(178, 178, 178);
   font-size: 12px;
 }
-.nsecond .generalbutton .all .rigbt .selec .sort .icon .dicon {
+.header .nsecond .generalbutton .all .rigbt .selec .sort .icon .dicon {
   position: absolute;
   padding-top: 10px;
   color: rgb(178, 178, 178);
   font-size: 12px;
 }
-.nsecond .generalbutton .line {
+.header .nsecond .generalbutton .line {
   width: 50%;
   height: 5px;
   background-color: white;
   margin-left: 170px;
 }
-.nsecond .generalbutton .line .underline {
+.header .nsecond .generalbutton .line .underline {
   width: 110px;
   height: 5px;
   background-color: #000;
@@ -2659,6 +2660,9 @@ hr {
   cursor: pointer;
 }
 
+footer {
+  clear: both;
+}
 footer .generalone {
   justify-content: space-between;
 }

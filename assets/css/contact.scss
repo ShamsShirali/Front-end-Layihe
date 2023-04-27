@@ -29,7 +29,7 @@
         position: absolute;
         color: white;
         top: 260px;
-        left: 650px;
+        left: 660px;
         font-size: 35px;
     }
 }
@@ -165,6 +165,14 @@
             &:hover {
                 opacity: 0.7;
             }
+        }
+
+        .subjc{
+            flex-direction: column;
+        }
+
+        .mss{
+            flex-direction: column;
         }
     }
 }
