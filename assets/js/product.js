@@ -29,3 +29,17 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+$(function(){
+  $('.one .rightsid .accordion').click(function(){
+    $('.one .rightsid .accordion .pluss').classList.add('d-none');
+    $('.one .rightsid .accordion .pluss').next(),classList.remove('d-none');
+  })
+})
+
+$(function(){
+  $('.one .rightsid .accordion').click(function(){
+    $('.one .rightsid .accordion .minuss').classList.add('d-none');
+    $('.one .rightsid .accordion .minuss').prev(),classList.remove('d-none');
+  })
+})

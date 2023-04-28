@@ -13,6 +13,10 @@
 
     .general {
 
+        .upsec{
+            color: #888888;
+        }
+
         .leftsid {
 
             .firstph {
@@ -122,6 +126,10 @@
                         height: 30px;
                         border-radius: 7px;
                     }
+
+                    &:hover{
+                        border: 1px solid black;
+                    }
                 }
 
                 .color2 {
@@ -139,6 +147,10 @@
                         width: 30px;
                         height: 30px;
                         border-radius: 7px;
+                    }
+
+                    &:hover{
+                        border: 1px solid black;
                     }
                 }
 
@@ -158,6 +170,10 @@
                         height: 30px;
                         border-radius: 7px;
                     }
+
+                    &:hover{
+                        border: 1px solid black;
+                    }
                 }
 
                 .color4 {
@@ -175,6 +191,10 @@
                         width: 30px;
                         height: 30px;
                         border-radius: 7px;
+                    }
+
+                    &:hover{
+                        border: 1px solid black;
                     }
                 }
             }
@@ -285,27 +305,230 @@
                         padding-top: 10px;
                         font-size: 20px;
                     }
+                }
 
-                    .panel {
-                        padding: 0 18px;
-                        display: none;
-                        background-color: white;
-                        overflow: hidden;
+                .panel {
+                    padding: 0 18px;
+                    display: none;
+                    background-color: white;
+                    overflow: hidden;
 
-                        .rat {
+                    .rat {
+                        font-weight: 600;
+                    }
+
+                    .star {
+
+                        i {
+                            color: rgb(158, 158, 158);
+                            border: none;
+                        }
+                    }
+
+                    .st2:hover{
+                        color: #000;
+                    }
+
+                    .st2:hover .st1{
+
+                        
+                        color: #000;
+                        
+                    }
+
+                    .st1:hover{
+                        color: #000;
+                    }
+
+                    .st3:hover{
+                        .st1{
+                            color: #000;
+                        }
+
+                        .st2{
+                            color: #000;
+                        }
+                    }
+
+                    .st3:hover{
+                        color: #000;
+                    }
+
+                    .st4:hover{
+                        .st1{
+                            color: #000;
+                        }
+
+                        .st2{
+                            color: #000;
+                        }
+
+                        .st3{
+                            color: #000;
+                        }
+                    }
+
+                    .st4:hover{
+                        color: #000;
+                    }
+
+                    .st5:hover{
+                        .st1{
+                            color: #000;
+                        }
+
+                        .st2{
+                            color: #000;
+                        }
+
+                        .st3{
+                            color: #000;
+                        }
+
+                        .st4{
+                            color: #000;
+                        }
+                    }
+
+                    .st5:hover{
+                        color: #000;
+                    }
+
+                    .getin{
+
+                        #fir,
+                        #last {
+                            border-color: #939393;
+                            width: 355px;
+                            height: 48px;
+                            border-radius: 7px;
+                            margin-top: 10px;
+                            padding-left: 20px;
+                        }
+                        
+                        .fr {
                             font-weight: 600;
                         }
+                
+                        .ls {
+                            font-weight: 600;
+                            padding-left: 230px;
+                        }
 
-                        .star {
+                        #last{
+                            margin-left: 10px;
+                        }
 
-                            i {
-                                color: rgb(130, 130, 130);
-                                border: none;
+                        .mss{
+                            flex-direction: column;
+                        
+                        #mes{
+                            width: 545px;
+                            height: 105px;
+                            border-color: #939393;
+                            border-radius: 7px;
+                            margin-top: 10px;
+                            padding-bottom: 60px;
+                        }
+                
+                        .mess{
+                            font-weight: 600;
+                            padding-top: 15px;
+                        }
+
+                        .sav{
+
+                        .saved{
+                            padding-left: 5px;
+                            height: 0;
+                        }
+                    }
+                    }
+                
+                        .snd {
+                            border-radius: 7px;
+                            background-color: black;
+                            color: white;
+                            width: 119px;
+                            height: 48px;
+                            border: none;
+                            margin-top: 30px;
+                
+                            &:hover {
+                                opacity: 0.7;
                             }
                         }
+                
+                        
                     }
                 }
             }
+        }
+    }
+}
+
+.two{
+    margin-top: 60px;
+
+    h2{
+        height: 0;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: space-between;
+
+        .card {
+            position: relative;
+            width: 256px;
+            border: none;
+            margin-top: 30px;
+
+            img {
+                border-radius: 4px;
+                width: 256px !important;
+                height: 331px;
+                object-fit: contain;
+            }
+
+            .info {
+                margin-left: 20px;
+
+                .brend {
+                    font-weight: 500;
+                    font-size: 17px;
+                    margin-top: 8px;
+                    height: 0;
+                }
+
+                .marka {
+                    height: 0;
+                    padding-top: 14px;
+                    color: #888888;
+                }
+
+                .cost {
+
+                    .discount {
+                        height: 0;
+                        color: #888888;
+                        text-decoration: line-through;
+                        padding-top: 15px;
+                        padding-left: 20px;
+                    }
+
+                    .count {
+                        font-size: 21px;
+                        font-weight: 600;
+                        padding-top: 10px;
+                    }
+                }
+            }
+        }
+
+        .card:hover {
+            box-shadow: 0px 2px 2px 2px #888888;
+            margin-bottom: 7px !important;
         }
     }
 }

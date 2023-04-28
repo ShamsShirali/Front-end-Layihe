@@ -9,6 +9,9 @@
   margin: auto;
 }
 
+.one .general .upsec {
+  color: #888888;
+}
 .one .general .leftsid .firstph {
   display: flex;
 }
@@ -100,6 +103,9 @@
   height: 30px;
   border-radius: 7px;
 }
+.one .general .rightsid .co .color1:hover {
+  border: 1px solid black;
+}
 .one .general .rightsid .co .color2 {
   width: 40px;
   height: 40px;
@@ -115,6 +121,9 @@
   width: 30px;
   height: 30px;
   border-radius: 7px;
+}
+.one .general .rightsid .co .color2:hover {
+  border: 1px solid black;
 }
 .one .general .rightsid .co .color3 {
   width: 40px;
@@ -132,6 +141,9 @@
   height: 30px;
   border-radius: 7px;
 }
+.one .general .rightsid .co .color3:hover {
+  border: 1px solid black;
+}
 .one .general .rightsid .co .color4 {
   width: 40px;
   height: 40px;
@@ -147,6 +159,9 @@
   width: 30px;
   height: 30px;
   border-radius: 7px;
+}
+.one .general .rightsid .co .color4:hover {
+  border: 1px solid black;
 }
 .one .general .rightsid .addinf {
   font-weight: 600;
@@ -240,16 +255,165 @@
   padding-top: 10px;
   font-size: 20px;
 }
-.one .general .rightsid .accor .accordion .panel {
+.one .general .rightsid .accor .panel {
   padding: 0 18px;
   display: none;
   background-color: white;
   overflow: hidden;
 }
-.one .general .rightsid .accor .accordion .panel .rat {
+.one .general .rightsid .accor .panel .rat {
   font-weight: 600;
 }
-.one .general .rightsid .accor .accordion .panel .star i {
-  color: rgb(130, 130, 130);
+.one .general .rightsid .accor .panel .star i {
+  color: rgb(158, 158, 158);
   border: none;
+}
+.one .general .rightsid .accor .panel .st2:hover {
+  color: #000;
+}
+.one .general .rightsid .accor .panel .st2:hover .st1 {
+  color: #000;
+}
+.one .general .rightsid .accor .panel .st1:hover {
+  color: #000;
+}
+.one .general .rightsid .accor .panel .st3:hover .st1 {
+  color: #000;
+}
+.one .general .rightsid .accor .panel .st3:hover .st2 {
+  color: #000;
+}
+.one .general .rightsid .accor .panel .st3:hover {
+  color: #000;
+}
+.one .general .rightsid .accor .panel .st4:hover .st1 {
+  color: #000;
+}
+.one .general .rightsid .accor .panel .st4:hover .st2 {
+  color: #000;
+}
+.one .general .rightsid .accor .panel .st4:hover .st3 {
+  color: #000;
+}
+.one .general .rightsid .accor .panel .st4:hover {
+  color: #000;
+}
+.one .general .rightsid .accor .panel .st5:hover .st1 {
+  color: #000;
+}
+.one .general .rightsid .accor .panel .st5:hover .st2 {
+  color: #000;
+}
+.one .general .rightsid .accor .panel .st5:hover .st3 {
+  color: #000;
+}
+.one .general .rightsid .accor .panel .st5:hover .st4 {
+  color: #000;
+}
+.one .general .rightsid .accor .panel .st5:hover {
+  color: #000;
+}
+.one .general .rightsid .accor .panel .getin #fir,
+.one .general .rightsid .accor .panel .getin #last {
+  border-color: #939393;
+  width: 355px;
+  height: 48px;
+  border-radius: 7px;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+.one .general .rightsid .accor .panel .getin .fr {
+  font-weight: 600;
+}
+.one .general .rightsid .accor .panel .getin .ls {
+  font-weight: 600;
+  padding-left: 230px;
+}
+.one .general .rightsid .accor .panel .getin #last {
+  margin-left: 10px;
+}
+.one .general .rightsid .accor .panel .getin .mss {
+  flex-direction: column;
+}
+.one .general .rightsid .accor .panel .getin .mss #mes {
+  width: 545px;
+  height: 105px;
+  border-color: #939393;
+  border-radius: 7px;
+  margin-top: 10px;
+  padding-bottom: 60px;
+}
+.one .general .rightsid .accor .panel .getin .mss .mess {
+  font-weight: 600;
+  padding-top: 15px;
+}
+.one .general .rightsid .accor .panel .getin .mss .sav .saved {
+  padding-left: 5px;
+  height: 0;
+}
+.one .general .rightsid .accor .panel .getin .snd {
+  border-radius: 7px;
+  background-color: black;
+  color: white;
+  width: 119px;
+  height: 48px;
+  border: none;
+  margin-top: 30px;
+}
+.one .general .rightsid .accor .panel .getin .snd:hover {
+  opacity: 0.7;
+}
+
+.two {
+  margin-top: 60px;
+}
+.two h2 {
+  height: 0;
+}
+.two .cards {
+  display: flex;
+  justify-content: space-between;
+}
+.two .cards .card {
+  position: relative;
+  width: 256px;
+  border: none;
+  margin-top: 30px;
+}
+.two .cards .card img {
+  border-radius: 4px;
+  width: 256px !important;
+  height: 331px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.two .cards .card .info {
+  margin-left: 20px;
+}
+.two .cards .card .info .brend {
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 8px;
+  height: 0;
+}
+.two .cards .card .info .marka {
+  height: 0;
+  padding-top: 14px;
+  color: #888888;
+}
+.two .cards .card .info .cost .discount {
+  height: 0;
+  color: #888888;
+  text-decoration: line-through;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+.two .cards .card .info .cost .count {
+  font-size: 21px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.two .cards .card:hover {
+  box-shadow: 0px 2px 2px 2px #888888;
+  margin-bottom: 7px !important;
 }/*# sourceMappingURL=product.css.map */

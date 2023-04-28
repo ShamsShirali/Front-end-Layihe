@@ -2295,17 +2295,32 @@
   background-color: white;
   color: #000;
 }
+.seven .nums {
+  margin-right: 117px;
+  margin-top: 37px;
+}
 .seven .cards {
   display: flex;
   justify-content: space-between;
 }
+.seven .cards .left {
+  top: -70px;
+  right: 150px;
+  position: absolute;
+}
+.seven .cards .right {
+  top: -70px;
+  right: 100px;
+  position: absolute;
+}
 .seven .cards .card {
   position: relative;
   width: 260px;
+  margin-left: 20px;
 }
 .seven .cards .card img {
   border-radius: 5px;
-  width: 260px !important;
+  width: 265px !important;
   height: 260px;
   -o-object-fit: contain;
      object-fit: contain;

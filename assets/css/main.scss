@@ -2778,17 +2778,35 @@ hr {
         }
     }
 
+    .nums{
+        margin-right: 117px;
+        margin-top: 37px;
+    }
+
     .cards {
         display: flex;
         justify-content: space-between;
 
+        .left{
+            top: -70px;
+            right: 150px;
+            position: absolute;
+        }
+
+        .right{
+            top: -70px;
+            right: 100px;
+            position: absolute;
+        }
+
         .card {
             position: relative;
             width: 260px;
+            margin-left: 20px;
 
             img {
                 border-radius: 5px;
-                width: 260px !important;
+                width: 265px !important;
                 height: 260px;
                 object-fit: contain;
             }

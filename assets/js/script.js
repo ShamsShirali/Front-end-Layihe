@@ -1,4 +1,3 @@
-
 "use strict";
 
 $('.nsecond .secondl .category').each(function () {
@@ -147,6 +146,17 @@ $(function () {
     prevArrow: `<div class="licons"><i class="fa-solid fa-chevron-left"></i></div>`,
     nextArrow: `<div class="ricons"><i class="fa-solid fa-chevron-right"></i></div>`
   });
+
+  $('.seven .slick_slide').slick({
+    slidesToShow: 5,
+      slidesToScroll: 1,
+      dots: true,
+      infinite: true,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      prevArrow: `<div class="left"><i class="fa-solid fa-chevron-left"></i></div>`,
+    nextArrow: `<div class="right"><i class="fa-solid fa-chevron-right"></i></div>`
+  })
 
   // $('.slider').slick({
   //   centerMode: true,
@@ -378,6 +388,21 @@ apar.forEach(index => {
     })
     })
 });
+
+let right=document.querySelector('.seven .right');
+
+right.addEventListener('click', ()=>{
+  let count=document.querySelector('.firstchan').innerText;
+
+  if(count==5){
+    count=1;
+    document.querySelector('.firstchan').innerText=count;
+  }
+  else{
+    count++;
+    document.querySelector('.firstchan').innerText=count;
+  }
+})
 
 $(function(){
   $('.eight .slick_slide').slick({
