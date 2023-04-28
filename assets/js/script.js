@@ -389,20 +389,22 @@ apar.forEach(index => {
     })
 });
 
-let right=document.querySelector('.seven .right');
+// let right=document.querySelector('.seven .cards .right');
 
-right.addEventListener('click', ()=>{
-  let count=document.querySelector('.firstchan').innerText;
+// right.addEventListener('click', ()=>{
+//   let count=document.querySelector('.firstchan').innerText;
 
-  if(count==5){
-    count=1;
-    document.querySelector('.firstchan').innerText=count;
-  }
-  else{
-    count++;
-    document.querySelector('.firstchan').innerText=count;
-  }
-})
+//   if(count==5){
+//     count=1;
+//     document.querySelector('.firstchan').innerText=count;
+//   }
+//   else{
+//     count++;
+//     document.querySelector('.firstchan').innerText=count;
+//   }
+// })
+
+setInterval()
 
 $(function(){
   $('.eight .slick_slide').slick({
