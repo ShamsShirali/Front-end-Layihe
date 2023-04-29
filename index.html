@@ -359,7 +359,8 @@
                                                                     </li>
                                                                     <li><a class="dropdown-item" href="sign.html">Sign
                                                                             In</a></li>
-                                                                    <li><a class="dropdown-item" href="register.html">Sign Up</a>
+                                                                    <li><a class="dropdown-item"
+                                                                            href="register.html">Sign Up</a>
                                                                     </li>
                                                                     <li><a class="dropdown-item" href="#">Forget
                                                                             Password</a>
@@ -588,7 +589,7 @@
             <div class="general">
                 <div class="change generalone active" data-id="1">
                     <div class="onefirst">
-                        <div class="card">
+                        <div class="card" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <img src="https://chawkbazar.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fproducts-2%2Fp-1.png&w=640&q=100"
                                 alt="">
 
@@ -603,7 +604,82 @@
 
                             <i class="fa-regular fa-image image d-none"></i>
                             <i class="fa-regular fa-heart heart d-none"></i>
-                            <i class="fa-solid fa-arrow-right-arrow-left arrow d-none"></i>
+                            <i class="fa-solid fa-arrow-right-arrow-left arrow d-none" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal"></i>
+
+
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="header">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <img src="https://chawkbazar.vercel.app/assets/images/products/products-2/p-1-m.png"
+                                                        alt="">
+                                                </div>
+
+                                                <div class="col-6 addinf">
+                                                    <h3>Maniac Red Boys</h3>
+
+                                                    <p class="inf pt-1">Children’s clothing/ kids wear is usually more
+                                                        casual than</p>
+
+                                                    <div class="d-flex">
+                                                        <p class="cost">$40.00</p>
+                                                        <span class="discount">$50.00</span>
+                                                    </div>
+
+                                                    <p class="si">Size</p>
+
+                                                    <div class="siz">
+                                                        <div class="size1">S</div>
+                                                        <div class="size">M</div>
+                                                        <div class="size">L</div>
+                                                        <div class="size">XL</div>
+                                                    </div>
+
+                                                    <p class="colo">Color</p>
+
+                                                    <div class="co">
+                                                        <div class="color1">
+                                                            <div class="colors"></div>
+                                                        </div>
+
+                                                        <div class="color2">
+                                                            <div class="colors"></div>
+                                                        </div>
+
+                                                        <div class="color3">
+                                                            <div class="colors"></div>
+                                                        </div>
+
+                                                        <div class="color4">
+                                                            <div class="colors"></div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="add-to-card d-flex">
+                                                        <div class="count">
+                                                            <button onclick="increment()">-</button>
+                                                            <h2 id="counting"></h2>
+                                                            <button onclick="decrement()">+</button>
+                                                        </div>
+
+                                                        <button id="add">Add to card</button>
+                                                    </div>
+
+                                                    <button id="view">View Details</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                         <div class="card">
@@ -622,6 +698,79 @@
                             <i class="fa-regular fa-image image d-none"></i>
                             <i class="fa-regular fa-heart heart d-none"></i>
                             <i class="fa-solid fa-arrow-right-arrow-left arrow d-none"></i>
+
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="header">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <img src="https://chawkbazar.vercel.app/assets/images/products/products-2/p-1-m.png"
+                                                        alt="">
+                                                </div>
+
+                                                <div class="col-6 addinf">
+                                                    <h3>Maniac Red Boys</h3>
+
+                                                    <p class="inf pt-1">Children’s clothing/ kids wear is usually more
+                                                        casual than</p>
+
+                                                    <div class="d-flex">
+                                                        <p class="cost">$40.00</p>
+                                                        <span class="discount">$50.00</span>
+                                                    </div>
+
+                                                    <p class="si">Size</p>
+
+                                                    <div class="siz">
+                                                        <div class="size1">S</div>
+                                                        <div class="size">M</div>
+                                                        <div class="size">L</div>
+                                                        <div class="size">XL</div>
+                                                    </div>
+
+                                                    <p class="colo">Color</p>
+
+                                                    <div class="co">
+                                                        <div class="color1">
+                                                            <div class="colors"></div>
+                                                        </div>
+
+                                                        <div class="color2">
+                                                            <div class="colors"></div>
+                                                        </div>
+
+                                                        <div class="color3">
+                                                            <div class="colors"></div>
+                                                        </div>
+
+                                                        <div class="color4">
+                                                            <div class="colors"></div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="add-to-card d-flex">
+                                                        <div class="count">
+                                                            <button onclick="increment()">-</button>
+                                                            <h2 id="counting"></h2>
+                                                            <button onclick="decrement()">+</button>
+                                                        </div>
+
+                                                        <button id="add">Add to card</button>
+                                                    </div>
+
+                                                    <a href="product.html"><button id="view">View Details</button></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                         <div class="card">
@@ -2052,15 +2201,15 @@
             </div>
 
             <div class="d-flex justify-content-between">
-            <div class="manage d-flex">
-                <h2>Recently View Products</h2>
-            </div>
+                <div class="manage">
+                    <h2>Recently View Products</h2>
+                </div>
 
-            <div class="nums">
-                <span class="firstchan">1</span>
-                <span>/ 5</span>
+                <div class="nums">
+                    <span class="firstchan">1</span>
+                    <span>/ 5</span>
+                </div>
             </div>
-        </div>
 
             <div class="cards slick_slide">
                 <div class="card">
@@ -2256,7 +2405,14 @@
                 </div>
             </div>
 
-            <h2>Testimonial</h2>
+            <div class="d-flex justify-content-between">
+                <h2>Testimonial</h2>
+
+                <div class="nums">
+                    <span class="firstchan">1</span>
+                    <span>/ 5</span>
+                </div>
+            </div>
 
             <div class="carousel slick_slide">
                 <div class="allone">

@@ -9,582 +9,582 @@
     margin: auto;
 }
 
-.header{
+.header {
     background-color: white;
 
-.nfirst {
-    display: flex;
-    align-items: center;
-    padding-top: 25px;
-
-    img {
-        margin-left: 20px;
-    }
-
-    ul {
+    .nfirst {
         display: flex;
-        padding-top: 10px;
+        align-items: center;
+        padding-top: 25px;
 
-        .deals {
-            display: inline;
-            padding-top: 3px;
-
-            a {
-                text-decoration: none;
-                color: #000;
-                font-size: 17px;
-                padding-left: 23px;
-
-                i {
-                    font-size: 20px;
-                }
-            }
+        img {
+            margin-left: 20px;
         }
 
-        .other {
-            display: inline;
-            padding-top: 7px;
-
-            a {
-                text-decoration: none;
-                color: #000;
-                font-size: 17px;
-                padding-left: 40px;
-            }
-        }
-    }
-
-    form {
-        position: relative;
-
-        i {
-            position: absolute;
-            width: 50px;
-            height: 60px;
-            font-size: 20px;
-            margin-left: 100px;
-            margin-top: 20px;
-        }
-
-        .search {
+        ul {
             display: flex;
-            align-items: center;
-            margin-left: 90px;
+            padding-top: 10px;
 
-            input {
-                width: 470px;
-                height: 60px;
-                outline: none;
-                border: none;
-                background-color: whitesmoke;
-                border-radius: 7px;
-                padding-left: 50px;
-            }
+            .deals {
+                display: inline;
+                padding-top: 3px;
 
-            input:focus {
-                border: 2px solid;
-            }
-        }
-    }
-
-    .like {
-        display: flex;
-        margin-left: 60px;
-
-        button {
-            display: flex;
-            border: none;
-            background-color: white;
-
-            i {
-                font-size: 25px;
-                margin-bottom: 2px;
-                position: relative;
-            }
-
-            sup {
-                background-color: #000;
-                color: white;
-                border-radius: 50%;
-                width: 20px;
-                height: 20px;
-                font-size: 12px;
-                padding-top: 8px;
-                position: absolute;
-                margin-left: 18px;
-                margin-top: 34px;
-            }
-        }
-
-        div {
-            padding-left: 15px;
-            font-size: 17px;
-        }
-    }
-
-    .basket {
-        display: flex;
-        margin-left: 30px;
-
-        button {
-            display: flex;
-            border: none;
-            background-color: white;
-
-            i {
-                font-size: 25px;
-                position: relative;
-            }
-
-            sup {
-                background-color: #000;
-                color: white;
-                border-radius: 50%;
-                width: 20px;
-                height: 20px;
-                font-size: 12px;
-                padding-top: 8px;
-                position: absolute;
-                margin-left: 16px;
-                margin-top: 34px;
-            }
-        }
-
-        div {
-            padding-left: 15px;
-            font-size: 17px;
-        }
-    }
-}
-
-hr {
-    opacity: 0.1;
-}
-
-.nsecond {
-
-    .generalbutton {
-
-        .all {
-            display: flex;
-            align-items: baseline;
-
-            .categor {
-                margin-left: 20px;
-
-                .tbtn {
-                    background-color: black;
-                    height: 45px;
-                    width: 140px;
-                    font-size: 15px;
-                    font-weight: 600;
+                a {
+                    text-decoration: none;
+                    color: #000;
+                    font-size: 17px;
+                    padding-left: 23px;
 
                     i {
-                        margin-right: 5px;
-                    }
-                }
-
-                .list {
-                    border: none;
-
-                    div {
-                        display: flex;
+                        font-size: 20px;
                     }
                 }
             }
 
-            .gendr {
+            .other {
+                display: inline;
+                padding-top: 7px;
 
-                .secondl {
-                    display: flex;
-                    align-items: center;
-                    padding-left: 8px;
-                    margin: 0;
+                a {
+                    text-decoration: none;
+                    color: #000;
+                    font-size: 17px;
+                    padding-left: 40px;
+                }
+            }
+        }
 
+        form {
+            position: relative;
 
-                    .demos {
-                        margin-left: 17px;
+            i {
+                position: absolute;
+                width: 50px;
+                height: 60px;
+                font-size: 20px;
+                margin-left: 100px;
+                margin-top: 20px;
+            }
 
+            .search {
+                display: flex;
+                align-items: center;
+                margin-left: 90px;
 
-                        button {
-                            background-color: white;
-                            color: grey;
-                            border: none;
-                            font-size: 17px;
-                        }
+                input {
+                    width: 470px;
+                    height: 60px;
+                    outline: none;
+                    border: none;
+                    background-color: whitesmoke;
+                    border-radius: 7px;
+                    padding-left: 50px;
+                }
 
-                        // hr{
-                        //     width: 0;
-                        //     height: 4px;
-                        //     background-color: #000;
+                input:focus {
+                    border: 2px solid;
+                }
+            }
+        }
 
-                        //     top: 34px;
-                        //     transition: all 0.5s;
-                        //     border: none;
-                        // }
+        .like {
+            display: flex;
+            margin-left: 60px;
 
-                        // .demolist:hover ~ hr{
-                        //     width: 100px;
-                        // }
+            button {
+                display: flex;
+                border: none;
+                background-color: white;
 
-                        .demolist {
-                            background-color: rgb(251, 251, 251);
-                            border: none;
-                            border-radius: 0;
+                i {
+                    font-size: 25px;
+                    margin-bottom: 2px;
+                    position: relative;
+                }
 
-                            li {
-                                padding-left: 20px;
-                            }
+                sup {
+                    background-color: #000;
+                    color: white;
+                    border-radius: 50%;
+                    width: 20px;
+                    height: 20px;
+                    font-size: 12px;
+                    padding-top: 8px;
+                    position: absolute;
+                    margin-left: 18px;
+                    margin-top: 34px;
+                }
+            }
+
+            div {
+                padding-left: 15px;
+                font-size: 17px;
+            }
+        }
+
+        .basket {
+            display: flex;
+            margin-left: 30px;
+
+            button {
+                display: flex;
+                border: none;
+                background-color: white;
+
+                i {
+                    font-size: 25px;
+                    position: relative;
+                }
+
+                sup {
+                    background-color: #000;
+                    color: white;
+                    border-radius: 50%;
+                    width: 20px;
+                    height: 20px;
+                    font-size: 12px;
+                    padding-top: 8px;
+                    position: absolute;
+                    margin-left: 16px;
+                    margin-top: 34px;
+                }
+            }
+
+            div {
+                padding-left: 15px;
+                font-size: 17px;
+            }
+        }
+    }
+
+    hr {
+        opacity: 0.1;
+    }
+
+    .nsecond {
+
+        .generalbutton {
+
+            .all {
+                display: flex;
+                align-items: baseline;
+
+                .categor {
+                    margin-left: 20px;
+
+                    .tbtn {
+                        background-color: black;
+                        height: 45px;
+                        width: 140px;
+                        font-size: 15px;
+                        font-weight: 600;
+
+                        i {
+                            margin-right: 5px;
                         }
                     }
 
-                    .men {
-                        margin-left: 5px;
+                    .list {
+                        border: none;
 
-                        .show {
+                        div {
                             display: flex;
-                            align-items: baseline;
-
-                            i {
-                                margin-left: 5px;
-                                transform: rotate(180deg);
-                            }
-                        }
-
-                        button {
-                            background-color: white;
-                            color: grey;
-                            border: none;
-                            font-size: 17px;
-                        }
-
-                        .menlist {
-                            border: none;
-                            border-radius: 0;
-
-
-                            .menlist1 {
-                                background-color: rgb(251, 251, 251);
-
-                                .topicmain1 {
-                                    padding-top: 30px;
-                                    font-weight: 600;
-                                }
-
-                                .topic1 {
-                                    font-weight: 600;
-                                }
-
-                                .topicend1 {
-                                    font-weight: 600;
-                                    padding-bottom: 30px;
-                                }
-                            }
-
-                            .menlist2 {
-                                background-color: whitesmoke;
-
-                                .topicmain2 {
-                                    padding-top: 30px;
-                                    font-weight: 600;
-                                }
-
-                                .topic2 {
-                                    font-weight: 600;
-                                }
-                            }
-
-                            .menlist3 {
-                                background-color: rgb(251, 251, 251);
-
-                                .topicmain3 {
-                                    padding-top: 30px;
-                                    font-weight: 600;
-                                }
-
-                                .topic3 {
-                                    font-weight: 600;
-                                }
-                            }
-
-                            .menlist4 {
-                                background-color: whitesmoke;
-
-                                .topicmain4 {
-                                    padding-top: 30px;
-                                    font-weight: 600;
-                                }
-
-                                .topic4 {
-                                    font-weight: 600;
-                                }
-                            }
-
-                            .menlist5 {
-                                background-color: rgb(251, 251, 251);
-
-                                .topicmain5 {
-                                    padding-top: 30px;
-                                    font-weight: 600;
-                                }
-
-                                .topic5 {
-                                    font-weight: 600;
-                                }
-                            }
                         }
                     }
+                }
 
-                    .women {
-                        margin-left: 5px;
+                .gendr {
 
-                        .show {
-                            display: flex;
-                            align-items: baseline;
-
-                            i {
-                                margin-left: 5px;
-                                transform: rotate(180deg);
-                            }
-                        }
-
-                        button {
-                            background-color: white;
-                            color: grey;
-                            border: none;
-                            font-size: 17px;
-                        }
+                    .secondl {
+                        display: flex;
+                        align-items: center;
+                        padding-left: 8px;
+                        margin: 0;
 
 
-                        .womenlist {
-                            border: none;
-                            border-radius: 0;
+                        .demos {
+                            margin-left: 17px;
 
-                            .womenlist1 {
-                                background-color: rgb(251, 251, 251);
 
-                                .topicmain1 {
-                                    padding-top: 30px;
-                                    font-weight: 600;
-                                }
-
-                                .topic1 {
-                                    font-weight: 600;
-                                }
-
-                                .topicend1 {
-                                    font-weight: 600;
-                                    padding-bottom: 30px;
-                                }
-                            }
-
-                            .womenlist2 {
-                                background-color: whitesmoke;
-
-                                .topicmain2 {
-                                    padding-top: 30px;
-                                    font-weight: 600;
-                                }
-
-                                .topic2 {
-                                    font-weight: 600;
-                                }
-                            }
-
-                            .womenlist3 {
-                                background-color: rgb(251, 251, 251);
-
-                                .topicmain3 {
-                                    padding-top: 30px;
-                                    font-weight: 600;
-                                }
-
-                                .topic3 {
-                                    font-weight: 600;
-                                }
-                            }
-
-                            .womenlist4 {
-                                background-color: whitesmoke;
-
-                                .topicmain4 {
-                                    padding-top: 30px;
-                                    font-weight: 600;
-                                }
-
-                                .topic4 {
-                                    font-weight: 600;
-                                }
-                            }
-
-                            .womenlist5 {
-                                background-color: rgb(251, 251, 251);
-
-                                .topicmain5 {
-                                    padding-top: 30px;
-                                    font-weight: 600;
-                                }
-
-                                .topic5 {
-                                    font-weight: 600;
-                                }
-                            }
-                        }
-                    }
-
-                    .search {
-                        display: inline;
-                        margin-left: 20px;
-                        font-size: 17px;
-                        color: grey;
-                        cursor: pointer;
-                    }
-
-                    .shop {
-                        display: inline;
-                        margin-left: 33px;
-                        font-size: 17px;
-                        color: grey;
-                        cursor: pointer;
-                    }
-
-                    .page {
-                        .navbar-nav {
-                            .pbtn {
+                            button {
+                                background-color: white;
                                 color: grey;
+                                border: none;
+                                font-size: 17px;
+                            }
 
-                                .nav-link:hover i {
+                            // hr{
+                            //     width: 0;
+                            //     height: 4px;
+                            //     background-color: #000;
+
+                            //     top: 34px;
+                            //     transition: all 0.5s;
+                            //     border: none;
+                            // }
+
+                            // .demolist:hover ~ hr{
+                            //     width: 100px;
+                            // }
+
+                            .demolist {
+                                background-color: rgb(251, 251, 251);
+                                border: none;
+                                border-radius: 0;
+
+                                li {
+                                    padding-left: 20px;
+                                }
+                            }
+                        }
+
+                        .men {
+                            margin-left: 5px;
+
+                            .show {
+                                display: flex;
+                                align-items: baseline;
+
+                                i {
+                                    margin-left: 5px;
                                     transform: rotate(180deg);
                                 }
                             }
 
-                            .dropdown-menu {
-                                // display: none;
-                                margin-top: 9.5px !important;
+                            button {
+                                background-color: white;
+                                color: grey;
+                                border: none;
+                                font-size: 17px;
+                            }
 
-                                .dropend {
+                            .menlist {
+                                border: none;
+                                border-radius: 0;
 
-                                    .usr {
-                                        color: black !important;
-                                        margin-left: 1em;
-                                        margin-left: 0.5em;
+
+                                .menlist1 {
+                                    background-color: rgb(251, 251, 251);
+
+                                    .topicmain1 {
+                                        padding-top: 30px;
+                                        font-weight: 600;
+                                    }
+
+                                    .topic1 {
+                                        font-weight: 600;
+                                    }
+
+                                    .topicend1 {
+                                        font-weight: 600;
+                                        padding-bottom: 30px;
+                                    }
+                                }
+
+                                .menlist2 {
+                                    background-color: whitesmoke;
+
+                                    .topicmain2 {
+                                        padding-top: 30px;
+                                        font-weight: 600;
+                                    }
+
+                                    .topic2 {
+                                        font-weight: 600;
+                                    }
+                                }
+
+                                .menlist3 {
+                                    background-color: rgb(251, 251, 251);
+
+                                    .topicmain3 {
+                                        padding-top: 30px;
+                                        font-weight: 600;
+                                    }
+
+                                    .topic3 {
+                                        font-weight: 600;
+                                    }
+                                }
+
+                                .menlist4 {
+                                    background-color: whitesmoke;
+
+                                    .topicmain4 {
+                                        padding-top: 30px;
+                                        font-weight: 600;
+                                    }
+
+                                    .topic4 {
+                                        font-weight: 600;
+                                    }
+                                }
+
+                                .menlist5 {
+                                    background-color: rgb(251, 251, 251);
+
+                                    .topicmain5 {
+                                        padding-top: 30px;
+                                        font-weight: 600;
+                                    }
+
+                                    .topic5 {
+                                        font-weight: 600;
                                     }
                                 }
                             }
+                        }
 
-                            .dropdown-item:hover {
-                                background-color: whitesmoke;
-                                color: black;
+                        .women {
+                            margin-left: 5px;
+
+                            .show {
+                                display: flex;
+                                align-items: baseline;
+
+                                i {
+                                    margin-left: 5px;
+                                    transform: rotate(180deg);
+                                }
                             }
 
-                            .dropdown:hover>.dropdown-menu,
-                            .dropend:hover>.dropdown-menu {
-                                display: block;
-                                margin-top: 0.125em;
-                                margin-left: 0.125em;
+                            button {
+                                background-color: white;
+                                color: grey;
+                                border: none;
+                                font-size: 17px;
                             }
 
-                            @media screen and (min-width: 769px) {
-                                .dropend:hover>.dropdown-menu {
-                                    position: absolute;
-                                    top: 0;
-                                    left: 100%;
+
+                            .womenlist {
+                                border: none;
+                                border-radius: 0;
+
+                                .womenlist1 {
+                                    background-color: rgb(251, 251, 251);
+
+                                    .topicmain1 {
+                                        padding-top: 30px;
+                                        font-weight: 600;
+                                    }
+
+                                    .topic1 {
+                                        font-weight: 600;
+                                    }
+
+                                    .topicend1 {
+                                        font-weight: 600;
+                                        padding-bottom: 30px;
+                                    }
                                 }
 
+                                .womenlist2 {
+                                    background-color: whitesmoke;
 
+                                    .topicmain2 {
+                                        padding-top: 30px;
+                                        font-weight: 600;
+                                    }
+
+                                    .topic2 {
+                                        font-weight: 600;
+                                    }
+                                }
+
+                                .womenlist3 {
+                                    background-color: rgb(251, 251, 251);
+
+                                    .topicmain3 {
+                                        padding-top: 30px;
+                                        font-weight: 600;
+                                    }
+
+                                    .topic3 {
+                                        font-weight: 600;
+                                    }
+                                }
+
+                                .womenlist4 {
+                                    background-color: whitesmoke;
+
+                                    .topicmain4 {
+                                        padding-top: 30px;
+                                        font-weight: 600;
+                                    }
+
+                                    .topic4 {
+                                        font-weight: 600;
+                                    }
+                                }
+
+                                .womenlist5 {
+                                    background-color: rgb(251, 251, 251);
+
+                                    .topicmain5 {
+                                        padding-top: 30px;
+                                        font-weight: 600;
+                                    }
+
+                                    .topic5 {
+                                        font-weight: 600;
+                                    }
+                                }
                             }
                         }
 
-
-
-
-
-
-
-                    }
-                }
-            }
-
-            .rigbt {
-
-                .log {
-                    display: flex;
-                    margin-left: 350px;
-                    margin-top: 9px;
-
-                    i {
-                        font-weight: 400;
-                        font-size: 20px;
-                    }
-
-                    .iconl {
-                        font-size: 17px;
-                        padding-left: 10px;
-                    }
-                }
-
-                .selec {
-                    padding-top: 10px;
-                    margin-left: 20px;
-
-                    button {
-                        border-color: rgb(218, 218, 218);
-                        width: 140px;
-                        height: 40px;
-                    }
-
-                    .sort {
-                        margin-bottom: 10px;
-
-                        p {
-                            height: 0;
-                            font-size: 16px;
-                            font-weight: 600;
-                            padding-bottom: 10px;
-                            padding-left: 20px;
+                        .search {
+                            display: inline;
+                            margin-left: 20px;
+                            font-size: 17px;
+                            color: grey;
+                            cursor: pointer;
                         }
 
-                        .icon {
-                            position: relative;
-                            margin-left: 23px;
+                        .shop {
+                            display: inline;
+                            margin-left: 33px;
+                            font-size: 17px;
+                            color: grey;
+                            cursor: pointer;
+                        }
+
+                        .page {
+                            .navbar-nav {
+                                .pbtn {
+                                    color: grey;
+
+                                    .nav-link:hover i {
+                                        transform: rotate(180deg);
+                                    }
+                                }
+
+                                .dropdown-menu {
+                                    // display: none;
+                                    margin-top: 9.5px !important;
+
+                                    .dropend {
+
+                                        .usr {
+                                            color: black !important;
+                                            margin-left: 1em;
+                                            margin-left: 0.5em;
+                                        }
+                                    }
+                                }
+
+                                .dropdown-item:hover {
+                                    background-color: whitesmoke;
+                                    color: black;
+                                }
+
+                                .dropdown:hover>.dropdown-menu,
+                                .dropend:hover>.dropdown-menu {
+                                    display: block;
+                                    margin-top: 0.125em;
+                                    margin-left: 0.125em;
+                                }
+
+                                @media screen and (min-width: 769px) {
+                                    .dropend:hover>.dropdown-menu {
+                                        position: absolute;
+                                        top: 0;
+                                        left: 100%;
+                                    }
+
+
+                                }
+                            }
+
+
+
+
+
+
+
+                        }
+                    }
+                }
+
+                .rigbt {
+
+                    .log {
+                        display: flex;
+                        margin-left: 350px;
+                        margin-top: 9px;
+
+                        i {
+                            font-weight: 400;
+                            font-size: 20px;
+                        }
+
+                        .iconl {
+                            font-size: 17px;
+                            padding-left: 10px;
+                        }
+                    }
+
+                    .selec {
+                        padding-top: 10px;
+                        margin-left: 20px;
+
+                        button {
+                            border-color: rgb(218, 218, 218);
+                            width: 140px;
+                            height: 40px;
+                        }
+
+                        .sort {
                             margin-bottom: 10px;
 
-                            .uicon {
-                                position: absolute;
-                                color: rgb(178, 178, 178);
-                                font-size: 12px;
+                            p {
+                                height: 0;
+                                font-size: 16px;
+                                font-weight: 600;
+                                padding-bottom: 10px;
+                                padding-left: 20px;
                             }
 
-                            .dicon {
-                                position: absolute;
-                                padding-top: 10px;
-                                color: rgb(178, 178, 178);
-                                font-size: 12px;
+                            .icon {
+                                position: relative;
+                                margin-left: 23px;
+                                margin-bottom: 10px;
+
+                                .uicon {
+                                    position: absolute;
+                                    color: rgb(178, 178, 178);
+                                    font-size: 12px;
+                                }
+
+                                .dicon {
+                                    position: absolute;
+                                    padding-top: 10px;
+                                    color: rgb(178, 178, 178);
+                                    font-size: 12px;
+                                }
                             }
                         }
-                    }
 
+                    }
                 }
+
             }
 
-        }
-
-        .line {
-            width: 50%;
-            height: 5px;
-            background-color: white;
-            margin-left: 170px;
-
-            .underline {
-                width: 110px;
+            .line {
+                width: 50%;
                 height: 5px;
-                background-color: #000;
-                transition: all 0.2s;
-                border-radius: 10px;
+                background-color: white;
+                margin-left: 170px;
+
+                .underline {
+                    width: 110px;
+                    height: 5px;
+                    background-color: #000;
+                    transition: all 0.2s;
+                    border-radius: 10px;
+                }
             }
         }
     }
-}
 }
 
 .slider {
@@ -950,6 +950,286 @@ hr {
 
                 .card {
                     position: relative;
+                }
+
+                .modal {
+
+                    .modal-dialog {
+                        margin-left: 350px;
+                        margin-top: 90px;
+                        border-radius: 10px;
+
+                        .modal-content {
+                            width: 920px;
+                            height: 590px;
+                            position: relative;
+
+                            .header{
+                                height: 0;
+                            }
+
+                            button {
+                                margin-left: 890px;
+                                margin-top: 5px;
+                            }
+
+                            img {
+                                object-fit: contain;
+                                position: absolute;
+                                height: 588px;
+                                width: 500px;
+                                left: -23px;
+                                top: 0;
+                                border-radius: 10px;
+                            }
+
+                            .addinf {
+                                position: absolute;
+                                margin-left: 460px;
+                                top: 0;
+
+                                h3 {
+                                    font-weight: 400;
+                                    padding-top: 20px;
+                                }
+
+                                .inf {
+                                    width: 540px;
+                                }
+
+                                .cost {
+                                    font-weight: 600;
+                                    height: 0;
+                                    font-size: 25px;
+                                }
+
+                                .discount {
+                                    font-weight: 500;
+                                    font-size: 20px;
+                                    text-decoration: line-through;
+                                    color: rgb(186, 186, 186);
+                                    padding-top: 4px;
+                                    padding-left: 8px;
+                                }
+
+                                .siz {
+                                    display: flex;
+
+                                    .size1 {
+                                        width: 40px;
+                                        height: 40px;
+                                        border: 1px solid whitesmoke;
+                                        border-radius: 7px;
+                                        padding-left: 12px;
+                                        padding-top: 8px;
+                                        font-weight: 600;
+                                    }
+
+                                    .size {
+                                        width: 40px;
+                                        height: 40px;
+                                        border: 1px solid whitesmoke;
+                                        border-radius: 7px;
+                                        padding-left: 12px;
+                                        padding-top: 8px;
+                                        margin-left: 10px;
+                                        font-weight: 600;
+                                    }
+
+                                    .size:hover,
+                                    .size1:hover {
+                                        border: 1px solid #000;
+                                    }
+                                }
+
+                                .si {
+                                    font-weight: 600;
+                                    font-size: 20px;
+                                    padding-top: 20px;
+                                }
+
+                                .colo {
+                                    font-weight: 600;
+                                    font-size: 20px;
+                                    padding-top: 20px;
+                                }
+
+                                .co {
+                                    display: flex;
+
+                                    .color1 {
+                                        width: 40px;
+                                        height: 40px;
+                                        border: 1px solid whitesmoke;
+                                        border-radius: 7px;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+
+                                        .colors {
+                                            background-color: orange;
+                                            width: 30px;
+                                            height: 30px;
+                                            border-radius: 7px;
+                                        }
+
+                                        &:hover {
+                                            border: 1px solid black;
+                                        }
+                                    }
+
+                                    .color2 {
+                                        width: 40px;
+                                        height: 40px;
+                                        border: 1px solid whitesmoke;
+                                        border-radius: 7px;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        margin-left: 10px;
+
+                                        .colors {
+                                            background-color: palevioletred;
+                                            width: 30px;
+                                            height: 30px;
+                                            border-radius: 7px;
+                                        }
+
+                                        &:hover {
+                                            border: 1px solid black;
+                                        }
+                                    }
+
+                                    .color3 {
+                                        width: 40px;
+                                        height: 40px;
+                                        border: 1px solid whitesmoke;
+                                        border-radius: 7px;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        margin-left: 10px;
+
+                                        .colors {
+                                            background-color: purple;
+                                            width: 30px;
+                                            height: 30px;
+                                            border-radius: 7px;
+                                        }
+
+                                        &:hover {
+                                            border: 1px solid black;
+                                        }
+                                    }
+
+                                    .color4 {
+                                        width: 40px;
+                                        height: 40px;
+                                        border: 1px solid whitesmoke;
+                                        border-radius: 7px;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        margin-left: 10px;
+
+                                        .colors {
+                                            background-color: red;
+                                            width: 30px;
+                                            height: 30px;
+                                            border-radius: 7px;
+                                        }
+
+                                        &:hover {
+                                            border: 1px solid black;
+                                        }
+                                    }
+                                }
+
+                                .count {
+                                    display: flex;
+                                    border: 1px solid rgb(200, 199, 199);
+                                    width: 193px;
+                                    height: 48px;
+                                    border-radius: 7px;
+                                    margin-top: 40px;
+                                }
+
+                                .count button:nth-child(1) {
+                                    width: 55px;
+                                    height: 46px;
+                                    font-size: 20px;
+                                    background-color: white;
+                                    border: none;
+                                    border-right: 1px solid rgb(200, 199, 199);
+                                    color: rgb(0, 0, 0);
+                                }
+
+                                .count button:nth-child(1):hover {
+                                    background-color: black;
+                                    color: white;
+                                    border-radius: 7px;
+                                    filter: brightness(1.10);
+                                    transition: all .5s;
+                                }
+
+                                .count button:nth-child(3) {
+                                    width: 55px;
+                                    height: 46px;
+                                    font-size: 20px;
+                                    background-color: white;
+                                    border: none;
+                                    border-left: 1px solid rgb(200, 199, 199);
+                                    color: #000;
+                                    border-radius: 7px;
+                                    filter: brightness(1.10);
+                                    transition: all .5s;
+                                }
+
+                                .count button:nth-child(3):hover {
+                                    background-color: black;
+                                    color: white;
+                                    border-radius: 7px;
+                                }
+
+                                .count h2 {
+                                    color: #000;
+                                    margin: 10px 50px;
+                                    margin-top: 10px;
+                                    font-size: 20px;
+                                    font-weight: 500;
+                                }
+
+                                #add {
+                                    width: 200px;
+                                    height: 48px;
+                                    border-radius: 7px;
+                                    background-color: rgb(160, 160, 160);
+                                    color: white;
+                                    margin-left: 10px;
+                                    margin-top: 40px;
+                                    border: none;
+
+                                    &:hover {
+                                        opacity: 0.8;
+                                    }
+                                }
+
+                                #view {
+                                    width: 405px;
+                                    height: 48px;
+                                    border-radius: 7px;
+                                    background-color: #000;
+                                    color: white;
+                                    margin-left: 0;
+                                    margin-top: 40px;
+
+                                    &:hover {
+                                        opacity: 0.8;
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
 
@@ -2778,7 +3058,7 @@ hr {
         }
     }
 
-    .nums{
+    .nums {
         margin-right: 117px;
         margin-top: 37px;
     }
@@ -2787,13 +3067,13 @@ hr {
         display: flex;
         justify-content: space-between;
 
-        .left{
+        .left {
             top: -70px;
             right: 150px;
             position: absolute;
         }
 
-        .right{
+        .right {
             top: -70px;
             right: 100px;
             position: absolute;
@@ -3010,7 +3290,24 @@ hr {
         font-weight: bold;
     }
 
+    .nums {
+        margin-right: 117px;
+        margin-top: 37px;
+    }
+
     .carousel {
+
+        .left {
+            top: -70px;
+            right: 150px;
+            position: absolute;
+        }
+
+        .right {
+            top: -70px;
+            right: 100px;
+            position: absolute;
+        }
 
         .allone {
             width: 440px;
@@ -3246,7 +3543,7 @@ hr {
 
 footer {
     clear: both;
-    
+
     .generalone {
         justify-content: space-between;
 

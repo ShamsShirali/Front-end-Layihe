@@ -746,6 +746,245 @@
 .three .general .generalone .onefirst .card {
   position: relative;
 }
+.three .general .generalone .onefirst .modal .modal-dialog {
+  margin-left: 350px;
+  margin-top: 90px;
+  border-radius: 10px;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content {
+  width: 920px;
+  height: 590px;
+  position: relative;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .header {
+  height: 0;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content button {
+  margin-left: 890px;
+  margin-top: 5px;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  position: absolute;
+  height: 588px;
+  width: 500px;
+  left: -23px;
+  top: 0;
+  border-radius: 10px;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf {
+  position: absolute;
+  margin-left: 460px;
+  top: 0;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf h3 {
+  font-weight: 400;
+  padding-top: 20px;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .inf {
+  width: 540px;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .cost {
+  font-weight: 600;
+  height: 0;
+  font-size: 25px;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .discount {
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: line-through;
+  color: rgb(186, 186, 186);
+  padding-top: 4px;
+  padding-left: 8px;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .siz {
+  display: flex;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .siz .size1 {
+  width: 40px;
+  height: 40px;
+  border: 1px solid whitesmoke;
+  border-radius: 7px;
+  padding-left: 12px;
+  padding-top: 8px;
+  font-weight: 600;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .siz .size {
+  width: 40px;
+  height: 40px;
+  border: 1px solid whitesmoke;
+  border-radius: 7px;
+  padding-left: 12px;
+  padding-top: 8px;
+  margin-left: 10px;
+  font-weight: 600;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .siz .size:hover,
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .siz .size1:hover {
+  border: 1px solid #000;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .si {
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .colo {
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .co {
+  display: flex;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .co .color1 {
+  width: 40px;
+  height: 40px;
+  border: 1px solid whitesmoke;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .co .color1 .colors {
+  background-color: orange;
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .co .color1:hover {
+  border: 1px solid black;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .co .color2 {
+  width: 40px;
+  height: 40px;
+  border: 1px solid whitesmoke;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .co .color2 .colors {
+  background-color: palevioletred;
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .co .color2:hover {
+  border: 1px solid black;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .co .color3 {
+  width: 40px;
+  height: 40px;
+  border: 1px solid whitesmoke;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .co .color3 .colors {
+  background-color: purple;
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .co .color3:hover {
+  border: 1px solid black;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .co .color4 {
+  width: 40px;
+  height: 40px;
+  border: 1px solid whitesmoke;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .co .color4 .colors {
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .co .color4:hover {
+  border: 1px solid black;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .count {
+  display: flex;
+  border: 1px solid rgb(200, 199, 199);
+  width: 193px;
+  height: 48px;
+  border-radius: 7px;
+  margin-top: 40px;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .count button:nth-child(1) {
+  width: 55px;
+  height: 46px;
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  border-right: 1px solid rgb(200, 199, 199);
+  color: rgb(0, 0, 0);
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .count button:nth-child(1):hover {
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  filter: brightness(1.1);
+  transition: all 0.5s;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .count button:nth-child(3) {
+  width: 55px;
+  height: 46px;
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  border-left: 1px solid rgb(200, 199, 199);
+  color: #000;
+  border-radius: 7px;
+  filter: brightness(1.1);
+  transition: all 0.5s;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .count button:nth-child(3):hover {
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .count h2 {
+  color: #000;
+  margin: 10px 50px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf #add {
+  width: 200px;
+  height: 48px;
+  border-radius: 7px;
+  background-color: rgb(160, 160, 160);
+  color: white;
+  margin-left: 10px;
+  margin-top: 40px;
+  border: none;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf #add:hover {
+  opacity: 0.8;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf #view {
+  width: 405px;
+  height: 48px;
+  border-radius: 7px;
+  background-color: #000;
+  color: white;
+  margin-left: 0;
+  margin-top: 40px;
+}
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf #view:hover {
+  opacity: 0.8;
+}
 .three .general .generalone .onesecond {
   display: flex;
   justify-content: space-between;
@@ -2485,6 +2724,20 @@
   padding-top: 40px;
   padding-bottom: 20px;
   font-weight: bold;
+}
+.eight .nums {
+  margin-right: 117px;
+  margin-top: 37px;
+}
+.eight .carousel .left {
+  top: -70px;
+  right: 150px;
+  position: absolute;
+}
+.eight .carousel .right {
+  top: -70px;
+  right: 100px;
+  position: absolute;
 }
 .eight .carousel .allone {
   width: 440px;

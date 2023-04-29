@@ -158,6 +158,49 @@ $(function () {
     nextArrow: `<div class="right"><i class="fa-solid fa-chevron-right"></i></div>`
   })
 
+  $('.seven .cards .right').click(function(){
+    let elem=$('.seven .nums .firstchan');
+    let count=elem.text();
+  
+    if(count<5){
+      count++;
+      elem.text(count);
+    }
+    else{
+      count=1;
+      elem.text(count);
+    }
+  })
+
+  $('.seven .cards .left').click(function(){
+    let elem=$('.seven .nums .firstchan');
+    let count=elem.text();
+  
+    if(count>1){
+      count--;
+      elem.text(count);
+    }
+    else{
+      count=5;
+      elem.text(count);
+    }
+  })
+  
+  setInterval(function(){
+    let elem=$('.seven .nums .firstchan');
+    let count=elem.text();
+  
+    if(count<5){
+      count++;
+      elem.text(count);
+    }
+    else{
+      count=1;
+      elem.text(count);
+    }
+  },2400)
+  
+
   // $('.slider').slick({
   //   centerMode: true,
   //   centerPadding: '0px',
@@ -404,8 +447,6 @@ apar.forEach(index => {
 //   }
 // })
 
-setInterval()
-
 $(function(){
   $('.eight .slick_slide').slick({
     slidesToShow: 3,
@@ -413,12 +454,72 @@ $(function(){
     dots: true,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 1500
+    autoplaySpeed: 1500,
+    prevArrow: `<div class="left"><i class="fa-solid fa-chevron-left"></i></div>`,
+    nextArrow: `<div class="right"><i class="fa-solid fa-chevron-right"></i></div>`
   });
-})
+
+  $('.eight .carousel .right').click(function(){
+    let elem=$('.eight .nums .firstchan');
+    let count=elem.text();
+  
+    if(count<5){
+      count++;
+      elem.text(count);
+    }
+    else{
+      count=1;
+      elem.text(count);
+    }
+  })
+
+  $('.eight .carousel .left').click(function(){
+    let elem=$('.eight .nums .firstchan');
+    let count=elem.text();
+  
+    if(count>1){
+      count--;
+      elem.text(count);
+    }
+    else{
+      count=5;
+      elem.text(count);
+    }
+  })
+  
+  setInterval(function(){
+    let elem=$('.eight .nums .firstchan');
+    let count=elem.text();
+  
+    if(count<5){
+      count++;
+      elem.text(count);
+    }
+    else{
+      count=1;
+      elem.text(count);
+    }
+  },2400)
+});
+
 $(document).ready(function() {
   $(".slider").on("scroll", function() {
     var thumbWidth = $(this).width() / $(this)[0].scrollWidth * 100;
     $(".slider-thumb").css("width", thumbWidth + "%");
   });
 });
+
+let data = 1;
+document.querySelector('#counting').innerText = data;
+
+function increment() {
+    if (data > 1) {
+        data = data - 1;
+        document.querySelector('#counting').innerText = data;
+    }
+}
+
+function decrement() {
+    data = data + 1;
+    document.querySelector('#counting').innerText = data;
+}

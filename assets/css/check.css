@@ -1,1 +1,10 @@
-/*# sourceMappingURL=check.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1450px;
+  margin: auto;
+}/*# sourceMappingURL=check.css.map */
