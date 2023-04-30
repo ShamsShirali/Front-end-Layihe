@@ -510,16 +510,16 @@ $(document).ready(function() {
 });
 
 let data = 1;
-document.querySelector('#counting').innerText = data;
+document.querySelector('.modal #counting').innerText = data;
 
 function increment() {
     if (data > 1) {
         data = data - 1;
-        document.querySelector('#counting').innerText = data;
+        document.querySelector('.modal #counting').innerText = data;
     }
 }
 
 function decrement() {
     data = data + 1;
-    document.querySelector('#counting').innerText = data;
+    document.querySelector('.modal #counting').innerText = data;
 }

@@ -913,7 +913,7 @@
 .three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .co .color4:hover {
   border: 1px solid black;
 }
-.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .count {
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .numad .count {
   display: flex;
   border: 1px solid rgb(200, 199, 199);
   width: 193px;
@@ -921,7 +921,7 @@
   border-radius: 7px;
   margin-top: 40px;
 }
-.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .count button:nth-child(1) {
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .numad .count button:nth-child(1) {
   width: 55px;
   height: 46px;
   font-size: 20px;
@@ -930,14 +930,14 @@
   border-right: 1px solid rgb(200, 199, 199);
   color: rgb(0, 0, 0);
 }
-.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .count button:nth-child(1):hover {
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .numad .count button:nth-child(1):hover {
   background-color: black;
   color: white;
   border-radius: 7px;
   filter: brightness(1.1);
   transition: all 0.5s;
 }
-.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .count button:nth-child(3) {
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .numad .count button:nth-child(3) {
   width: 55px;
   height: 46px;
   font-size: 20px;
@@ -949,19 +949,19 @@
   filter: brightness(1.1);
   transition: all 0.5s;
 }
-.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .count button:nth-child(3):hover {
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .numad .count button:nth-child(3):hover {
   background-color: black;
   color: white;
   border-radius: 7px;
 }
-.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .count h2 {
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .numad .count h2 {
   color: #000;
   margin: 10px 50px;
   margin-top: 10px;
   font-size: 20px;
   font-weight: 500;
 }
-.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf #add {
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .numad #add {
   width: 200px;
   height: 48px;
   border-radius: 7px;
@@ -971,7 +971,7 @@
   margin-top: 40px;
   border: none;
 }
-.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf #add:hover {
+.three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf .numad #add:hover {
   opacity: 0.8;
 }
 .three .general .generalone .onefirst .modal .modal-dialog .modal-content .addinf #view {
