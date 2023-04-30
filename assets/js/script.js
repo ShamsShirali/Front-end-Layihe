@@ -523,3 +523,5 @@ function decrement() {
     data = data + 1;
     document.querySelector('.modal #counting').innerText = data;
 }
+
+let close=document.querySelector('')

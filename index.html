@@ -83,31 +83,38 @@
                 </div>
 
                 <div class="basket">
-                    <button>
-                        <i class="fa-solid fa-basket-shopping" style="color: #000000;" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                    <button data-bs-toggle="modal" data-bs-target="#exampleModall">
+                        <i class="fa-solid fa-basket-shopping" style="color: #000000;"></i>
                         <sup>0</sup>
                     </button>
 
-                    <div>Shopping</div>
+                    <div class="hopp">Shopping</div>
+                </div>
 
-                   
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
+                <div class="modal fade" id="exampleModall" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2>Shopping cart</h2>
+                                <button type="button" class="btn-close iks" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/img/815069.png" alt="">
+                                <p class="emp">Your cart is empty.</p>
+
+                                <div class="sale d-flex justify-content-between">
+                                    <p class="proc">Proceed To Checkout</p>
+
+                                    <div class="d-flex">
+                                        <div class="hor"></div>
+                                        <p class="dol">$0.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -392,8 +399,10 @@
                                                             </li>
                                                             <li><a class="dropdown-item" href="#">Terms & Condition</a>
                                                             </li>
-                                                            <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
-                                                            <li><a class="dropdown-item" href="check.html">Checkout</a></li>
+                                                            <li><a class="dropdown-item" href="contact.html">Contact
+                                                                    Us</a></li>
+                                                            <li><a class="dropdown-item" href="check.html">Checkout</a>
+                                                            </li>
                                                             <li><a class="dropdown-item" href="#">Collection</a></li>
                                                             <li><a class="dropdown-item" href="#">Category</a></li>
                                                             <li><a class="dropdown-item" href="#">Order</a></li>
@@ -623,11 +632,9 @@
 
                             <i class="fa-regular fa-image image d-none"></i>
                             <i class="fa-regular fa-heart heart d-none"></i>
-                            <i class="fa-solid fa-arrow-right-arrow-left arrow d-none"></i>
+                            <i class="fa-solid fa-arrow-right-arrow-left arrow d-none" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal"></i>
 
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
 
                             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                                 aria-hidden="true">
