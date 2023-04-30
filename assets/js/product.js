@@ -1,25 +1,25 @@
-"use strict"
+"use strict";
 
-let data = 1;
-document.querySelector('#counting').innerText = data;
+let datas = 1;
+document.querySelector('#counting').innerText = datas;
 
 function increment() {
-    if (data > 1) {
-        data = data - 1;
-        document.querySelector('#counting').innerText = data;
-    }
+  if (datas > 1) {
+    datas = datas - 1;
+    document.querySelector('#counting').innerText = datas;
+  }
 }
 
 function decrement() {
-    data = data + 1;
-    document.querySelector('#counting').innerText = data;
+  datas = datas + 1;
+  document.querySelector('#counting').innerText = datas;
 }
 
 var acc = document.getElementsByClassName("accordion");
 var i;
 
 for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
+  acc[i].addEventListener("click", function () {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
     if (panel.style.display === "block") {
@@ -30,16 +30,52 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-$(function(){
-  $('.one .rightsid .accordion').click(function(){
-    $('.one .rightsid .accordion .pluss').classList.add('d-none');
-    $('.one .rightsid .accordion .pluss').next(),classList.remove('d-none');
-  })
-})
+// let accor = document.querySelector('.one .rightsid .accordion');
+// let plus = document.querySelector('.one .rightsid .accordion .pluss');
+// let minus = document.querySelector('.one .rightsid .accordion .minuss');
 
-$(function(){
-  $('.one .rightsid .accordion').click(function(){
-    $('.one .rightsid .accordion .minuss').classList.add('d-none');
-    $('.one .rightsid .accordion .minuss').prev(),classList.remove('d-none');
+// element.addEventListener('click', () => {
+//   if (element.classList.contains("active")) {
+//     document.querySelector('.one .rightsid .accordion .pluss').classList.add('d-none');
+//     document.querySelector('.one .rightsid .accordion .minuss').classList.remove('d-none');
+//   }
+//   else{
+//     minus.classList.add('d-none');
+//     plus.classList.remove('d-none');
+//   }
+// })
+
+$(function () {
+  $('.one .rightsid .accordion').click(function () {
+    if ($(this).attr("data-id") == 1) {
+      if ($(this).hasClass("active")) {
+        $('.one .rightsid .accordion .pluss1').addClass("d-none");
+        $('.one .rightsid .accordion .minuss1').removeClass("d-none");
+      }
+      else {
+        $('.one .rightsid .accordion .pluss1').removeClass("d-none");
+        $('.one .rightsid .accordion .minuss1').addClass("d-none");
+      }
+    }
+    if ($(this).attr("data-id") == 2) {
+      if ($(this).hasClass("active")) {
+        $('.one .rightsid .accordion .pluss2').addClass("d-none");
+        $('.one .rightsid .accordion .minuss2').removeClass("d-none");
+      }
+      else {
+        $('.one .rightsid .accordion .pluss2').removeClass("d-none");
+        $('.one .rightsid .accordion .minuss2').addClass("d-none");
+      }
+    }
+    if ($(this).attr("data-id") == 3) {
+      if ($(this).hasClass("active")) {
+        $('.one .rightsid .accordion .pluss3').addClass("d-none");
+        $('.one .rightsid .accordion .minuss3').removeClass("d-none");
+      }
+      else {
+        $('.one .rightsid .accordion .pluss3').removeClass("d-none");
+        $('.one .rightsid .accordion .minuss3').addClass("d-none");
+      }
+    }
   })
 })

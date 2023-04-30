@@ -339,6 +339,7 @@
   font-size: 17px;
   color: grey;
   cursor: pointer;
+  text-decoration: none;
 }
 .header .nsecond .generalbutton .all .gendr .secondl .shop {
   display: inline;

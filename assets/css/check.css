@@ -7,4 +7,229 @@
 .container {
   max-width: 1450px;
   margin: auto;
+}
+
+.one {
+  position: relative;
+}
+.one img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.one .ex {
+  position: absolute;
+  color: white;
+  top: 230px;
+  left: 700px;
+  font-size: 25px;
+}
+.one .acc {
+  position: absolute;
+  color: white;
+  top: 260px;
+  left: 670px;
+  font-size: 35px;
+}
+
+.two .getin h3 {
+  margin-top: 80px;
+  margin-left: 40px;
+  font-weight: 600;
+}
+.two .getin #fir,
+.two .getin #last {
+  border-color: #939393;
+  width: 400px;
+  height: 48px;
+  border-radius: 7px;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+.two .getin #fir {
+  margin-left: 40px;
+}
+.two .getin #last {
+  margin-left: 20px;
+}
+.two .getin .fr {
+  font-weight: 600;
+}
+.two .getin .ls {
+  font-weight: 600;
+  padding-left: 300px;
+}
+.two .getin #ph,
+.two .getin #ema {
+  border-color: #939393;
+  width: 400px;
+  height: 48px;
+  border-radius: 7px;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+.two .getin #ph {
+  margin-left: 40px;
+}
+.two .getin #ema {
+  margin-left: 20px;
+}
+.two .getin .pho {
+  font-weight: 600;
+}
+.two .getin .emai {
+  font-weight: 600;
+  padding-left: 280px;
+}
+.two .getin #ci,
+.two .getin #pos {
+  border-color: #939393;
+  width: 400px;
+  height: 48px;
+  border-radius: 7px;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+.two .getin #ci {
+  margin-left: 40px;
+}
+.two .getin #pos {
+  margin-left: 20px;
+}
+.two .getin .city {
+  font-weight: 600;
+}
+.two .getin .post {
+  font-weight: 600;
+  padding-left: 320px;
+}
+.two .getin #add {
+  width: 785px;
+  height: 48px;
+  border-color: #939393;
+  border-radius: 7px;
+  margin-top: 10px;
+  margin-left: 40px;
+  padding-left: 20px;
+}
+.two .getin .ds {
+  font-weight: 600;
+  padding-top: 15px;
+}
+.two .getin #mes {
+  padding-left: 20px;
+  padding-top: 5px;
+  width: 785px;
+  height: 105px;
+  border-color: #939393;
+  border-radius: 7px;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.two .getin .mess {
+  font-weight: 600;
+  padding-top: 15px;
+}
+.two .getin .snd {
+  border-radius: 7px;
+  background-color: black;
+  color: white;
+  width: 150px;
+  height: 50px;
+  border: none;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.two .getin .snd:hover {
+  opacity: 0.7;
+}
+.two .getin .adres {
+  flex-direction: column;
+}
+.two .getin .mss {
+  flex-direction: column;
+}
+.two .getin .sav {
+  margin-left: 40px;
+}
+.two .getin .sav .saved {
+  padding-left: 5px;
+  height: 0;
+}
+.two .rightsec h3 {
+  margin-top: 80px;
+  margin-left: 40px;
+  font-weight: 600;
+}
+.two .rightsec .greyd {
+  background-color: rgb(209, 209, 209);
+  border-radius: 10px;
+  width: 518px;
+  height: 50px;
+  margin-left: 40px;
+  margin-top: 35px;
+}
+.two .rightsec .greyd .prod {
+  font-weight: 600;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+.two .rightsec .greyd .sub {
+  font-weight: 600;
+  padding-left: 370px;
+  font-size: 15px;
+  padding-top: 10px;
+}
+.two .rightsec .image {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.two .rightsec .image img {
+  width: 62px;
+  height: 62px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+.two .rightsec .image .man {
+  padding-left: 10px;
+  padding-top: 20px;
+}
+.two .rightsec .image .cos1 {
+  padding-left: 175px;
+  padding-top: 20px;
+}
+.two .rightsec hr {
+  margin-left: 40px;
+}
+.two .rightsec .fir1 .subt {
+  font-weight: 600;
+  font-size: 15px;
+  padding-left: 50px;
+}
+.two .rightsec .fir1 .cos2 {
+  font-weight: 600;
+  padding-left: 385px;
+  font-size: 15px;
+}
+.two .rightsec .fir2 .ship {
+  font-weight: 600;
+  font-size: 15px;
+  padding-left: 50px;
+}
+.two .rightsec .fir2 .fre {
+  font-weight: 600;
+  padding-left: 385px;
+  font-size: 15px;
+}
+.two .rightsec .fir3 .tot {
+  font-weight: 600;
+  font-size: 17px;
+  padding-left: 50px;
+}
+.two .rightsec .fir3 .cos3 {
+  font-weight: 600;
+  padding-left: 405px;
+  font-size: 15px;
 }/*# sourceMappingURL=check.css.map */

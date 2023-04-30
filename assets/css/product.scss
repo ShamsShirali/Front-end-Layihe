@@ -13,7 +13,7 @@
 
     .general {
 
-        .upsec{
+        .upsec {
             color: #888888;
         }
 
@@ -127,7 +127,7 @@
                         border-radius: 7px;
                     }
 
-                    &:hover{
+                    &:hover {
                         border: 1px solid black;
                     }
                 }
@@ -149,7 +149,7 @@
                         border-radius: 7px;
                     }
 
-                    &:hover{
+                    &:hover {
                         border: 1px solid black;
                     }
                 }
@@ -171,7 +171,7 @@
                         border-radius: 7px;
                     }
 
-                    &:hover{
+                    &:hover {
                         border: 1px solid black;
                     }
                 }
@@ -193,7 +193,7 @@
                         border-radius: 7px;
                     }
 
-                    &:hover{
+                    &:hover {
                         border: 1px solid black;
                     }
                 }
@@ -325,76 +325,76 @@
                         }
                     }
 
-                    .st2:hover{
+                    .st2:hover {
                         color: #000;
                     }
 
-                    .st2:hover .st1{
+                    .st2:hover .st1 {
 
-                        
+
                         color: #000;
-                        
+
                     }
 
-                    .st1:hover{
-                        color: #000;
-                    }
-
-                    .st3:hover{
-                        .st1{
-                            color: #000;
-                        }
-
-                        .st2{
-                            color: #000;
-                        }
-                    }
-
-                    .st3:hover{
+                    .st1:hover {
                         color: #000;
                     }
 
-                    .st4:hover{
-                        .st1{
+                    .st3:hover {
+                        .st1 {
                             color: #000;
                         }
 
-                        .st2{
-                            color: #000;
-                        }
-
-                        .st3{
+                        .st2 {
                             color: #000;
                         }
                     }
 
-                    .st4:hover{
+                    .st3:hover {
                         color: #000;
                     }
 
-                    .st5:hover{
-                        .st1{
+                    .st4:hover {
+                        .st1 {
                             color: #000;
                         }
 
-                        .st2{
+                        .st2 {
                             color: #000;
                         }
 
-                        .st3{
-                            color: #000;
-                        }
-
-                        .st4{
+                        .st3 {
                             color: #000;
                         }
                     }
 
-                    .st5:hover{
+                    .st4:hover {
                         color: #000;
                     }
 
-                    .getin{
+                    .st5:hover {
+                        .st1 {
+                            color: #000;
+                        }
+
+                        .st2 {
+                            color: #000;
+                        }
+
+                        .st3 {
+                            color: #000;
+                        }
+
+                        .st4 {
+                            color: #000;
+                        }
+                    }
+
+                    .st5:hover {
+                        color: #000;
+                    }
+
+                    .getin {
 
                         #fir,
                         #last {
@@ -405,46 +405,46 @@
                             margin-top: 10px;
                             padding-left: 20px;
                         }
-                        
+
                         .fr {
                             font-weight: 600;
                         }
-                
+
                         .ls {
                             font-weight: 600;
                             padding-left: 230px;
                         }
 
-                        #last{
+                        #last {
                             margin-left: 10px;
                         }
 
-                        .mss{
+                        .mss {
                             flex-direction: column;
-                        
-                        #mes{
-                            width: 545px;
-                            height: 105px;
-                            border-color: #939393;
-                            border-radius: 7px;
-                            margin-top: 10px;
-                            padding-bottom: 60px;
-                        }
-                
-                        .mess{
-                            font-weight: 600;
-                            padding-top: 15px;
+
+                            #mes {
+                                width: 545px;
+                                height: 105px;
+                                border-color: #939393;
+                                border-radius: 7px;
+                                margin-top: 10px;
+                                padding-bottom: 60px;
+                            }
+
+                            .mess {
+                                font-weight: 600;
+                                padding-top: 15px;
+                            }
+
+                            .sav {
+
+                                .saved {
+                                    padding-left: 5px;
+                                    height: 0;
+                                }
+                            }
                         }
 
-                        .sav{
-
-                        .saved{
-                            padding-left: 5px;
-                            height: 0;
-                        }
-                    }
-                    }
-                
                         .snd {
                             border-radius: 7px;
                             background-color: black;
@@ -453,13 +453,11 @@
                             height: 48px;
                             border: none;
                             margin-top: 30px;
-                
+
                             &:hover {
                                 opacity: 0.7;
                             }
                         }
-                
-                        
                     }
                 }
             }
@@ -467,10 +465,10 @@
     }
 }
 
-.two{
+.two {
     margin-top: 60px;
 
-    h2{
+    h2 {
         height: 0;
     }
 

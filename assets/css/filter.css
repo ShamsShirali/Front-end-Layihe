@@ -242,8 +242,10 @@
 }
 .one .generalone .second .secone .selec button {
   border-color: rgb(218, 218, 218);
-  width: 140px;
+  width: 180px;
   height: 40px;
+  background-color: white;
+  color: #000;
 }
 .one .generalone .second .secone .selec .sort {
   margin-bottom: 10px;
@@ -270,6 +272,9 @@
   padding-top: 10px;
   color: rgb(178, 178, 178);
   font-size: 12px;
+}
+.one .generalone .second .secone .selec li {
+  width: 180px;
 }
 .one .generalone .second .sectwo .cards {
   display: flex;
