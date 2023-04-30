@@ -524,4 +524,41 @@ function decrement() {
     document.querySelector('.modal #counting').innerText = data;
 }
 
-let close=document.querySelector('')
+let products=[];
+
+if (localStorage.getItem("basket") != null) {
+  products = JSON.parse(localStorage.getItem("basket"));
+}
+
+
+$(".three .general .card .add").each(function(){
+  $(this).click(function(e){
+    e.preventDefault();
+    let productImg = $(this).parent().parent().prev().children().eq(0).attr("src");
+    let productName = $(this).parent().parent().children().eq(0).text();
+    let productDesc = $(this).parent().parent().children().eq(1).text();
+    let productİd = parseInt($(this).parent().parent().parent().attr("data-id"));
+    let productPrice = parseInt($(this).parent().parent().children().eq(2).children().eq(0).children().eq(1).text());
+
+    let existProduct = products.find(m => m.id == productİd);
+      if (existProduct != undefined) {
+          existProduct.count += 1;
+          existProduct.totalPrize = productPrize * existProduct.count;
+      }
+      else {
+        products.push({
+            id: productİd,
+            name: productName,
+            Description:productDesc,
+            img: productImg,
+            count: 1,
+            price: productPrice,
+            totalPrize: productPrice
+        })
+    }
+
+    localStorage.setItem("basket", JSON.stringify(products));
+
+
+  })
+})
